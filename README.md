@@ -1,7 +1,7 @@
 # SC503_G3_Veterinaria
 
 ## 📌 **Descripción**
-El presente repositorio contiene la base de datos que permite la gestión del que permite el registro y administración de clientes, mascotas, citas, cirugías, tratamiento y personal, de la clínica veterinaria Huellitas.
+El presente repositorio contiene la base de datos que permite la gestión del registro y administración de clientes, mascotas, citas, cirugías, tratamiento y personal, de la clínica veterinaria Huellitas.
 
 ## 🛠 **Herramientas**
 **Base de datos:** Oracle SQL Developer<br>
