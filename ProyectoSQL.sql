@@ -737,3 +737,12 @@ CREATE OR REPLACE PROCEDURE INSERT_USUARIOS_TB_SP(
                     DBMS_OUTPUT.PUT_LINE('ERROR COMUNIQUESE CON TI '|| SQLERRM);
     END;
 /
+
+-- Inserciones FIDE_ESTADO_TB
+BEGIN
+    INSERT_ESTADO_TB_SP(0, 'Inactivo', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+END;
+/
+BEGIN
+    INSERT_ESTADO_TB_SP(1, 'Activo', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+END;
