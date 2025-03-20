@@ -81,3 +81,52 @@ BEGIN
     INSERT_DIRECCION_TB_SP(29, 1, 1, 101, 10105, 'Condominio Vista Verde, Casa 20', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_TB_SP(30, 1, 1, 101, 10107, 'Residencial La Cima, Casa 15', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
+/
+-- Inserciones FIDE_TELEFONO_CONTACTO_TB
+BEGIN
+    INSERT_TELEFONO_CONTACTO_TB_SP(1, 1, 72938465, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(2, 1, 84576291, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(3, 1, 61237849, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(4, 1, 97856423, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(5, 1, 70543218, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(6, 1, 89321756, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(7, 1, 65439872, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(8, 1, 73214598, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(9, 1, 82163475, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(10, 1, 91238764, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(11, 1, 76584932, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(12, 1, 83475219, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(13, 1, 61928753, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(14, 1, 89765412, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(15, 1, 72389145, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(16, 1, 60873421, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(17, 1, 95438271, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(18, 1, 87321549, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(19, 1, 69283751, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(20, 1, 81294367, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(21, 1, 73645192, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(22, 1, 92185734, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(23, 1, 87593241, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(24, 1, 60382971, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(25, 1, 98473126, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(26, 1, 75831249, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(27, 1, 61987243, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(28, 1, 89562471, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(29, 1, 78231945, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(30, 1, 63758492, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(31, 1, 82937561, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(32, 1, 90481723, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(33, 1, 65293741, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(34, 1, 73186259, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(35, 1, 98436217, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(36, 1, 61879534, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(37, 1, 75219438, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(38, 1, 80496231, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(39, 1, 93715482, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(40, 1, 64291375, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(41, 1, 87352914, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(42, 1, 96583721, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(43, 1, 72839561, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(44, 1, 80367259, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+END;
+/
