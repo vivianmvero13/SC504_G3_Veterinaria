@@ -130,3 +130,13 @@ BEGIN
     INSERT_TELEFONO_CONTACTO_TB_SP(44, 1, 80367259, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
+-- Inserciones FIDE_TIPO_USUARIO_TB
+BEGIN
+    INSERT_TIPO_USUARIO_TB_SP(1, 1, 'Medico', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(2, 1, 'Asistente', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(3, 1, 'Recepcion', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(4, 1, 'Cajero', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(5, 1, 'Limpieza', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(6, 1, 'Administracion', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(7, 1, 'Farmaceutica', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+END;
