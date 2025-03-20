@@ -257,3 +257,32 @@ BEGIN
     INSERT_TELEFONO_CONTACTO_TB_SP(44, 1, 80367259, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
+-- Inserciones FIDE_TIPO_USUARIO_TB
+BEGIN
+    INSERT_TIPO_USUARIO_TB_SP(1, 1, 'Medico', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(2, 1, 'Asistente', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(3, 1, 'Recepcion', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(4, 1, 'Cajero', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(5, 1, 'Limpieza', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(6, 1, 'Administracion', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(7, 1, 'Farmaceutica', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+END;
+/
+-- Inserciones FIDE_ESPECIALIDAD_TB
+BEGIN
+    INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atención médica básica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirugía General', 'Procedimientos quirúrgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontología Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(19, 1, 'Dermatología Veterinaria', 'Tratamiento de enfermedades de la piel en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(20, 1, 'Cardiología Veterinaria', 'Diagnóstico y tratamiento de enfermedades cardíacas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(21, 1, 'Neurología Veterinaria', 'Tratamiento de trastornos del sistema nervioso en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(22, 1, 'Oftalmología Veterinaria', 'Tratamiento de enfermedades oculares en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(23, 1, 'Gastroenterología Veterinaria', 'Tratamiento de enfermedades digestivas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncología Veterinaria', 'Tratamiento de cáncer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiología Veterinaria', 'Administración de anestesia en animales durante procedimientos quirúrgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiología Veterinaria', 'Uso de rayos X y otras imágenes para diagnóstico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(27, 1, 'Medicina Interna Veterinaria', 'Tratamiento de enfermedades internas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinología Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitación física en animales después de cirugías o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectología Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+END;
