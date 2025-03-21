@@ -148,16 +148,12 @@ BEGIN
     INSERT_TELEFONO_CONTACTO_TB_SP(42, 1, 96583721, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(43, 1, 72839561, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(44, 1, 80367259, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-<<<<<<< HEAD
     INSERT_TELEFONO_CONTACTO_TB_SP(45, 1, 91234567, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(46, 1, 83475629, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(47, 1, 64528713, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(48, 1, 75849264, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(49, 1, 67291354, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(50, 1, 83415972, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-
-=======
->>>>>>> origin/inserciones
 END;
 /
 -- Inserciones FIDE_TIPO_USUARIO_TB
@@ -169,12 +165,10 @@ BEGIN
     INSERT_TIPO_USUARIO_TB_SP(5, 1, 'Limpieza', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TIPO_USUARIO_TB_SP(6, 1, 'Administracion', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TIPO_USUARIO_TB_SP(7, 1, 'Farmaceutica', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TIPO_USUARIO_TB_SP(8, 1, 'Cliente', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
 -- Inserciones FIDE_ESPECIALIDAD_TB
 BEGIN
-<<<<<<< HEAD
     INSERT_ESPECIALIDAD_TB_SP(15, 1, 'Cliente', 'Atencion medica basica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atencion medica basica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirugia General', 'Procedimientos quirurgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
@@ -187,67 +181,6 @@ BEGIN
     INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncologia Veterinaria', 'Tratamiento de cancer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiologia Veterinaria', 'Administracion de anestesia en animales durante procedimientos quirurgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiologia Veterinaria', 'Uso de rayos X y otras imagenes para diagnostico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(27, 1, 'Medicina Interna Veterinaria', 'Tratamiento de enfermedades internas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinologia Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitacion fisica en animales despues de cirugias o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectologia Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-END;
-/
--- Inserciones FIDE_USUARIOS_TB
-BEGIN
-     INSERT_USUARIOS_TB_SP(1, 1, 19, 1, 1, 1, 'Julio Calvo', 'juca@clinicahuellitas.com', 'oajeiaid', 182980987, SYSDATE, 131257895157, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(2, 1, 22, 2,2, 2, 'Ana Rodriguez', 'arodriguez@clinicahuellitas.com', 'fghy123', 192345678, SYSDATE, 131257895158, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(3, 1, 23, 1, 3, 3, 'Carlos Soto', 'csoto@clinicahuellitas.com', 'abc123', 203456789, SYSDATE, 131257895159, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(4, 1, 24, 4, 4, 4, 'Maria Fernandez', 'mafer@clinicahuellitas.com', 'qwe5678', 213467890, SYSDATE, 131257895160, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(5, 1, 25, 5, 5, 5, 'Luis Herrera', 'lhe@clinicahuellitas.com', 'qazerty1', 223478901, SYSDATE, 131257895161, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(6, 1, 26, 6, 6, 6, 'Gabriela Gomez', 'ggo@clinicahuellitas.com', 'asd1234', 233589012, SYSDATE, 131257895162, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(7, 1, 27, 7, 7, 7, 'Jose Martinez', 'jmartinez@clinicahuellitas.com', 'abc123', 243690123, SYSDATE, 131257895163, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(8, 1, 28, 1, 8, 8, 'Raquel Perez', 'rper@clinicahuellitas.com', '12345abc', 253701234, SYSDATE, 131257895164, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(9, 1, 29, 2, 9, 9, 'Felipe Torres', 'ftorres@clinicahuellitas.com', 'zxcvbnm123', 263812345, SYSDATE, 131257895165, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(10, 1, 30, 3, 10, 10, 'Patricia Diaz', 'pdiaz@clinicahuellitas.com', 'sdfg123', 273923456, SYSDATE, 131257895166, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(11, 1, 21, 7, 11, 11, 'Luis Gomez', 'lgomez@clinicahuellitas.com', 'abc456def', 283034567, SYSDATE, 131257895167, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(12, 1, 22, 4, 12, 12, 'Marta Rodriguez', 'mrodriguez@clinicahuellitas.com', 'xy98765', 293145678, SYSDATE, 131257895168, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(13, 1, 23, 5, 13, 13, 'Antonio Perez', 'aperez@clinicahuellitas.com', '5ty1abc', 303256789, SYSDATE, 131257895169, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(14, 1, 24, 6, 14, 14,'Claudia Sanchez', 'csanchez@clinicahuellitas.com', 'oijklmn987', 313367890, SYSDATE, 131257895170, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(15, 1, 25, 1, 15,15,  'Cristian Diaz', 'cdiaz@clinicahuellitas.com', 'sdft1234', 323478901, SYSDATE, 131257895171, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(16, 1, 16, 3, 16, 16, 'Natalia Lopez', 'nlopez@clinicahuellitas.com', '12asaQ34', 333589012, SYSDATE, 131257895172, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(17, 1, 17, 2, 17, 17, 'Jose Herrera', 'joherrera@clinicahuellitas.com', 'mdss9876', 343690123, SYSDATE, 131257895173, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(18, 1, 18, 5, 18, 18, 'Isabel Martinez', 'imartinez@clinicahuellitas.com', 'qwe987', 353701234, SYSDATE, 131257895174, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(19, 1, 19, 4, 19, 19 ,'Manuel Garcia', 'mgarcia@clinicahuellitas.com', 'asdf12', 363812345, SYSDATE, 131257895175, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(20, 1, 20, 6, 20, 20, 'Paula Gonzalez', 'pgonzalez@clinicahuellitas.com', 'ghj321', 373923456, SYSDATE, 131257895176, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(21, 1, 21, 1, 21, 21, 'Diego Morales', 'dmorales@clinicahuellitas.com', 'pass1234', 384034567, SYSDATE, 131257895177, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(22, 1, 22, 3, 22, 22, 'Rosa Jimenez', 'rjimenez@clinicahuellitas.com', '1234mno', 394145678, SYSDATE, 131257895178, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(23, 1, 23, 2, 23, 23, 'Fernando Castro', 'fcastro@clinicahuellitas.com', 'zxc321', 404256789, SYSDATE, 131257895179, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(24, 1, 24, 5, 24,24, 'Elena Rojas', 'erojas@clinicahuellitas.com', 'qwe098', 414367890, SYSDATE, 131257895180, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(25, 1, 25, 4, 25, 25, 'Pablo Vargas', 'pvargas@clinicahuellitas.com', 'asd456', 424478901, SYSDATE, 131257895181, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(26, 1, 26, 6, 26, 26, 'Camila Mendez', 'cmendez@clinicahuellitas.com', 'lkj987', 434589012, SYSDATE, 131257895182, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(27, 1, 27, 7, 27, 27 ,'Oscar Salazar', 'osalazar@clinicahuellitas.com', 'poi123', 444690123, SYSDATE, 131257895183, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(28, 1, 28, 1, 28,28,'Monica Espinoza', 'mespinoza@clinicahuellitas.com', 'mnb987', 454701234, SYSDATE, 131257895184, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(29, 1, 29, 2, 29,29, 'Ricardo Molina', 'rmolina@clinicahuellitas.com', 'vfr432', 464812345, SYSDATE, 131257895185, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(30, 1, 19, 3,30, 30, 'Andrea Herrera', 'aherrera@clinicahuellitas.com', 'tgb321', 474923456, SYSDATE, 131257895186, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(31, 1, 21, 7,31, 31, 'Javier Lopez', 'jlopez@clinicahuellitas.com', 'yhn456', 485034567, SYSDATE, 131257895187, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(32, 1, 22, 4,32,32, 'Lucia Perez', 'lperez@clinicahuellitas.com', 'ujm789', 495145678, SYSDATE, 131257895188, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(33, 1, 23, 5,33, 33, 'Daniel Solis', 'dsolis@clinicahuellitas.com', 'opl321', 505256789, SYSDATE, 131257895189, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(34, 1, 24, 6,34,34, 'Carolina Navarro', 'cnavarro@clinicahuellitas.com', 'hji987', 515367890, SYSDATE, 131257895190, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(35, 1, 25, 1,35,35, 'Eduardo Vargas', 'evargas@clinicahuellitas.com', 'asd741', 525478901, SYSDATE, 131257895191, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(36, 1, 26, 3, 36,36,'Sofia Castillo', 'scastillo@clinicahuellitas.com', 'fgh852', 535589012, SYSDATE, 131257895192, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(37, 1, 27, 2, 37,37,'Rodrigo Jimenez', 'rjimenez2@clinicahuellitas.com', 'jkl963', 545690123, SYSDATE, 131257895193, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(38, 1, 28, 5,38,38, 'Marcela Pineda', 'mpineda@clinicahuellitas.com', 'zxc852', 555701234, SYSDATE, 131257895194, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(39, 1, 18, 4,39,39, 'Guillermo Ortiz', 'gortiz@clinicahuellitas.com', 'bnm963', 565812345, SYSDATE, 131257895195, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(40, 1, 19, 6,40,40, 'Natalia Rivera', 'nrivera@clinicahuellitas.com', 'vbn741', 575923456, SYSDATE, 131257895196, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(41, 1, 21, 1,41,41, 'Alonso Mejia', 'amejia@clinicahuellitas.com', 'qwe147', 586034567, SYSDATE, 131257895197, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(42, 1, 22, 2,42,42, 'Valeria Soto', 'vsoto@clinicahuellitas.com', 'rty258', 596145678, SYSDATE, 131257895198, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(43, 1, 23, 3,43,43, 'Sebastian Nunez', 'snunez@clinicahuellitas.com', 'uio369', 606256789, SYSDATE, 131257895199, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(44, 1, 24, 4, 44,44, 'Adriana Fuentes', 'afuentes@clinicahuellitas.com', 'asd852', 616367890, SYSDATE, 131257895200, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(45, 1, 25, 5,45,45, 'Mauricio Perez', 'mperez@clinicahuellits.com', 'zxc741', 626478901, SYSDATE, 131257895201, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(46, 1, 26, 6, 46,46, 'Gabriela Solano', 'gsolano@clinicahuellitas.com', 'vbn963', 636589012, SYSDATE, 131257895202, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(47, 1, 27, 7,47,47, 'Leonardo Rojas', 'lrojas@clinicahuellitas.com', 'mnb357', 646690123, SYSDATE, 131257895203, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(48, 1, 28, 1, 48,48,'Mariana Espinoza', 'mespinoza2@clinicahuellitas.com', 'yui159', 656701234, SYSDATE, 131257895204, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(49, 1, 29, 2,49,49,'Federico Miranda', 'fmiranda@clinicahuellitas.com', 'hjk753', 666812345, SYSDATE, 131257895205, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(50, 1, 30, 3, 50,50,'Silvia Araya', 'saraya@clinicahuellitas.com', 'opl951', 676923456, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);  
-    INSERT_USUARIOS_TB_SP(52, 1, 15, 8, 50,50,'Rocio Alvarado', 'roalvarado@clinicahuellitas.com', 'opl951', 365646464, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE); 
-END;
-/
 --Inserts de especies
 BEGIN
     INSERT_MASCOTA_ESPECIE_TB_SP(1, 1, 'Perro', 'Cristopher Vargas', SYSDATE, NULL, NULL);
@@ -300,17 +233,14 @@ END;
 /
 --Inserts de mascotas
 BEGIN
-<<<<<<< HEAD
     INSERT_MASCOTA_TB_SP(1, 1, 1, 1, 51, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(2, 1, 1, 2, 51, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(3, 1, 1, 3, 52, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(4, 1, 2, 11, 52, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-=======
     INSERT_MASCOTA_TB_SP(1, 1, 1, 1, NULL, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(2, 1, 1, 2, NULL, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(3, 1, 1, 3, NULL, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(4, 1, 2, 11, NULL, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
->>>>>>> origin/inserciones
     INSERT_MASCOTA_TB_SP(5, 1, 2, 12, NULL, 'Simba', TO_DATE('2022-06-30','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(6, 1, 2, 13, NULL, 'Luna', TO_DATE('2017-09-05','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(7, 1, 3, 23, NULL, 'Nieve', TO_DATE('2020-01-15','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
@@ -357,7 +287,6 @@ BEGIN
     INSERT_MASCOTA_TB_SP(48, 1, 5, 26, NULL, 'Loro', TO_DATE('2017-09-23','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(49, 1, 6, 30, NULL, 'Sol', TO_DATE('2020-06-07','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(50, 1, 1, 12, NULL, 'Bruno', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(51, 1, 1, 12, 52, 'Pookie', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Vivian Velazquez', SYSDATE, NULL, NULL);
 END;
 /
 --Inserts de tipos de examenes
@@ -704,7 +633,61 @@ BEGIN
     
 END;
 /
-
+-- Inserts de Fide_Productos
+BEGIN
+    INSERT_PRODUCTOS_TB_SP(1, 'Antibiotico Canino', 'Medicamento para infecciones bacterianas', 25.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(2, 'Desparasitante Felino', 'Tratamiento contra parasitos internos', 18.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(3, 'Collar Antipulgas', 'Proteccion contra pulgas y garrapatas', 12.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(4, 'Shampoo Dermatologico', 'Shampoo especial para alergias en piel', 15.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(5, 'Vitaminas Multiespecie', 'Suplemento vitaminico para mascotas', 20.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(6, 'Juguete Dental', 'Juguete para limpiar dientes y encias', 9.99, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(7, 'Alimento para Cachorros', 'Comida balanceada para cachorros', 45.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(8, 'Alimento para Gatos', 'Comida especializada para gatos adultos', 42.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(9, 'Pomada Cicatrizante', 'Crema para curacion de heridas superficiales', 13.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(10, 'Bebedero Portatil', 'Recipiente portatil para agua', 8.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(11, 'Correa Ajustable', 'Correa de nylon ajustable', 16.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(12, 'Camisa para Mascotas', 'Ropa comoda para perros y gatos', 22.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(13, 'Arena Sanitaria', 'Arena aglomerante para gatos', 14.80, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(14, 'Cepillo para Pelo', 'Cepillo para eliminar pelo suelto', 11.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(15, 'Kit de Cuidado Dental', 'Set de cepillo y pasta para mascotas', 19.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(16, 'Antiinflamatorio', 'Medicamento para aliviar inflamaciones', 27.30, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(17, 'Collar de Identificacion', 'Collar con placa grabada', 17.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(18, 'Transportadora', 'Caja transportadora para mascotas', 55.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(19, 'Gotas Oculares', 'Solucion para limpieza ocular', 21.10, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(20, 'Antiparasitario Externo', 'Spray contra parasitos externos', 23.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(21, 'Juguete Interactivo', 'Juguete de estimulacion mental', 29.99, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(22, 'Cama Ortopedica', 'Cama ergonomica para mascotas mayores', 68.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(23, 'Kit de Curacion', 'Kit de primeros auxilios para mascotas', 32.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(24, 'Locion Repelente', 'Locion contra insectos y parasitos', 26.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(25, 'Comedero Inteligente', 'Dispensador automatico de comida', 75.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(26, 'Sueroterapia Oral', 'Suero de rehidratacion para mascotas', 24.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(27, 'Arnes Reflectante', 'Arnes de seguridad con reflectores', 30.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(28, 'Alimento Hipocalorico', 'Alimento para control de peso', 48.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(29, 'Collar Electrico', 'Collar de entrenamiento por vibracion', 80.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(30, 'Toallitas Humedas', 'Toallitas para limpieza de mascotas', 12.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(31, 'Suplemento Articular', 'Complemento para salud articular', 39.99, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(32, 'Gel Dental', 'Gel para higiene bucal', 16.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(33, 'Ropa Impermeable', 'Chaqueta impermeable para mascotas', 45.60, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(34, 'Juguete de Caucho', 'Juguete masticable duradero', 14.30, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(35, 'Alimento Senior', 'Alimento para mascotas mayores', 50.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(36, 'Spray Calmant', 'Spray para reducir estres y ansiedad', 28.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(37, 'Botiquin Veterinario', 'Botiquin completo para emergencias', 65.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(38, 'Banda de Rehabilitacion', 'Banda elastica para terapia fisica', 33.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(39, 'Protector Solar', 'Protector solar para piel de mascotas', 22.80, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(40, 'Silla de Ruedas', 'Dispositivo de movilidad para mascotas', 120.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(41, 'Juguete Sonoro', 'Juguete con sonidos para entretener', 18.60, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(42, 'Snack Natural', 'Bocadillos saludables para mascotas', 14.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(43, 'Rascador para Gatos', 'Rascador vertical para gatos', 55.80, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(44, 'Lampara UV', 'Lampara de desinfeccion UV', 89.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(45, 'Gel Cicatrizante', 'Gel regenerador para heridas', 31.25, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(46, 'Termometro Digital', 'Termometro de uso veterinario', 43.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(47, 'Collar Luminoso', 'Collar con luz LED para visibilidad', 35.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(48, 'Spray Antiseptico', 'Spray desinfectante para heridas', 27.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(49, 'Guantes Quirurgicos', 'Guantes esteriles para cirugias', 18.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(50, 'Cortauñas', 'Herramienta para cortar uñas de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
+    
+END;
+/
 --Inserts de Fide_Orden Productos
 
 BEGIN
