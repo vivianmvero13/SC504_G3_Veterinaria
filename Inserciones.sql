@@ -46,6 +46,27 @@ BEGIN
     INSERT_DIRECCION_DISTRITO_TB_SP(60205, 0, 'San Jeronimo', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_DISTRITO_TB_SP(60901, 1, 'Parrita', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_DISTRITO_TB_SP(61101, 1, 'Jaco', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(31, 1, 1, 102, 10203, 'Condominio La Perla, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(32, 1, 1, 118, 11801, 'Residencial Altos del Mar, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(33, 1, 1, 118, 11802, 'Villas del Sol, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(34, 1, 2, 203, 20301, 'Condominio Paseo Real, Casa 11', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(35, 1, 3, 308, 30801, 'Residencial El Eden, Casa 9', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(36, 1, 4, 403, 40301, 'Condominio El Paraiso, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(37, 1, 4, 403, 40302, 'Residencial Los Angeles, Casa 5', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(38, 1, 4, 407, 40702, 'Condominio Brisas del Mar, Casa 12', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(39, 1, 4, 409, 40901, 'Residencial Los Pinos, Casa 20', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(40, 1, 6, 602, 60205, 'Condominio La Estrella, Casa 13', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(41, 1, 6, 609, 60901, 'Residencial Vista Hermosa, Casa 22', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(42, 1, 6, 611, 61101, 'Condominio Las Palmas, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(43, 1, 1, 101, 10105, 'Residencial El Mirador, Casa 25', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(44, 1, 1, 101, 10107, 'Condominio San Isidro, Casa 16', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(45, 1, 1, 102, 10203, 'Residencial Los Robles, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(46, 1, 1, 118, 11801, 'Villas del Pacifico, Casa 8', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(47, 1, 1, 118, 11802, 'Residencial Santa Fe, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(48, 1, 2, 203, 20301, 'Condominio Palma Real, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(49, 1, 3, 308, 30801, 'Residencial Las Mercedes, Casa 21', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(50, 1, 4, 403, 40301, 'Condominio San Luis, Casa 15', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+
 END;
 /
 -- Inserciones FIDE_DIRECCION_TB
@@ -80,6 +101,27 @@ BEGIN
     INSERT_DIRECCION_TB_SP(28, 1, 6, 611, 61101, 'Torre del Sol, Apartamento 3C', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_TB_SP(29, 1, 1, 101, 10105, 'Condominio Vista Verde, Casa 20', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_TB_SP(30, 1, 1, 101, 10107, 'Residencial La Cima, Casa 15', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(31, 1, 1, 102, 10203, 'Condominio La Perla, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(32, 1, 1, 118, 11801, 'Residencial Altos del Mar, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(33, 1, 1, 118, 11802, 'Villas del Sol, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(34, 1, 2, 203, 20301, 'Condominio Paseo Real, Casa 11', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(35, 1, 3, 308, 30801, 'Residencial El Eden, Casa 9', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(36, 1, 4, 403, 40301, 'Condominio El Paraiso, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(37, 1, 4, 403, 40302, 'Residencial Los Angeles, Casa 5', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(38, 1, 4, 407, 40702, 'Condominio Brisas del Mar, Casa 12', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(39, 1, 4, 409, 40901, 'Residencial Los Pinos, Casa 20', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(40, 1, 6, 602, 60205, 'Condominio La Estrella, Casa 13', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(41, 1, 6, 609, 60901, 'Residencial Vista Hermosa, Casa 22', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(42, 1, 6, 611, 61101, 'Condominio Las Palmas, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(43, 1, 1, 101, 10105, 'Residencial El Mirador, Casa 25', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(44, 1, 1, 101, 10107, 'Condominio San Isidro, Casa 16', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(45, 1, 1, 102, 10203, 'Residencial Los Robles, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(46, 1, 1, 118, 11801, 'Villas del Pacifico, Casa 8', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(47, 1, 1, 118, 11802, 'Residencial Santa Fe, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(48, 1, 2, 203, 20301, 'Condominio Palma Real, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(49, 1, 3, 308, 30801, 'Residencial Las Mercedes, Casa 21', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_DIRECCION_TB_SP(50, 1, 4, 403, 40301, 'Condominio San Luis, Casa 15', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
+
 END;
 /
 -- Inserciones FIDE_TELEFONO_CONTACTO_TB
@@ -128,6 +170,13 @@ BEGIN
     INSERT_TELEFONO_CONTACTO_TB_SP(42, 1, 96583721, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(43, 1, 72839561, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(44, 1, 80367259, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(45, 1, 91234567, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(46, 1, 83475629, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(47, 1, 64528713, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(48, 1, 75849264, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(49, 1, 67291354, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TELEFONO_CONTACTO_TB_SP(50, 1, 83415972, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+
 END;
 /
 -- Inserciones FIDE_TIPO_USUARIO_TB
@@ -143,109 +192,77 @@ END;
 /
 -- Inserciones FIDE_ESPECIALIDAD_TB
 BEGIN
-    INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atenci�n m�dica b�sica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirug�a General', 'Procedimientos quir�rgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontolog�a Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(19, 1, 'Dermatolog�a Veterinaria', 'Tratamiento de enfermedades de la piel en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(20, 1, 'Cardiolog�a Veterinaria', 'Diagn�stico y tratamiento de enfermedades card�acas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(21, 1, 'Neurolog�a Veterinaria', 'Tratamiento de trastornos del sistema nervioso en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(22, 1, 'Oftalmolog�a Veterinaria', 'Tratamiento de enfermedades oculares en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(23, 1, 'Gastroenterolog�a Veterinaria', 'Tratamiento de enfermedades digestivas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncolog�a Veterinaria', 'Tratamiento de c�ncer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiolog�a Veterinaria', 'Administraci�n de anestesia en animales durante procedimientos quir�rgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiolog�a Veterinaria', 'Uso de rayos X y otras im�genes para diagn�stico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atencion medica basica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirugia General', 'Procedimientos quirurgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontologia Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(19, 1, 'Dermatologia Veterinaria', 'Tratamiento de enfermedades de la piel en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(20, 1, 'Cardiologia Veterinaria', 'Diagnostico y tratamiento de enfermedades cardiacas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(21, 1, 'Neurologia Veterinaria', 'Tratamiento de trastornos del sistema nervioso en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(22, 1, 'Oftalmologia Veterinaria', 'Tratamiento de enfermedades oculares en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(23, 1, 'Gastroenterologia Veterinaria', 'Tratamiento de enfermedades digestivas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncologia Veterinaria', 'Tratamiento de cancer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiologia Veterinaria', 'Administracion de anestesia en animales durante procedimientos quirurgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiologia Veterinaria', 'Uso de rayos X y otras imagenes para diagnostico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(27, 1, 'Medicina Interna Veterinaria', 'Tratamiento de enfermedades internas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinolog�a Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitaci�n f�sica en animales despu�s de cirug�as o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectolog�a Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinologia Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitacion fisica en animales despues de cirugias o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectologia Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
+-- Inserciones FIDE_USUARIOS_TB
 BEGIN
-    INSERT_ESPECIALIDAD_TB_SP(1, 1, 'Oftalmolog�a', 'Estudio de los ojos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(2, 1, 'Dermatolog�a', 'Diagn�stico y tratamiento de enfermedades de la piel', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(3, 1, 'Ortopedia', 'Tratamiento de fracturas y problemas musculoesquel�ticos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(4, 1, 'Cardiolog�a', 'Estudio y tratamiento de enfermedades del coraz�n', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(5, 1, 'Neurolog�a', 'Diagn�stico y tratamiento de enfermedades del sistema nervioso', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(6, 1, 'Anestesiolog�a', 'Administraci�n de anestesia en procedimientos quir�rgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(7, 1, 'Oncolog�a', 'Tratamiento de tumores y c�ncer', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(8, 1, 'Cirug�a General', 'Intervenciones quir�rgicas de distintas especialidades', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(9, 1, 'Odontolog�a', 'Cuidado y tratamiento de dientes y enc�as', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(10, 1, 'Fisioterapia', 'Rehabilitaci�n de lesiones y problemas musculares', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(11, 1, 'Radiolog�a', 'Uso de im�genes m�dicas para diagn�stico', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(12, 1, 'Gastroenterolog�a', 'Tratamiento de enfermedades digestivas', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(13, 1, 'Neonatolog�a', 'Cuidado m�dico de animales reci�n nacidos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(14, 1, 'Urgencias', 'Atenci�n m�dica en situaciones de emergencia', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(15, 1, 'Nutrici�n', 'Evaluaci�n y control de la alimentaci�n animal', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atenci�n m�dica b�sica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirug�a General', 'Procedimientos quir�rgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontolog�a Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(19, 1, 'Dermatolog�a Veterinaria', 'Tratamiento de enfermedades de la piel en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(20, 1, 'Cardiolog�a Veterinaria', 'Diagn�stico y tratamiento de enfermedades card�acas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(21, 1, 'Neurolog�a Veterinaria', 'Tratamiento de trastornos del sistema nervioso en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(22, 1, 'Oftalmolog�a Veterinaria', 'Tratamiento de enfermedades oculares en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(23, 1, 'Gastroenterolog�a Veterinaria', 'Tratamiento de enfermedades digestivas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncolog�a Veterinaria', 'Tratamiento de c�ncer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiolog�a Veterinaria', 'Administraci�n de anestesia en animales durante procedimientos quir�rgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiolog�a Veterinaria', 'Uso de rayos X y otras im�genes para diagn�stico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(27, 1, 'Medicina Interna Veterinaria', 'Tratamiento de enfermedades internas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinolog�a Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitaci�n f�sica en animales despu�s de cirug�as o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectolog�a Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+     INSERT_USUARIOS_TB_SP(1, 1, 19, 1, 1, 1, 'Julio Calvo', 'juca@clinicahuellitas.com', 'oajeiaid', 182980987, SYSDATE, 131257895157, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(2, 1, 22, 2,2, 2, 'Ana Rodriguez', 'arodriguez@clinicahuellitas.com', 'fghy123', 192345678, SYSDATE, 131257895158, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(3, 1, 23, 1, 3, 3, 'Carlos Soto', 'csoto@clinicahuellitas.com', 'abc123', 203456789, SYSDATE, 131257895159, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(4, 1, 24, 4, 4, 4, 'Maria Fernandez', 'mafer@clinicahuellitas.com', 'qwe5678', 213467890, SYSDATE, 131257895160, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(5, 1, 25, 5, 5, 5, 'Luis Herrera', 'lhe@clinicahuellitas.com', 'qazerty1', 223478901, SYSDATE, 131257895161, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(6, 1, 26, 6, 6, 6, 'Gabriela Gomez', 'ggo@clinicahuellitas.com', 'asd1234', 233589012, SYSDATE, 131257895162, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(7, 1, 27, 7, 7, 7, 'Jose Martinez', 'jmartinez@clinicahuellitas.com', 'abc123', 243690123, SYSDATE, 131257895163, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(8, 1, 28, 1, 8, 8, 'Raquel Perez', 'rper@clinicahuellitas.com', '12345abc', 253701234, SYSDATE, 131257895164, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(9, 1, 29, 2, 9, 9, 'Felipe Torres', 'ftorres@clinicahuellitas.com', 'zxcvbnm123', 263812345, SYSDATE, 131257895165, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(10, 1, 30, 3, 10, 10, 'Patricia Diaz', 'pdiaz@clinicahuellitas.com', 'sdfg123', 273923456, SYSDATE, 131257895166, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(11, 1, 21, 7, 11, 11, 'Luis Gomez', 'lgomez@clinicahuellitas.com', 'abc456def', 283034567, SYSDATE, 131257895167, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(12, 1, 22, 4, 12, 12, 'Marta Rodriguez', 'mrodriguez@clinicahuellitas.com', 'xy98765', 293145678, SYSDATE, 131257895168, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(13, 1, 23, 5, 13, 13, 'Antonio Perez', 'aperez@clinicahuellitas.com', '5ty1abc', 303256789, SYSDATE, 131257895169, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(14, 1, 24, 6, 14, 14,'Claudia Sanchez', 'csanchez@clinicahuellitas.com', 'oijklmn987', 313367890, SYSDATE, 131257895170, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(15, 1, 25, 1, 15,15,  'Cristian Diaz', 'cdiaz@clinicahuellitas.com', 'sdft1234', 323478901, SYSDATE, 131257895171, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(16, 1, 16, 3, 16, 16, 'Natalia Lopez', 'nlopez@clinicahuellitas.com', '12asaQ34', 333589012, SYSDATE, 131257895172, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(17, 1, 17, 2, 17, 17, 'Jose Herrera', 'joherrera@clinicahuellitas.com', 'mdss9876', 343690123, SYSDATE, 131257895173, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(18, 1, 18, 5, 18, 18, 'Isabel Martinez', 'imartinez@clinicahuellitas.com', 'qwe987', 353701234, SYSDATE, 131257895174, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(19, 1, 19, 4, 19, 19 ,'Manuel Garcia', 'mgarcia@clinicahuellitas.com', 'asdf12', 363812345, SYSDATE, 131257895175, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(20, 1, 20, 6, 20, 20, 'Paula Gonzalez', 'pgonzalez@clinicahuellitas.com', 'ghj321', 373923456, SYSDATE, 131257895176, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(21, 1, 21, 1, 21, 21, 'Diego Morales', 'dmorales@clinicahuellitas.com', 'pass1234', 384034567, SYSDATE, 131257895177, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(22, 1, 22, 3, 22, 22, 'Rosa Jimenez', 'rjimenez@clinicahuellitas.com', '1234mno', 394145678, SYSDATE, 131257895178, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(23, 1, 23, 2, 23, 23, 'Fernando Castro', 'fcastro@clinicahuellitas.com', 'zxc321', 404256789, SYSDATE, 131257895179, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(24, 1, 24, 5, 24,24, 'Elena Rojas', 'erojas@clinicahuellitas.com', 'qwe098', 414367890, SYSDATE, 131257895180, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(25, 1, 25, 4, 25, 25, 'Pablo Vargas', 'pvargas@clinicahuellitas.com', 'asd456', 424478901, SYSDATE, 131257895181, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(26, 1, 26, 6, 26, 26, 'Camila Mendez', 'cmendez@clinicahuellitas.com', 'lkj987', 434589012, SYSDATE, 131257895182, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(27, 1, 27, 7, 27, 27 ,'Oscar Salazar', 'osalazar@clinicahuellitas.com', 'poi123', 444690123, SYSDATE, 131257895183, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(28, 1, 28, 1, 28,28,'Monica Espinoza', 'mespinoza@clinicahuellitas.com', 'mnb987', 454701234, SYSDATE, 131257895184, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(29, 1, 29, 2, 29,29, 'Ricardo Molina', 'rmolina@clinicahuellitas.com', 'vfr432', 464812345, SYSDATE, 131257895185, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(30, 1, 19, 3,30, 30, 'Andrea Herrera', 'aherrera@clinicahuellitas.com', 'tgb321', 474923456, SYSDATE, 131257895186, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(31, 1, 21, 7,31, 31, 'Javier Lopez', 'jlopez@clinicahuellitas.com', 'yhn456', 485034567, SYSDATE, 131257895187, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(32, 1, 22, 4,32,32, 'Lucia Perez', 'lperez@clinicahuellitas.com', 'ujm789', 495145678, SYSDATE, 131257895188, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(33, 1, 23, 5,33, 33, 'Daniel Solis', 'dsolis@clinicahuellitas.com', 'opl321', 505256789, SYSDATE, 131257895189, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(34, 1, 24, 6,34,34, 'Carolina Navarro', 'cnavarro@clinicahuellitas.com', 'hji987', 515367890, SYSDATE, 131257895190, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(35, 1, 25, 1,35,35, 'Eduardo Vargas', 'evargas@clinicahuellitas.com', 'asd741', 525478901, SYSDATE, 131257895191, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(36, 1, 26, 3, 36,36,'Sofia Castillo', 'scastillo@clinicahuellitas.com', 'fgh852', 535589012, SYSDATE, 131257895192, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(37, 1, 27, 2, 37,37,'Rodrigo Jimenez', 'rjimenez2@clinicahuellitas.com', 'jkl963', 545690123, SYSDATE, 131257895193, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(38, 1, 28, 5,38,38, 'Marcela Pineda', 'mpineda@clinicahuellitas.com', 'zxc852', 555701234, SYSDATE, 131257895194, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(39, 1, 18, 4,39,39, 'Guillermo Ortiz', 'gortiz@clinicahuellitas.com', 'bnm963', 565812345, SYSDATE, 131257895195, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(40, 1, 19, 6,40,40, 'Natalia Rivera', 'nrivera@clinicahuellitas.com', 'vbn741', 575923456, SYSDATE, 131257895196, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(41, 1, 21, 1,41,41, 'Alonso Mejia', 'amejia@clinicahuellitas.com', 'qwe147', 586034567, SYSDATE, 131257895197, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(42, 1, 22, 2,42,42, 'Valeria Soto', 'vsoto@clinicahuellitas.com', 'rty258', 596145678, SYSDATE, 131257895198, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(43, 1, 23, 3,43,43, 'Sebastian Nunez', 'snunez@clinicahuellitas.com', 'uio369', 606256789, SYSDATE, 131257895199, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(44, 1, 24, 4, 44,44, 'Adriana Fuentes', 'afuentes@clinicahuellitas.com', 'asd852', 616367890, SYSDATE, 131257895200, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(45, 1, 25, 5,45,45, 'Mauricio Perez', 'mperez@clinicahuellits.com', 'zxc741', 626478901, SYSDATE, 131257895201, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(46, 1, 26, 6, 46,46, 'Gabriela Solano', 'gsolano@clinicahuellitas.com', 'vbn963', 636589012, SYSDATE, 131257895202, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(47, 1, 27, 7,47,47, 'Leonardo Rojas', 'lrojas@clinicahuellitas.com', 'mnb357', 646690123, SYSDATE, 131257895203, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(48, 1, 28, 1, 48,48,'Mariana Espinoza', 'mespinoza2@clinicahuellitas.com', 'yui159', 656701234, SYSDATE, 131257895204, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(49, 1, 29, 2,49,49,'Federico Miranda', 'fmiranda@clinicahuellitas.com', 'hjk753', 666812345, SYSDATE, 131257895205, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(50, 1, 30, 3, 50,50,'Silvia Araya', 'saraya@clinicahuellitas.com', 'opl951', 676923456, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);    
 END;
-/
--- Inserciones FIDE_USUARIO_TB
-BEGIN
-    INSERT_USUARIOS_TB_SP(1, 1, 1, 1, 'Julio Calvo', 'juca@clinicahuellitas.com', 'oajeia!id', 182980987, SYSDATE, 131257895157, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(2, 1, 2, 2, 'Ana Rodr�guez', 'arodriguez@clinicahuellitas.com', 'fghy#123', 192345678, SYSDATE, 131257895158, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(3, 1, 3, 1, 'Carlos Soto', 'csoto@clinicahuellitas.com', 'abc123!@', 203456789, SYSDATE, 131257895159, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(4, 1, 4, 4, 'Maria Fern�ndez', 'mafer@clinicahuellitas.com', 'qwe!5678', 213467890, SYSDATE, 131257895160, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(5, 1, 5, 5, 'Luis Herrera', 'lhe@clinicahuellitas.com', 'qaz!erty1', 223478901, SYSDATE, 131257895161, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(6, 1, 6, 6, 'Gabriela G�mez', 'ggo@clinicahuellitas.com', 'asd1234@!', 233589012, SYSDATE, 131257895162, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(7, 1, 7, 7, 'Jos� Mart�nez', 'jmartinez@clinicahuellitas.com', 'abc!#123', 243690123, SYSDATE, 131257895163, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(8, 1, 8, 1, 'Raquel P�rez', 'rper@clinicahuellitas.com', '12345abc!', 253701234, SYSDATE, 131257895164, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(9, 1, 9, 2, 'Felipe Torres', 'ftorres@clinicahuellitas.com', 'zxcvbnm123!', 263812345, SYSDATE, 131257895165, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(10, 1, 10, 3, 'Patricia D�az', 'pdiaz@clinicahuellitas.com', 'sdfg!@123', 273923456, SYSDATE, 131257895166, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(11, 1, 11, 7, 'Luis G�mez', 'lgomez@clinicahuellitas.com', 'abc456def!', 283034567, SYSDATE, 131257895167, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(12, 1, 12, 4, 'Marta Rodr�guez', 'mrodriguez@clinicahuellitas.com', 'xy$98765', 293145678, SYSDATE, 131257895168, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(13, 1, 13, 5, 'Antonio P�rez', 'aperez@clinicahuellitas.com', '5ty@1abc', 303256789, SYSDATE, 131257895169, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(14, 1, 14, 6, 'Claudia S�nchez', 'csanchez@clinicahuellitas.com', 'oijk!lm987', 313367890, SYSDATE, 131257895170, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(15, 1, 15, 1, 'Cristian D�az', 'cdiaz@clinicahuellitas.com', 'sdft@1234', 323478901, SYSDATE, 131257895171, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(16, 1, 16, 3, 'Natalia L�pez', 'nlopez@clinicahuellitas.com', '12as!aQ34', 333589012, SYSDATE, 131257895172, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(17, 1, 17, 2, 'Jos� Herrera', 'joherrera@clinicahuellitas.com', 'mdss!9876', 343690123, SYSDATE, 131257895173, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(18, 1, 18, 5, 'Isabel Mart�nez', 'imartinez@clinicahuellitas.com', 'qwe#987@', 353701234, SYSDATE, 131257895174, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(19, 1, 19, 4, 'Manuel Garc�a', 'mgarcia@clinicahuellitas.com', 'asdf12$!@', 363812345, SYSDATE, 131257895175, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(20, 1, 20, 6, 'Paula Gonz�lez', 'pgonzalez@clinicahuellitas.com', 'ghj$321!@', 373923456, SYSDATE, 131257895176, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(21, 1, 21, 7, 'Rosa Fern�ndez', 'rfernandez@clinicahuellitas.com', '456!dfq12', 383034567, SYSDATE, 131257895177, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(22, 1, 22, 1, 'Iv�n Torres', 'itorres@clinicahuellitas.com', 'kj*gf1h23', 393145678, SYSDATE, 131257895178, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(23, 1, 23, 2, 'Juan Rivera', 'jrivera@clinicahuellitas.com', 'plm!234#', 403256789, SYSDATE, 131257895179, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(24, 1, 24, 4, 'Elena P�rez', 'eperez@clinicahuellitas.com', 'y6h7!Tds', 413367890, SYSDATE, 131257895180, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(25, 1, 25, 5, 'Victor Salazar', 'vsalazar@clinicahuellitas.com', 'dc3*e5f8', 423478901, SYSDATE, 131257895181, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(26, 1, 26, 3, 'Ricardo Ruiz', 'rruiz@clinicahuellitas.com', '12gtr456@!', 433589012, SYSDATE, 131257895182, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(27, 1, 27, 7, 'Ver�nica Guzm�n', 'vguzman@clinicahuellitas.com', 'v6e9*fg7', 443690123, SYSDATE, 131257895183, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(28, 1, 28, 6, 'Marcos Le�n', 'mleon@clinicahuellitas.com', 'xcz#4567', 453701234, SYSDATE, 131257895184, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(29, 1, 29, 1, 'Teresa Bravo', 'tbravo@clinicahuellitas.com', 'rty@1FG@', 463812345, SYSDATE, 131257895185, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(30, 1, 30, 5, 'Guillermo S�nchez', 'gsanchez@clinicahuellitas.com', 'ghj!7kl8', 473923456, SYSDATE, 131257895186, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(31, 1, 31, 4, 'Felipe Navarro', 'fnava@clinicahuellitas.com', 'fgh@1df9', 483034567, SYSDATE, 131257895187, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(32, 1, 32, 6, 'Carlos Gonz�lez', 'cgonza@clinicahuellitas.com', '78*sklj9', 493145678, SYSDATE, 131257895188, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(33, 1, 33, 3, 'Olga Soto', 'osoto@clinicahuellitas.com', 're54*asdf', 503256789, SYSDATE, 131257895189, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(34, 1, 34, 2, 'Eduardo Ruiz', 'eruiz@clinicahuellitas.com', 'gtyf78%$', 513367890, SYSDATE, 131257895190, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(35, 1, 35, 1, 'Evelyn P�rez', 'eperez@clinicahuellitas.com', '23gthy!12', 523478901, SYSDATE, 131257895191, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(36, 1, 36, 7, 'Valentina Morales', 'vmorales@clinicahuellitas.com', 'jkl#23mn', 523478901, SYSDATE, 131257895191, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(37, 1, 37, 4, 'Sandra Mart�nez', 'smartinez@clinicahuellitas.com', 'jkl23#lmn', 533589012, SYSDATE, 131257895192, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(38, 1, 38, 5, 'Roberto P�rez', 'rperez@clinicahuellitas.com', 'zx!23df1', 543690123, SYSDATE, 131257895193, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(39, 1, 39, 3, 'Luc�a L�pez', 'llopez@clinicahuellitas.com', 'cvbn567*', 553701234, SYSDATE, 131257895194, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(40, 1, 40, 6, 'Carlos Jim�nez', 'cjimenez@clinicahuellitas.com', '321#dft9', 563812345, SYSDATE, 131257895195, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(41, 1, 41, 2, 'Sof�a Garc�a', 'sfg@clinicahuellitas.com', 'opQw*567', 573923456, SYSDATE, 131257895196, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(42, 1, 42, 5, 'Ignacio Fern�ndez', 'ifernandez@clinicahuellitas.com', '78u4lk9m', 583034567, SYSDATE, 131257895197, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(43, 1, 43, 4, 'Ren� Ortega', 'rortega@clinicahuellitas.com', 'zxnm#1234', 593145678, SYSDATE, 131257895198, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(44, 1, 44, 7, 'Patricia Fern�ndez', 'pfernandez@clinicahuellitas.com', 'qwerty*45', 603256789, SYSDATE, 131257895199, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(45, 1, 45, 6, 'Esteban Mart�nez', 'emartinez@clinicahuellitas.com', 'sdg!12h8', 613367890, SYSDATE, 131257895200, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(46, 1, 46, 1, 'Cristina L�pez', 'clopez@clinicahuellitas.com', 'fgh*123q', 623478901, SYSDATE, 131257895201, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(47, 1, 47, 3, 'Roberto S�nchez', 'rsanchez@clinicahuellitas.com', 'zxc!vbnm', 633589012, SYSDATE, 131257895202, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(48, 1, 48, 2, 'Mar�a Gonz�lez', 'mgonzalez@clinicahuellitas.com', 'yui789@b', 643690123, SYSDATE, 131257895203, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(49, 1, 49, 4, 'Joaqu�n Ram�rez', 'jramirez@clinicahuellitas.com', 'gfh#456r', 653701234, SYSDATE, 131257895204, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(50, 1, 50, 5, 'Carlos Hern�ndez', 'chernandez@clinicahuellitas.com', '8h#kp987', 663812345, SYSDATE, 131257895205, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-END;
+
 /
 --Inserts de especies
 BEGIN
