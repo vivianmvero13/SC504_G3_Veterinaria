@@ -188,10 +188,12 @@ BEGIN
     INSERT_TIPO_USUARIO_TB_SP(5, 1, 'Limpieza', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TIPO_USUARIO_TB_SP(6, 1, 'Administracion', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TIPO_USUARIO_TB_SP(7, 1, 'Farmaceutica', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_TIPO_USUARIO_TB_SP(8, 1, 'Cliente', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
 -- Inserciones FIDE_ESPECIALIDAD_TB
 BEGIN
+    INSERT_ESPECIALIDAD_TB_SP(15, 1, 'Cliente', 'Atencion medica basica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atencion medica basica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirugia General', 'Procedimientos quirurgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontologia Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
@@ -260,9 +262,9 @@ BEGIN
     INSERT_USUARIOS_TB_SP(47, 1, 27, 7,47,47, 'Leonardo Rojas', 'lrojas@clinicahuellitas.com', 'mnb357', 646690123, SYSDATE, 131257895203, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_USUARIOS_TB_SP(48, 1, 28, 1, 48,48,'Mariana Espinoza', 'mespinoza2@clinicahuellitas.com', 'yui159', 656701234, SYSDATE, 131257895204, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_USUARIOS_TB_SP(49, 1, 29, 2,49,49,'Federico Miranda', 'fmiranda@clinicahuellitas.com', 'hjk753', 666812345, SYSDATE, 131257895205, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(50, 1, 30, 3, 50,50,'Silvia Araya', 'saraya@clinicahuellitas.com', 'opl951', 676923456, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);    
+    INSERT_USUARIOS_TB_SP(50, 1, 30, 3, 50,50,'Silvia Araya', 'saraya@clinicahuellitas.com', 'opl951', 676923456, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);  
+    INSERT_USUARIOS_TB_SP(52, 1, 15, 8, 50,50,'Rocio Alvarado', 'roalvarado@clinicahuellitas.com', 'opl951', 365646464, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE); 
 END;
-
 /
 --Inserts de especies
 BEGIN
@@ -316,10 +318,10 @@ END;
 /
 --Inserts de mascotas
 BEGIN
-    INSERT_MASCOTA_TB_SP(1, 1, 1, 1, NULL, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(2, 1, 1, 2, NULL, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(3, 1, 1, 3, NULL, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(4, 1, 2, 11, NULL, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(1, 1, 1, 1, 51, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(2, 1, 1, 2, 51, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(3, 1, 1, 3, 52, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(4, 1, 2, 11, 52, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(5, 1, 2, 12, NULL, 'Simba', TO_DATE('2022-06-30','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(6, 1, 2, 13, NULL, 'Luna', TO_DATE('2017-09-05','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(7, 1, 3, 23, NULL, 'Nieve', TO_DATE('2020-01-15','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
@@ -366,6 +368,7 @@ BEGIN
     INSERT_MASCOTA_TB_SP(48, 1, 5, 26, NULL, 'Loro', TO_DATE('2017-09-23','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(49, 1, 6, 30, NULL, 'Sol', TO_DATE('2020-06-07','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(50, 1, 1, 12, NULL, 'Bruno', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(51, 1, 1, 12, 52, 'Pookie', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Vivian Velazquez', SYSDATE, NULL, NULL);
 END;
 /
 --Inserts de tipos de examenes
