@@ -80,27 +80,6 @@ BEGIN
     INSERT_DIRECCION_TB_SP(28, 1, 6, 611, 61101, 'Torre del Sol, Apartamento 3C', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_TB_SP(29, 1, 1, 101, 10105, 'Condominio Vista Verde, Casa 20', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_TB_SP(30, 1, 1, 101, 10107, 'Residencial La Cima, Casa 15', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(31, 1, 1, 102, 10203, 'Condominio La Perla, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(32, 1, 1, 118, 11801, 'Residencial Altos del Mar, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(33, 1, 1, 118, 11802, 'Villas del Sol, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(34, 1, 2, 203, 20301, 'Condominio Paseo Real, Casa 11', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(35, 1, 3, 308, 30801, 'Residencial El Eden, Casa 9', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(36, 1, 4, 403, 40301, 'Condominio El Paraiso, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(37, 1, 4, 403, 40302, 'Residencial Los Angeles, Casa 5', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(38, 1, 4, 407, 40702, 'Condominio Brisas del Mar, Casa 12', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(39, 1, 4, 409, 40901, 'Residencial Los Pinos, Casa 20', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(40, 1, 6, 602, 60205, 'Condominio La Estrella, Casa 13', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(41, 1, 6, 609, 60901, 'Residencial Vista Hermosa, Casa 22', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(42, 1, 6, 611, 61101, 'Condominio Las Palmas, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(43, 1, 1, 101, 10105, 'Residencial El Mirador, Casa 25', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(44, 1, 1, 101, 10107, 'Condominio San Isidro, Casa 16', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(45, 1, 1, 102, 10203, 'Residencial Los Robles, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(46, 1, 1, 118, 11801, 'Villas del Pacifico, Casa 8', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(47, 1, 1, 118, 11802, 'Residencial Santa Fe, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(48, 1, 2, 203, 20301, 'Condominio Palma Real, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(49, 1, 3, 308, 30801, 'Residencial Las Mercedes, Casa 21', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(50, 1, 4, 403, 40301, 'Condominio San Luis, Casa 15', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-
 END;
 /
 -- Inserciones FIDE_TELEFONO_CONTACTO_TB
@@ -149,13 +128,6 @@ BEGIN
     INSERT_TELEFONO_CONTACTO_TB_SP(42, 1, 96583721, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(43, 1, 72839561, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TELEFONO_CONTACTO_TB_SP(44, 1, 80367259, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TELEFONO_CONTACTO_TB_SP(45, 1, 91234567, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TELEFONO_CONTACTO_TB_SP(46, 1, 83475629, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TELEFONO_CONTACTO_TB_SP(47, 1, 64528713, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TELEFONO_CONTACTO_TB_SP(48, 1, 75849264, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TELEFONO_CONTACTO_TB_SP(49, 1, 67291354, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TELEFONO_CONTACTO_TB_SP(50, 1, 83415972, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-
 END;
 /
 -- Inserciones FIDE_TIPO_USUARIO_TB
@@ -167,82 +139,112 @@ BEGIN
     INSERT_TIPO_USUARIO_TB_SP(5, 1, 'Limpieza', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TIPO_USUARIO_TB_SP(6, 1, 'Administracion', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_TIPO_USUARIO_TB_SP(7, 1, 'Farmaceutica', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_TIPO_USUARIO_TB_SP(8, 1, 'Cliente', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
 -- Inserciones FIDE_ESPECIALIDAD_TB
 BEGIN
-    INSERT_ESPECIALIDAD_TB_SP(15, 1, 'Cliente', 'Atencion medica basica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atencion medica basica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirugia General', 'Procedimientos quirurgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontologia Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(19, 1, 'Dermatologia Veterinaria', 'Tratamiento de enfermedades de la piel en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(20, 1, 'Cardiologia Veterinaria', 'Diagnostico y tratamiento de enfermedades cardiacas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(21, 1, 'Neurologia Veterinaria', 'Tratamiento de trastornos del sistema nervioso en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(22, 1, 'Oftalmologia Veterinaria', 'Tratamiento de enfermedades oculares en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(23, 1, 'Gastroenterologia Veterinaria', 'Tratamiento de enfermedades digestivas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncologia Veterinaria', 'Tratamiento de cancer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiologia Veterinaria', 'Administracion de anestesia en animales durante procedimientos quirurgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiologia Veterinaria', 'Uso de rayos X y otras imagenes para diagnostico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atenciï¿½n mï¿½dica bï¿½sica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirugï¿½a General', 'Procedimientos quirï¿½rgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontologï¿½a Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(19, 1, 'Dermatologï¿½a Veterinaria', 'Tratamiento de enfermedades de la piel en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(20, 1, 'Cardiologï¿½a Veterinaria', 'Diagnï¿½stico y tratamiento de enfermedades cardï¿½acas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(21, 1, 'Neurologï¿½a Veterinaria', 'Tratamiento de trastornos del sistema nervioso en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(22, 1, 'Oftalmologï¿½a Veterinaria', 'Tratamiento de enfermedades oculares en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(23, 1, 'Gastroenterologï¿½a Veterinaria', 'Tratamiento de enfermedades digestivas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncologï¿½a Veterinaria', 'Tratamiento de cï¿½ncer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiologï¿½a Veterinaria', 'Administraciï¿½n de anestesia en animales durante procedimientos quirï¿½rgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiologï¿½a Veterinaria', 'Uso de rayos X y otras imï¿½genes para diagnï¿½stico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_ESPECIALIDAD_TB_SP(27, 1, 'Medicina Interna Veterinaria', 'Tratamiento de enfermedades internas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinologia Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitacion fisica en animales despues de cirugias o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectologia Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinologï¿½a Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitaciï¿½n fï¿½sica en animales despuï¿½s de cirugï¿½as o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectologï¿½a Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
--- Inserciones FIDE_USUARIOS_TB
 BEGIN
-     INSERT_USUARIOS_TB_SP(1, 1, 19, 1, 1, 1, 'Julio Calvo', 'juca@clinicahuellitas.com', 'oajeiaid', 182980987, SYSDATE, 131257895157, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(2, 1, 22, 2,2, 2, 'Ana Rodriguez', 'arodriguez@clinicahuellitas.com', 'fghy123', 192345678, SYSDATE, 131257895158, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(3, 1, 23, 1, 3, 3, 'Carlos Soto', 'csoto@clinicahuellitas.com', 'abc123', 203456789, SYSDATE, 131257895159, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(4, 1, 24, 4, 4, 4, 'Maria Fernandez', 'mafer@clinicahuellitas.com', 'qwe5678', 213467890, SYSDATE, 131257895160, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(5, 1, 25, 5, 5, 5, 'Luis Herrera', 'lhe@clinicahuellitas.com', 'qazerty1', 223478901, SYSDATE, 131257895161, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(6, 1, 26, 6, 6, 6, 'Gabriela Gomez', 'ggo@clinicahuellitas.com', 'asd1234', 233589012, SYSDATE, 131257895162, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(7, 1, 27, 7, 7, 7, 'Jose Martinez', 'jmartinez@clinicahuellitas.com', 'abc123', 243690123, SYSDATE, 131257895163, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(8, 1, 28, 1, 8, 8, 'Raquel Perez', 'rper@clinicahuellitas.com', '12345abc', 253701234, SYSDATE, 131257895164, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(9, 1, 29, 2, 9, 9, 'Felipe Torres', 'ftorres@clinicahuellitas.com', 'zxcvbnm123', 263812345, SYSDATE, 131257895165, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(10, 1, 30, 3, 10, 10, 'Patricia Diaz', 'pdiaz@clinicahuellitas.com', 'sdfg123', 273923456, SYSDATE, 131257895166, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(11, 1, 21, 7, 11, 11, 'Luis Gomez', 'lgomez@clinicahuellitas.com', 'abc456def', 283034567, SYSDATE, 131257895167, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(12, 1, 22, 4, 12, 12, 'Marta Rodriguez', 'mrodriguez@clinicahuellitas.com', 'xy98765', 293145678, SYSDATE, 131257895168, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(13, 1, 23, 5, 13, 13, 'Antonio Perez', 'aperez@clinicahuellitas.com', '5ty1abc', 303256789, SYSDATE, 131257895169, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(14, 1, 24, 6, 14, 14,'Claudia Sanchez', 'csanchez@clinicahuellitas.com', 'oijklmn987', 313367890, SYSDATE, 131257895170, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(15, 1, 25, 1, 15,15,  'Cristian Diaz', 'cdiaz@clinicahuellitas.com', 'sdft1234', 323478901, SYSDATE, 131257895171, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(16, 1, 16, 3, 16, 16, 'Natalia Lopez', 'nlopez@clinicahuellitas.com', '12asaQ34', 333589012, SYSDATE, 131257895172, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(17, 1, 17, 2, 17, 17, 'Jose Herrera', 'joherrera@clinicahuellitas.com', 'mdss9876', 343690123, SYSDATE, 131257895173, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(18, 1, 18, 5, 18, 18, 'Isabel Martinez', 'imartinez@clinicahuellitas.com', 'qwe987', 353701234, SYSDATE, 131257895174, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(19, 1, 19, 4, 19, 19 ,'Manuel Garcia', 'mgarcia@clinicahuellitas.com', 'asdf12', 363812345, SYSDATE, 131257895175, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(20, 1, 20, 6, 20, 20, 'Paula Gonzalez', 'pgonzalez@clinicahuellitas.com', 'ghj321', 373923456, SYSDATE, 131257895176, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(21, 1, 21, 1, 21, 21, 'Diego Morales', 'dmorales@clinicahuellitas.com', 'pass1234', 384034567, SYSDATE, 131257895177, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(22, 1, 22, 3, 22, 22, 'Rosa Jimenez', 'rjimenez@clinicahuellitas.com', '1234mno', 394145678, SYSDATE, 131257895178, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(23, 1, 23, 2, 23, 23, 'Fernando Castro', 'fcastro@clinicahuellitas.com', 'zxc321', 404256789, SYSDATE, 131257895179, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(24, 1, 24, 5, 24,24, 'Elena Rojas', 'erojas@clinicahuellitas.com', 'qwe098', 414367890, SYSDATE, 131257895180, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(25, 1, 25, 4, 25, 25, 'Pablo Vargas', 'pvargas@clinicahuellitas.com', 'asd456', 424478901, SYSDATE, 131257895181, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(26, 1, 26, 6, 26, 26, 'Camila Mendez', 'cmendez@clinicahuellitas.com', 'lkj987', 434589012, SYSDATE, 131257895182, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(27, 1, 27, 7, 27, 27 ,'Oscar Salazar', 'osalazar@clinicahuellitas.com', 'poi123', 444690123, SYSDATE, 131257895183, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(28, 1, 28, 1, 28,28,'Monica Espinoza', 'mespinoza@clinicahuellitas.com', 'mnb987', 454701234, SYSDATE, 131257895184, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(29, 1, 29, 2, 29,29, 'Ricardo Molina', 'rmolina@clinicahuellitas.com', 'vfr432', 464812345, SYSDATE, 131257895185, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(30, 1, 19, 3,30, 30, 'Andrea Herrera', 'aherrera@clinicahuellitas.com', 'tgb321', 474923456, SYSDATE, 131257895186, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(31, 1, 21, 7,31, 31, 'Javier Lopez', 'jlopez@clinicahuellitas.com', 'yhn456', 485034567, SYSDATE, 131257895187, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(32, 1, 22, 4,32,32, 'Lucia Perez', 'lperez@clinicahuellitas.com', 'ujm789', 495145678, SYSDATE, 131257895188, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(33, 1, 23, 5,33, 33, 'Daniel Solis', 'dsolis@clinicahuellitas.com', 'opl321', 505256789, SYSDATE, 131257895189, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(34, 1, 24, 6,34,34, 'Carolina Navarro', 'cnavarro@clinicahuellitas.com', 'hji987', 515367890, SYSDATE, 131257895190, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(35, 1, 25, 1,35,35, 'Eduardo Vargas', 'evargas@clinicahuellitas.com', 'asd741', 525478901, SYSDATE, 131257895191, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(36, 1, 26, 3, 36,36,'Sofia Castillo', 'scastillo@clinicahuellitas.com', 'fgh852', 535589012, SYSDATE, 131257895192, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(37, 1, 27, 2, 37,37,'Rodrigo Jimenez', 'rjimenez2@clinicahuellitas.com', 'jkl963', 545690123, SYSDATE, 131257895193, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(38, 1, 28, 5,38,38, 'Marcela Pineda', 'mpineda@clinicahuellitas.com', 'zxc852', 555701234, SYSDATE, 131257895194, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(39, 1, 18, 4,39,39, 'Guillermo Ortiz', 'gortiz@clinicahuellitas.com', 'bnm963', 565812345, SYSDATE, 131257895195, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(40, 1, 19, 6,40,40, 'Natalia Rivera', 'nrivera@clinicahuellitas.com', 'vbn741', 575923456, SYSDATE, 131257895196, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(41, 1, 21, 1,41,41, 'Alonso Mejia', 'amejia@clinicahuellitas.com', 'qwe147', 586034567, SYSDATE, 131257895197, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(42, 1, 22, 2,42,42, 'Valeria Soto', 'vsoto@clinicahuellitas.com', 'rty258', 596145678, SYSDATE, 131257895198, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(43, 1, 23, 3,43,43, 'Sebastian Nunez', 'snunez@clinicahuellitas.com', 'uio369', 606256789, SYSDATE, 131257895199, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(44, 1, 24, 4, 44,44, 'Adriana Fuentes', 'afuentes@clinicahuellitas.com', 'asd852', 616367890, SYSDATE, 131257895200, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(45, 1, 25, 5,45,45, 'Mauricio Perez', 'mperez@clinicahuellits.com', 'zxc741', 626478901, SYSDATE, 131257895201, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(46, 1, 26, 6, 46,46, 'Gabriela Solano', 'gsolano@clinicahuellitas.com', 'vbn963', 636589012, SYSDATE, 131257895202, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(47, 1, 27, 7,47,47, 'Leonardo Rojas', 'lrojas@clinicahuellitas.com', 'mnb357', 646690123, SYSDATE, 131257895203, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(48, 1, 28, 1, 48,48,'Mariana Espinoza', 'mespinoza2@clinicahuellitas.com', 'yui159', 656701234, SYSDATE, 131257895204, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(49, 1, 29, 2,49,49,'Federico Miranda', 'fmiranda@clinicahuellitas.com', 'hjk753', 666812345, SYSDATE, 131257895205, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_USUARIOS_TB_SP(50, 1, 30, 3, 50,50,'Silvia Araya', 'saraya@clinicahuellitas.com', 'opl951', 676923456, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);  
-    INSERT_USUARIOS_TB_SP(52, 1, 15, 8, 50,50,'Rocio Alvarado', 'roalvarado@clinicahuellitas.com', 'opl951', 365646464, SYSDATE, 131257895206, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE); 
+    INSERT_ESPECIALIDAD_TB_SP(1, 1, 'Oftalmologï¿½a', 'Estudio de los ojos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(2, 1, 'Dermatologï¿½a', 'Diagnï¿½stico y tratamiento de enfermedades de la piel', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(3, 1, 'Ortopedia', 'Tratamiento de fracturas y problemas musculoesquelï¿½ticos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(4, 1, 'Cardiologï¿½a', 'Estudio y tratamiento de enfermedades del corazï¿½n', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(5, 1, 'Neurologï¿½a', 'Diagnï¿½stico y tratamiento de enfermedades del sistema nervioso', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(6, 1, 'Anestesiologï¿½a', 'Administraciï¿½n de anestesia en procedimientos quirï¿½rgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(7, 1, 'Oncologï¿½a', 'Tratamiento de tumores y cï¿½ncer', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(8, 1, 'Cirugï¿½a General', 'Intervenciones quirï¿½rgicas de distintas especialidades', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(9, 1, 'Odontologï¿½a', 'Cuidado y tratamiento de dientes y encï¿½as', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(10, 1, 'Fisioterapia', 'Rehabilitaciï¿½n de lesiones y problemas musculares', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(11, 1, 'Radiologï¿½a', 'Uso de imï¿½genes mï¿½dicas para diagnï¿½stico', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(12, 1, 'Gastroenterologï¿½a', 'Tratamiento de enfermedades digestivas', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(13, 1, 'Neonatologï¿½a', 'Cuidado mï¿½dico de animales reciï¿½n nacidos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(14, 1, 'Urgencias', 'Atenciï¿½n mï¿½dica en situaciones de emergencia', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(15, 1, 'Nutriciï¿½n', 'Evaluaciï¿½n y control de la alimentaciï¿½n animal', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(16, 1, 'Medicina General', 'Atenciï¿½n mï¿½dica bï¿½sica a animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(17, 1, 'Cirugï¿½a General', 'Procedimientos quirï¿½rgicos en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(18, 1, 'Odontologï¿½a Veterinaria', 'Tratamiento dental en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(19, 1, 'Dermatologï¿½a Veterinaria', 'Tratamiento de enfermedades de la piel en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(20, 1, 'Cardiologï¿½a Veterinaria', 'Diagnï¿½stico y tratamiento de enfermedades cardï¿½acas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(21, 1, 'Neurologï¿½a Veterinaria', 'Tratamiento de trastornos del sistema nervioso en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(22, 1, 'Oftalmologï¿½a Veterinaria', 'Tratamiento de enfermedades oculares en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(23, 1, 'Gastroenterologï¿½a Veterinaria', 'Tratamiento de enfermedades digestivas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(24, 1, 'Oncologï¿½a Veterinaria', 'Tratamiento de cï¿½ncer en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(25, 1, 'Anestesiologï¿½a Veterinaria', 'Administraciï¿½n de anestesia en animales durante procedimientos quirï¿½rgicos', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(26, 1, 'Radiologï¿½a Veterinaria', 'Uso de rayos X y otras imï¿½genes para diagnï¿½stico en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(27, 1, 'Medicina Interna Veterinaria', 'Tratamiento de enfermedades internas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(28, 1, 'Endocrinologï¿½a Veterinaria', 'Tratamiento de trastornos hormonales en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(29, 1, 'Fisioterapia Veterinaria', 'Rehabilitaciï¿½n fï¿½sica en animales despuï¿½s de cirugï¿½as o lesiones', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_ESPECIALIDAD_TB_SP(30, 1, 'Infectologï¿½a Veterinaria', 'Tratamiento de enfermedades infecciosas en animales', 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+END;
+/
+-- Inserciones FIDE_USUARIO_TB
+BEGIN
+    INSERT_USUARIOS_TB_SP(1, 1, 1, 1, 'Julio Calvo', 'juca@clinicahuellitas.com', 'oajeia!id', 182980987, SYSDATE, 131257895157, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(2, 1, 2, 2, 'Ana Rodrï¿½guez', 'arodriguez@clinicahuellitas.com', 'fghy#123', 192345678, SYSDATE, 131257895158, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(3, 1, 3, 1, 'Carlos Soto', 'csoto@clinicahuellitas.com', 'abc123!@', 203456789, SYSDATE, 131257895159, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(4, 1, 4, 4, 'Maria Fernï¿½ndez', 'mafer@clinicahuellitas.com', 'qwe!5678', 213467890, SYSDATE, 131257895160, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(5, 1, 5, 5, 'Luis Herrera', 'lhe@clinicahuellitas.com', 'qaz!erty1', 223478901, SYSDATE, 131257895161, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(6, 1, 6, 6, 'Gabriela Gï¿½mez', 'ggo@clinicahuellitas.com', 'asd1234@!', 233589012, SYSDATE, 131257895162, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(7, 1, 7, 7, 'Josï¿½ Martï¿½nez', 'jmartinez@clinicahuellitas.com', 'abc!#123', 243690123, SYSDATE, 131257895163, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(8, 1, 8, 1, 'Raquel Pï¿½rez', 'rper@clinicahuellitas.com', '12345abc!', 253701234, SYSDATE, 131257895164, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(9, 1, 9, 2, 'Felipe Torres', 'ftorres@clinicahuellitas.com', 'zxcvbnm123!', 263812345, SYSDATE, 131257895165, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(10, 1, 10, 3, 'Patricia Dï¿½az', 'pdiaz@clinicahuellitas.com', 'sdfg!@123', 273923456, SYSDATE, 131257895166, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(11, 1, 11, 7, 'Luis Gï¿½mez', 'lgomez@clinicahuellitas.com', 'abc456def!', 283034567, SYSDATE, 131257895167, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(12, 1, 12, 4, 'Marta Rodrï¿½guez', 'mrodriguez@clinicahuellitas.com', 'xy$98765', 293145678, SYSDATE, 131257895168, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(13, 1, 13, 5, 'Antonio Pï¿½rez', 'aperez@clinicahuellitas.com', '5ty@1abc', 303256789, SYSDATE, 131257895169, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(14, 1, 14, 6, 'Claudia Sï¿½nchez', 'csanchez@clinicahuellitas.com', 'oijk!lm987', 313367890, SYSDATE, 131257895170, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(15, 1, 15, 1, 'Cristian Dï¿½az', 'cdiaz@clinicahuellitas.com', 'sdft@1234', 323478901, SYSDATE, 131257895171, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(16, 1, 16, 3, 'Natalia Lï¿½pez', 'nlopez@clinicahuellitas.com', '12as!aQ34', 333589012, SYSDATE, 131257895172, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(17, 1, 17, 2, 'Josï¿½ Herrera', 'joherrera@clinicahuellitas.com', 'mdss!9876', 343690123, SYSDATE, 131257895173, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(18, 1, 18, 5, 'Isabel Martï¿½nez', 'imartinez@clinicahuellitas.com', 'qwe#987@', 353701234, SYSDATE, 131257895174, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(19, 1, 19, 4, 'Manuel Garcï¿½a', 'mgarcia@clinicahuellitas.com', 'asdf12$!@', 363812345, SYSDATE, 131257895175, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(20, 1, 20, 6, 'Paula Gonzï¿½lez', 'pgonzalez@clinicahuellitas.com', 'ghj$321!@', 373923456, SYSDATE, 131257895176, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(21, 1, 21, 7, 'Rosa Fernï¿½ndez', 'rfernandez@clinicahuellitas.com', '456!dfq12', 383034567, SYSDATE, 131257895177, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(22, 1, 22, 1, 'Ivï¿½n Torres', 'itorres@clinicahuellitas.com', 'kj*gf1h23', 393145678, SYSDATE, 131257895178, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(23, 1, 23, 2, 'Juan Rivera', 'jrivera@clinicahuellitas.com', 'plm!234#', 403256789, SYSDATE, 131257895179, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(24, 1, 24, 4, 'Elena Pï¿½rez', 'eperez@clinicahuellitas.com', 'y6h7!Tds', 413367890, SYSDATE, 131257895180, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(25, 1, 25, 5, 'Victor Salazar', 'vsalazar@clinicahuellitas.com', 'dc3*e5f8', 423478901, SYSDATE, 131257895181, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(26, 1, 26, 3, 'Ricardo Ruiz', 'rruiz@clinicahuellitas.com', '12gtr456@!', 433589012, SYSDATE, 131257895182, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(27, 1, 27, 7, 'Verï¿½nica Guzmï¿½n', 'vguzman@clinicahuellitas.com', 'v6e9*fg7', 443690123, SYSDATE, 131257895183, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(28, 1, 28, 6, 'Marcos Leï¿½n', 'mleon@clinicahuellitas.com', 'xcz#4567', 453701234, SYSDATE, 131257895184, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(29, 1, 29, 1, 'Teresa Bravo', 'tbravo@clinicahuellitas.com', 'rty@1FG@', 463812345, SYSDATE, 131257895185, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(30, 1, 30, 5, 'Guillermo Sï¿½nchez', 'gsanchez@clinicahuellitas.com', 'ghj!7kl8', 473923456, SYSDATE, 131257895186, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(31, 1, 31, 4, 'Felipe Navarro', 'fnava@clinicahuellitas.com', 'fgh@1df9', 483034567, SYSDATE, 131257895187, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(32, 1, 32, 6, 'Carlos Gonzï¿½lez', 'cgonza@clinicahuellitas.com', '78*sklj9', 493145678, SYSDATE, 131257895188, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(33, 1, 33, 3, 'Olga Soto', 'osoto@clinicahuellitas.com', 're54*asdf', 503256789, SYSDATE, 131257895189, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(34, 1, 34, 2, 'Eduardo Ruiz', 'eruiz@clinicahuellitas.com', 'gtyf78%$', 513367890, SYSDATE, 131257895190, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(35, 1, 35, 1, 'Evelyn Pï¿½rez', 'eperez@clinicahuellitas.com', '23gthy!12', 523478901, SYSDATE, 131257895191, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(36, 1, 36, 7, 'Valentina Morales', 'vmorales@clinicahuellitas.com', 'jkl#23mn', 523478901, SYSDATE, 131257895191, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(37, 1, 37, 4, 'Sandra Martï¿½nez', 'smartinez@clinicahuellitas.com', 'jkl23#lmn', 533589012, SYSDATE, 131257895192, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(38, 1, 38, 5, 'Roberto Pï¿½rez', 'rperez@clinicahuellitas.com', 'zx!23df1', 543690123, SYSDATE, 131257895193, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(39, 1, 39, 3, 'Lucï¿½a Lï¿½pez', 'llopez@clinicahuellitas.com', 'cvbn567*', 553701234, SYSDATE, 131257895194, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(40, 1, 40, 6, 'Carlos Jimï¿½nez', 'cjimenez@clinicahuellitas.com', '321#dft9', 563812345, SYSDATE, 131257895195, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(41, 1, 41, 2, 'Sofï¿½a Garcï¿½a', 'sfg@clinicahuellitas.com', 'opQw*567', 573923456, SYSDATE, 131257895196, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(42, 1, 42, 5, 'Ignacio Fernï¿½ndez', 'ifernandez@clinicahuellitas.com', '78u4lk9m', 583034567, SYSDATE, 131257895197, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(43, 1, 43, 4, 'Renï¿½ Ortega', 'rortega@clinicahuellitas.com', 'zxnm#1234', 593145678, SYSDATE, 131257895198, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(44, 1, 44, 7, 'Patricia Fernï¿½ndez', 'pfernandez@clinicahuellitas.com', 'qwerty*45', 603256789, SYSDATE, 131257895199, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(45, 1, 45, 6, 'Esteban Martï¿½nez', 'emartinez@clinicahuellitas.com', 'sdg!12h8', 613367890, SYSDATE, 131257895200, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(46, 1, 46, 1, 'Cristina Lï¿½pez', 'clopez@clinicahuellitas.com', 'fgh*123q', 623478901, SYSDATE, 131257895201, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(47, 1, 47, 3, 'Roberto Sï¿½nchez', 'rsanchez@clinicahuellitas.com', 'zxc!vbnm', 633589012, SYSDATE, 131257895202, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(48, 1, 48, 2, 'Marï¿½a Gonzï¿½lez', 'mgonzalez@clinicahuellitas.com', 'yui789@b', 643690123, SYSDATE, 131257895203, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(49, 1, 49, 4, 'Joaquï¿½n Ramï¿½rez', 'jramirez@clinicahuellitas.com', 'gfh#456r', 653701234, SYSDATE, 131257895204, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
+    INSERT_USUARIOS_TB_SP(50, 1, 50, 5, 'Carlos Hernï¿½ndez', 'chernandez@clinicahuellitas.com', '8h#kp987', 663812345, SYSDATE, 131257895205, 'Deyber Sandi', '16/03/2025', 'Vivian Velazquez', SYSDATE);
 END;
 /
 --Inserts de especies
@@ -297,10 +299,10 @@ END;
 /
 --Inserts de mascotas
 BEGIN
-    INSERT_MASCOTA_TB_SP(1, 1, 1, 1, 51, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(2, 1, 1, 2, 51, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(3, 1, 1, 3, 52, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(4, 1, 2, 11, 52, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(1, 1, 1, 1, NULL, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(2, 1, 1, 2, NULL, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(3, 1, 1, 3, NULL, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    INSERT_MASCOTA_TB_SP(4, 1, 2, 11, NULL, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(5, 1, 2, 12, NULL, 'Simba', TO_DATE('2022-06-30','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(6, 1, 2, 13, NULL, 'Luna', TO_DATE('2017-09-05','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(7, 1, 3, 23, NULL, 'Nieve', TO_DATE('2020-01-15','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
@@ -347,7 +349,6 @@ BEGIN
     INSERT_MASCOTA_TB_SP(48, 1, 5, 26, NULL, 'Loro', TO_DATE('2017-09-23','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(49, 1, 6, 30, NULL, 'Sol', TO_DATE('2020-06-07','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
     INSERT_MASCOTA_TB_SP(50, 1, 1, 12, NULL, 'Bruno', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(51, 1, 1, 12, 52, 'Pookie', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Vivian Velazquez', SYSDATE, NULL, NULL);
 END;
 /
 --Inserts de tipos de examenes
@@ -640,3 +641,561 @@ BEGIN
 END;
 /
 
+-- Inserts de Fide_Productos
+BEGIN
+    INSERT_PRODUCTOS_TB_SP(1, 'Antibiotico Canino', 'Medicamento para infecciones bacterianas', 25.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(2, 'Desparasitante Felino', 'Tratamiento contra parasitos internos', 18.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(3, 'Collar Antipulgas', 'Proteccion contra pulgas y garrapatas', 12.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(4, 'Shampoo Dermatologico', 'Shampoo especial para alergias en piel', 15.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(5, 'Vitaminas Multiespecie', 'Suplemento vitaminico para mascotas', 20.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(6, 'Juguete Dental', 'Juguete para limpiar dientes y encias', 9.99, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(7, 'Alimento para Cachorros', 'Comida balanceada para cachorros', 45.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(8, 'Alimento para Gatos', 'Comida especializada para gatos adultos', 42.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(9, 'Pomada Cicatrizante', 'Crema para curacion de heridas superficiales', 13.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(10, 'Bebedero Portatil', 'Recipiente portatil para agua', 8.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(11, 'Correa Ajustable', 'Correa de nylon ajustable', 16.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(12, 'Camisa para Mascotas', 'Ropa comoda para perros y gatos', 22.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(13, 'Arena Sanitaria', 'Arena aglomerante para gatos', 14.80, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(14, 'Cepillo para Pelo', 'Cepillo para eliminar pelo suelto', 11.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(15, 'Kit de Cuidado Dental', 'Set de cepillo y pasta para mascotas', 19.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(16, 'Antiinflamatorio', 'Medicamento para aliviar inflamaciones', 27.30, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(17, 'Collar de Identificacion', 'Collar con placa grabada', 17.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(18, 'Transportadora', 'Caja transportadora para mascotas', 55.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(19, 'Gotas Oculares', 'Solucion para limpieza ocular', 21.10, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(20, 'Antiparasitario Externo', 'Spray contra parasitos externos', 23.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(21, 'Juguete Interactivo', 'Juguete de estimulacion mental', 29.99, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(22, 'Cama Ortopedica', 'Cama ergonomica para mascotas mayores', 68.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(23, 'Kit de Curacion', 'Kit de primeros auxilios para mascotas', 32.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(24, 'Locion Repelente', 'Locion contra insectos y parasitos', 26.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(25, 'Comedero Inteligente', 'Dispensador automatico de comida', 75.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(26, 'Sueroterapia Oral', 'Suero de rehidratacion para mascotas', 24.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(27, 'Arnes Reflectante', 'Arnes de seguridad con reflectores', 30.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(28, 'Alimento Hipocalorico', 'Alimento para control de peso', 48.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(29, 'Collar Electrico', 'Collar de entrenamiento por vibracion', 80.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(30, 'Toallitas Humedas', 'Toallitas para limpieza de mascotas', 12.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(31, 'Suplemento Articular', 'Complemento para salud articular', 39.99, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(32, 'Gel Dental', 'Gel para higiene bucal', 16.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(33, 'Ropa Impermeable', 'Chaqueta impermeable para mascotas', 45.60, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(34, 'Juguete de Caucho', 'Juguete masticable duradero', 14.30, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(35, 'Alimento Senior', 'Alimento para mascotas mayores', 50.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(36, 'Spray Calmant', 'Spray para reducir estres y ansiedad', 28.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(37, 'Botiquin Veterinario', 'Botiquin completo para emergencias', 65.50, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(38, 'Banda de Rehabilitacion', 'Banda elastica para terapia fisica', 33.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(39, 'Protector Solar', 'Protector solar para piel de mascotas', 22.80, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(40, 'Silla de Ruedas', 'Dispositivo de movilidad para mascotas', 120.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(41, 'Juguete Sonoro', 'Juguete con sonidos para entretener', 18.60, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(42, 'Snack Natural', 'Bocadillos saludables para mascotas', 14.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(43, 'Rascador para Gatos', 'Rascador vertical para gatos', 55.80, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(44, 'Lampara UV', 'Lampara de desinfeccion UV', 89.90, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(45, 'Gel Cicatrizante', 'Gel regenerador para heridas', 31.25, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(46, 'Termometro Digital', 'Termometro de uso veterinario', 43.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(47, 'Collar Luminoso', 'Collar con luz LED para visibilidad', 35.20, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(48, 'Spray Antiseptico', 'Spray desinfectante para heridas', 27.40, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(49, 'Guantes Quirurgicos', 'Guantes esteriles para cirugias', 18.00, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(50, 'Cortauñas', 'Herramienta para cortar uñas de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
+    
+END;
+/
+
+--Inserts de Fide_Orden Productos
+
+BEGIN
+  INSERT_ORDEN_PRODUCTOS_TB_SP(1, 101, 2001, 1, 5, 10.50, 52.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(2, 102, 2002, 2, 10, 11.50, 115.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(3, 103, 2003, 3, 15, 12.50, 187.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(4, 104, 2004, 1, 20, 13.50, 270.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(5, 105, 2005, 2, 25, 14.50, 362.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(6, 106, 2006, 3, 30, 15.50, 465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(7, 107, 2007, 1, 35, 16.50, 577.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(8, 108, 2008, 2, 40, 17.50, 700.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(9, 109, 2009, 3, 45, 18.50, 832.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(10, 110, 2010, 1, 50, 19.50, 975.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(11, 111, 2011, 2, 55, 20.50, 1127.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(12, 112, 2012, 3, 60, 21.50, 1290.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(13, 113, 2013, 1, 65, 22.50, 1462.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(14, 114, 2014, 2, 70, 23.50, 1645.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(15, 115, 2015, 3, 75, 24.50, 1837.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(16, 116, 2016, 1, 80, 25.50, 2040.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(17, 117, 2017, 2, 85, 26.50, 2252.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(18, 118, 2018, 3, 90, 27.50, 2475.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(19, 119, 2019, 1, 95, 28.50, 2707.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(20, 120, 2020, 2, 100, 29.50, 2950.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(21, 121, 2021, 3, 105, 30.50, 3202.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(22, 122, 2022, 1, 110, 31.50, 3465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(23, 123, 2023, 2, 115, 32.50, 3737.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(24, 124, 2024, 3, 120, 33.50, 4020.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(25, 125, 2025, 1, 125, 34.50, 4312.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_ORDEN_PRODUCTOS_TB_SP(26, 126, 2026, 2, 130, 35.50, 4615.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(27, 127, 2027, 3, 135, 36.50, 4927.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(28, 128, 2028, 1, 140, 37.50, 5250.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(29, 129, 2029, 2, 145, 38.50, 5582.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(30, 130, 2030, 3, 150, 39.50, 5925.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(31, 131, 2031, 1, 155, 40.50, 6277.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(32, 132, 2032, 2, 160, 41.50, 6630.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(33, 133, 2033, 3, 165, 42.50, 6992.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(34, 134, 2034, 1, 170, 43.50, 7365.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(35, 135, 2035, 2, 175, 44.50, 7747.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(36, 136, 2036, 3, 180, 45.50, 8130.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(37, 137, 2037, 1, 185, 46.50, 8522.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(38, 138, 2038, 2, 190, 47.50, 8925.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(39, 139, 2039, 3, 195, 48.50, 9337.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(40, 140, 2040, 1, 200, 49.50, 9750.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(41, 141, 2041, 2, 205, 50.50, 10172.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(42, 142, 2042, 3, 210, 51.50, 10505.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(43, 143, 2043, 1, 215, 52.50, 10837.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(44, 144, 2044, 2, 220, 53.50, 11180.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(45, 145, 2045, 3, 225, 54.50, 11532.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(46, 146, 2046, 1, 230, 55.50, 11885.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(47, 147, 2047, 2, 235, 56.50, 12247.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(48, 148, 2048, 3, 240, 57.50, 12620.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(49, 149, 2049, 1, 245, 58.50, 12992.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_PRODUCTOS_TB_SP(50, 150, 2050, 2, 250, 59.50, 13375.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+END;
+/
+
+--Inserts FIDE_ORDEN_COMPRA_TB
+BEGIN
+  INSERT_ORDEN_COMPRA_TB_SP(1, 201, 1, 1, SYSDATE, 52.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(2, 202, 2, 2, SYSDATE, 115.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(3, 203, 3, 3, SYSDATE, 187.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(4, 204, 1, 4, SYSDATE, 270.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(5, 205, 2, 5, SYSDATE, 362.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(6, 206, 3, 6, SYSDATE, 465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(7, 207, 1, 7, SYSDATE, 577.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(8, 208, 2, 8, SYSDATE, 700.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(9, 209, 3, 9, SYSDATE, 832.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(10, 210, 1, 10, SYSDATE, 975.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_ORDEN_COMPRA_TB_SP(11, 211, 2, 11, SYSDATE, 1127.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(12, 212, 3, 12, SYSDATE, 1290.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(13, 213, 1, 13, SYSDATE, 1462.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(14, 214, 2, 14, SYSDATE, 1645.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(15, 215, 3, 15, SYSDATE, 1837.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(16, 216, 1, 16, SYSDATE, 2040.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(17, 217, 2, 17, SYSDATE, 2252.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(18, 218, 3, 18, SYSDATE, 2475.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(19, 219, 1, 19, SYSDATE, 2707.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(20, 220, 2, 20, SYSDATE, 2950.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_ORDEN_COMPRA_TB_SP(21, 221, 3, 21, SYSDATE, 3202.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(22, 222, 1, 22, SYSDATE, 3465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(23, 223, 2, 23, SYSDATE, 3737.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(24, 224, 3, 24, SYSDATE, 4020.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(25, 225, 1, 25, SYSDATE, 4312.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(26, 226, 2, 26, SYSDATE, 4615.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(27, 227, 3, 27, SYSDATE, 4927.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(28, 228, 1, 28, SYSDATE, 5250.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(29, 229, 2, 29, SYSDATE, 5582.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(30, 230, 3, 30, SYSDATE, 5925.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_ORDEN_COMPRA_TB_SP(31, 231, 1, 31, SYSDATE, 6277.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(32, 232, 2, 32, SYSDATE, 6640.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(33, 233, 3, 33, SYSDATE, 7012.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(34, 234, 1, 34, SYSDATE, 7395.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(35, 235, 2, 35, SYSDATE, 7787.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(36, 236, 3, 36, SYSDATE, 8190.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(37, 237, 1, 37, SYSDATE, 8602.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(38, 238, 2, 38, SYSDATE, 9025.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(39, 239, 3, 39, SYSDATE, 9457.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(40, 240, 1, 40, SYSDATE, 9900.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(41, 241, 2, 41, SYSDATE, 10352.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(42, 242, 3, 42, SYSDATE, 10815.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(43, 243, 1, 43, SYSDATE, 11287.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(44, 244, 2, 44, SYSDATE, 11770.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(45, 245, 3, 45, SYSDATE, 12262.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(46, 246, 1, 46, SYSDATE, 12765.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(47, 247, 2, 47, SYSDATE, 13277.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(48, 248, 3, 48, SYSDATE, 13700.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(49, 249, 1, 49, SYSDATE, 14132.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ORDEN_COMPRA_TB_SP(50, 250, 2, 50, SYSDATE, 14575.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+END;
+/
+--inserts Tabla FIDE_TIPO_VIA_TB
+
+BEGIN
+  INSERT_TIPO_VIA_TB_SP(1, 1, 'Intravenosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_TIPO_VIA_TB_SP(2, 1, 'Intraperitoneal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_TIPO_VIA_TB_SP(3, 1, 'Subcutánea', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_TIPO_VIA_TB_SP(4, 1, 'Oral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+END;
+/
+
+-- Inserts ROLES_CIRUGIA_TB
+
+BEGIN
+  INSERT_ROLES_CIRUGIA_TB_SP(1, 1, 'Dra. Ana Méndez', 'Dr. Carlos Rojas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(2, 1, 'Dr. Luis Paredes', 'Dra. Sofía Jiménez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(3, 1, 'Dra. Mariana Torres', 'Dr. Andrés Salazar', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(4, 1, 'Dr. José Ramírez', 'Dra. Laura Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(5, 1, 'Dra. Patricia Álvarez', 'Dr. Miguel Castillo', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(6, 1, 'Dr. Fernando Ríos', 'Dra. Gabriela Soto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(7, 1, 'Dra. Silvia Guzmán', 'Dr. Ricardo León', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(8, 1, 'Dr. Manuel Ortega', 'Dra. Valeria Núñez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(9, 1, 'Dra. Beatriz Herrera', 'Dr. Javier Molina', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(10, 1, 'Dr. Alejandro Ruiz', 'Dra. Carolina Peña', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(11, 1, 'Dra. Natalia Flores', 'Dr. Sergio Calderón', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(12, 1, 'Dr. Oscar Martínez', 'Dra. Paula Ramírez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(13, 1, 'Dra. Camila Ortiz', 'Dr. Rafael Jiménez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(14, 1, 'Dr. Andrés Navarro', 'Dra. Mónica Herrera', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(15, 1, 'Dra. Isabel Castro', 'Dr. Cristian Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(16, 1, 'Dr. Diego Fuentes', 'Dra. Tatiana López', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(17, 1, 'Dra. Valentina Morales', 'Dr. Hugo Sánchez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(18, 1, 'Dr. Javier Espinoza', 'Dra. Karla Medina', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(19, 1, 'Dra. Lorena Gutiérrez', 'Dr. Pedro Alvarado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(20, 1, 'Dr. Mauricio Delgado', 'Dra. Elisa Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+END;
+/
+
+--Inserts REGISTRO_CIRUGIAS_TB
+
+BEGIN
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(1, TO_DATE('2023-09-10 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 101, 'Cirugía sin complicaciones', 'Fractura en pata derecha', 'Fractura reducida con éxito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(2, TO_DATE('2023-09-12 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 102, 'Extracción de cuerpo extraño', 'Obstrucción intestinal', 'Obstrucción removida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(3, TO_DATE('2023-09-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 103, 'Esterilización exitosa', 'Esterilización programada', 'Esterilización realizada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(4, TO_DATE('2023-09-18 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-18 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 104, 'Sin complicaciones', 'Luxación de cadera', 'Cadera reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(5, TO_DATE('2023-09-21 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-21 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 105, 'Buena recuperación', 'Cálculos renales', 'Cálculos removidos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(6, TO_DATE('2023-09-24 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-24 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 106, 'Sin complicaciones postoperatorias', 'Tumor mamario', 'Extirpación exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(7, TO_DATE('2023-09-28 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-28 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 107, 'Buena evolución', 'Hernia umbilical', 'Corrección completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(8, TO_DATE('2023-10-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-01 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 108, 'Cirugía ambulatoria', 'Masa subcutánea', 'Masa benigna extraída', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(9, TO_DATE('2023-10-04 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-04 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 109, 'Recuperación satisfactoria', 'Fractura femoral', 'Reducción con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(10, TO_DATE('2023-10-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-07 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 110, 'Postoperatorio estable', 'Quiste ovárico', 'Extirpación exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+ INSERT_REGISTRO_CIRUGIAS_TB_SP(11, TO_DATE('2023-10-10 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 111, 'Procedimiento exitoso', 'Luxación de rótula', 'Rótula reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(12, TO_DATE('2023-10-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-12 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 112, 'Sin complicaciones', 'Cálculo vesical', 'Cálculo extraído', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(13, TO_DATE('2023-10-14 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-14 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 113, 'Buena respuesta postoperatoria', 'Tumor hepático', 'Resección parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(14, TO_DATE('2023-10-16 07:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-16 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 114, 'Recuperación estable', 'Hernia diafragmática', 'Corrección exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(15, TO_DATE('2023-10-18 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-18 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 115, 'Postoperatorio estable', 'Cuerpo extraño gástrico', 'Remoción por gastrotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(16, TO_DATE('2023-10-20 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-20 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 116, 'Sin complicaciones', 'Fractura tibial', 'Fijación con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(17, TO_DATE('2023-10-22 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-22 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 117, 'Recuperación satisfactoria', 'Neoplasia cutánea', 'Extirpación completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(18, TO_DATE('2023-10-24 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-24 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 118, 'Cirugía exitosa', 'Piometra', 'Ovariohisterectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(19, TO_DATE('2023-10-26 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-26 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 119, 'Buena evolución', 'Esterilización programada', 'Procedimiento completado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(20, TO_DATE('2023-10-28 07:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-28 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 120, 'Recuperación favorable', 'Fractura de radio', 'Fijación con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  -- Inserciones del 21 al 50
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(21, TO_DATE('2023-11-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 121, 'Sin complicaciones', 'Luxación de codo', 'Reducción quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(22, TO_DATE('2023-11-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-03 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 122, 'Recuperación favorable', 'Cálculo uretral', 'Extracción por uretrostomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(23, TO_DATE('2023-11-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 123, 'Procedimiento exitoso', 'Fractura de mandíbula', 'Reducción y fijación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(24, TO_DATE('2023-11-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 124, 'Evolución positiva', 'Hemangiosarcoma esplénico', 'Esplenectomía completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucción intestinal', 'Enterectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucción intestinal', 'Enterectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(26, TO_DATE('2023-11-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 126, 'Recuperación favorable', 'Cuerpo extraño esofágico', 'Extracción endoscópica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(27, TO_DATE('2023-11-13 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 127, 'Cirugía exitosa', 'Fractura de húmero', 'Fijación con placa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(28, TO_DATE('2023-11-15 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-15 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 128, 'Buena evolución', 'Mastocitoma', 'Resección completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(29, TO_DATE('2023-11-17 07:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-17 10:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 129, 'Postoperatorio estable', 'Esterilización', 'Ovariohisterectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(30, TO_DATE('2023-11-19 09:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-19 12:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 130, 'Recuperación satisfactoria', 'Fractura de fémur', 'Fijación con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  -- Inserciones del 31 al 40
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(31, TO_DATE('2023-11-21 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-21 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 131, 'Sin complicaciones', 'Hernia umbilical', 'Corrección quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(32, TO_DATE('2023-11-23 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-23 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 132, 'Buena respuesta postoperatoria', 'Tumor mamario', 'Mastectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(33, TO_DATE('2023-11-25 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-25 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 133, 'Recuperación estable', 'Prolapso rectal', 'Reposición quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(34, TO_DATE('2023-11-27 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-27 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 134, 'Sin complicaciones', 'Piometra', 'Ovariohisterectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(35, TO_DATE('2023-11-29 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-29 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 135, 'Cirugía completada con éxito', 'Obstrucción intestinal', 'Enterotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(36, TO_DATE('2023-12-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 136, 'Recuperación sin complicaciones', 'Cálculo vesical', 'Cistotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(37, TO_DATE('2023-12-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-03 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 137, 'Sin incidentes', 'Neoplasia cutánea', 'Extirpación total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(38, TO_DATE('2023-12-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 138, 'Cirugía exitosa', 'Fractura de tibia', 'Reducción y fijación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(39, TO_DATE('2023-12-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 139, 'Buena evolución', 'Esterilización', 'Ovariectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(40, TO_DATE('2023-12-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-09 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 140, 'Recuperación satisfactoria', 'Tumor esplénico', 'Esplenectomía total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+INSERT_REGISTRO_CIRUGIAS_TB_SP(41, TO_DATE('2023-12-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 141, 'Recuperación estable', 'Hernia perineal', 'Corrección quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(42, TO_DATE('2023-12-13 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-13 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 142, 'Postoperatorio sin complicaciones', 'Torsión gástrica', 'Gastropexia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(43, TO_DATE('2023-12-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 143, 'Buena evolución', 'Fractura mandibular', 'Reducción y fijación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(44, TO_DATE('2023-12-17 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-17 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 144, 'Recuperación favorable', 'Mastocitoma', 'Resección completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(45, TO_DATE('2023-12-19 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-19 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 145, 'Sin complicaciones', 'Cálculo renal', 'Nefrotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(46, TO_DATE('2023-12-21 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-21 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 146, 'Cirugía completada con éxito', 'Obstrucción uretral', 'Uretrostomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(47, TO_DATE('2023-12-23 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-23 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 147, 'Buena recuperación', 'Rotura de ligamento cruzado', 'Reparación quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(48, TO_DATE('2023-12-25 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-25 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 148, 'Postoperatorio estable', 'Tumor hepático', 'Hepatectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(49, TO_DATE('2023-12-27 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-27 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 149, 'Recuperación sin incidentes', 'Hernia inguinal', 'Corrección quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(50, TO_DATE('2023-12-29 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-29 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 150, 'Cirugía exitosa', 'Osteosarcoma', 'Amputación de miembro', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+END;
+/
+
+--Inserts CIRUGIAS_MEDICAMENTOS
+BEGIN
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(1, 31, 201, 1, 1, '50 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(2, 32, 202, 1, 2, '25 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(3, 33, 203, 1, 3, '100 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(4, 34, 204, 1, 4, '5 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(5, 35, 205, 1, 1, '20 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(6, 36, 206, 1, 2, '30 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(7, 37, 207, 1, 3, '75 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(8, 38, 208, 1, 4, '10 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(9, 39, 209, 1, 1, '15 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(10, 40, 210, 1, 2, '40 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(11, 41, 211, 1, 3, '60 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(12, 42, 212, 1, 4, '8 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(13, 43, 213, 1, 1, '25 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(14, 44, 214, 1, 2, '50 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(15, 45, 215, 1, 3, '90 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(16, 46, 216, 1, 4, '12 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(17, 47, 217, 1, 1, '35 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(18, 48, 218, 1, 2, '45 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(19, 49, 219, 1, 3, '70 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(20, 50, 220, 1, 4, '6 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(21, 31, 221, 1, 1, '10 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(22, 32, 222, 1, 2, '5 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(23, 33, 223, 1, 3, '15 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(24, 34, 224, 1, 4, '20 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(25, 35, 225, 1, 1, '30 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(26, 36, 226, 1, 2, '40 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(27, 37, 227, 1, 3, '50 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(28, 38, 228, 1, 4, '60 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(29, 39, 229, 1, 1, '10 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(30, 40, 230, 1, 2, '12 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(31, 41, 231, 1, 3, '14 ml cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(32, 42, 232, 1, 4, '16 ml cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(33, 43, 233, 1, 1, '18 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(34, 44, 234, 1, 2, '20 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(35, 45, 235, 1, 3, '22 ml cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(36, 46, 236, 1, 4, '24 ml cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(37, 47, 237, 1, 1, '26 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(38, 48, 238, 1, 2, '28 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(39, 49, 239, 1, 3, '30 ml cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(40, 50, 240, 1, 4, '32 ml cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(41, 31, 241, 1, 1, '35 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(42, 32, 242, 1, 2, '38 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(43, 33, 243, 1, 3, '42 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(44, 34, 244, 1, 4, '46 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(45, 35, 245, 1, 1, '50 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(46, 36, 246, 1, 2, '55 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(47, 37, 247, 1, 3, '60 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(48, 38, 248, 1, 4, '65 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(49, 39, 249, 1, 1, '70 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(50, 40, 250, 1, 2, '75 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  
+END;
+
+-- Inserts CIRUGIAS_PERSONAL_TB
+BEGIN
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(1, 101, 1, 31, 11, 1, 'Sin novedades', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(2, 102, 2, 32, 12, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(3, 103, 1, 33, 13, 1, 'Monitoreo constante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(4, 104, 2, 34, 14, 1, 'Recuperación favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(5, 105, 1, 35, 15, 1, 'Anestesia aplicada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(6, 106, 2, 36, 16, 1, 'Cirugía sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(7, 107, 1, 37, 17, 1, 'Estabilidad garantizada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(8, 108, 2, 38, 18, 1, 'Postoperatorio en proceso', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(9, 109, 1, 39, 19, 1, 'Monitoreo 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(10, 110, 2, 40, 20, 1, 'Evaluación continua', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(11, 111, 1, 41, 21, 1, 'Paciente alerta', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(12, 112, 2, 42, 22, 1, 'Cirugía concluida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(13, 113, 1, 43, 23, 1, 'Se administró medicación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(14, 114, 2, 44, 24, 1, 'Condición estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(15, 115, 1, 45, 25, 1, 'Recuperación lenta', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(16, 116, 2, 46, 26, 1, 'Sin reacciones adversas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(17, 117, 1, 47, 27, 1, 'Observación intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(18, 118, 2, 48, 28, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(19, 119, 1, 49, 29, 1, 'Se aplicó tratamiento', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(20, 120, 2, 50, 30, 1, 'Alta programada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(21, 121, 1, 1, 1, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(22, 122, 2, 2, 2, 1, 'Monitoreo continuo', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(23, 123, 1, 3, 3, 1, 'Recuperación favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(24, 124, 2, 4, 4, 1, 'Postoperatorio en proceso', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(25, 125, 1, 5, 5, 1, 'Se administró analgésico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(26, 126, 2, 6, 6, 1, 'Evaluación estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(27, 127, 1, 7, 7, 1, 'Anestesia aplicada con éxito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(28, 128, 2, 8, 8, 1, 'Observación 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(29, 129, 1, 9, 9, 1, 'Cirugía sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(30, 130, 2, 10, 10, 1, 'Sin reacciones adversas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(31, 131, 1, 11, 11, 1, 'Paciente en recuperación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(32, 132, 2, 12, 12, 1, 'Postoperatorio controlado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(33, 133, 1, 13, 13, 1, 'Condición estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(34, 134, 2, 14, 14, 1, 'Aplicación de sedante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(35, 135, 1, 15, 15, 1, 'Observación intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(36, 136, 2, 16, 16, 1, 'Monitoreo cardiaco', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(37, 137, 1, 17, 17, 1, 'Revisión postquirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(38, 138, 2, 18, 18, 1, 'Evaluación constante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(39, 139, 1, 19, 19, 1, 'Paciente bajo observación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(40, 140, 2, 20, 20, 1, 'Sin complicaciones adicionales', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(41, 141, 1, 21, 21, 1, 'Administración de antibiótico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(42, 142, 2, 22, 22, 1, 'Paciente con signos vitales estables', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(43, 143, 1, 23, 23, 1, 'Revisión de sutura', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(44, 144, 2, 24, 24, 1, 'Monitoreo respiratorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(45, 145, 1, 25, 25, 1, 'Alta programada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(46, 146, 2, 26, 26, 1, 'Condición controlada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(47, 147, 1, 27, 27, 1, 'Observación postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(48, 148, 2, 28, 28, 1, 'Paciente consciente', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(49, 149, 1, 29, 29, 1, 'Recuperación satisfactoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(50, 150, 2, 30, 30, 1, 'Sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+END;
+/
+
+-- Inserts HISTORIALES_MEDICOS
+BEGIN
+    INSERT_HISTORIALES_MEDICOS_TB_SP(1, 1, 101, 1, 1, 1, SYSDATE, 'Fractura de fémur', 'Fijación interna', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(2, 2, 102, 2, 2, 1, SYSDATE, 'Luxación de cadera', 'Reducción cerrada', 'Reposo absoluto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(3, 3, 103, 1, 3, 1, SYSDATE, 'Hernia umbilical', 'Cirugía correctiva', 'Revisión en 7 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(4, 4, 104, 2, 4, 1, SYSDATE, 'Infección urinaria', 'Antibióticos orales', 'Control en 14 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(5, 5, 105, 1, 5, 1, SYSDATE, 'Rotura de ligamento', 'Reparación quirúrgica', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(6, 6, 106, 2, 6, 1, SYSDATE, 'Cálculo renal', 'Cirugía laparoscópica', 'Hidratación intravenosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(7, 7, 107, 1, 7, 1, SYSDATE, 'Otitis media', 'Lavado ótico', 'Uso de gotas antibióticas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(8, 8, 108, 2, 8, 1, SYSDATE, 'Absceso dental', 'Extracción de molar', 'Antibióticos por 10 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(9, 9, 109, 1, 9, 1, SYSDATE, 'Trauma ocular', 'Enucleación ocular', 'Monitoreo por 3 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(10, 10, 110, 2, 10, 1, SYSDATE, 'Displasia de cadera', 'Terapia física', 'Control bimensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(11, 11, 111, 1, 11, 1, SYSDATE, 'Neoplasia mamaria', 'Mastectomía', 'Evaluación histopatológica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(12, 12, 112, 2, 12, 1, SYSDATE, 'Gastroenteritis', 'Fluidoterapia', 'Dieta blanda por 5 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(13, 13, 113, 1, 13, 1, SYSDATE, 'Esterilización', 'Ovariohisterectomía', 'Revisión en 10 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(14, 14, 114, 2, 14, 1, SYSDATE, 'Fractura mandibular', 'Reducción quirúrgica', 'Dieta líquida 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(15, 15, 115, 1, 15, 1, SYSDATE, 'Artritis', 'Tratamiento antiinflamatorio', 'Ejercicios controlados', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(16, 16, 116, 2, 16, 1, SYSDATE, 'Dermatitis alérgica', 'Baños medicados', 'Revisar en 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(17, 17, 117, 1, 17, 1, SYSDATE, 'Epilepsia', 'Anticonvulsivantes', 'Monitoreo trimestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(18, 18, 118, 2, 18, 1, SYSDATE, 'Infección respiratoria', 'Antibióticos y nebulización', 'Revisión en 7 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(19, 19, 119, 1, 19, 1, SYSDATE, 'Hernia discal', 'Cirugía descompresiva', 'Rehabilitación postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(20, 20, 120, 2, 20, 1, SYSDATE, 'Hipotiroidismo', 'Levotiroxina', 'Monitoreo hormonal semestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+INSERT_HISTORIALES_MEDICOS_TB_SP(21, 21, 121, 1, 21, 1, SYSDATE, 'Cálculos biliares', 'Colecistectomía', 'Control postquirúrgico en 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(22, 22, 122, 2, 22, 1, SYSDATE, 'Fractura de radio', 'Fijación externa', 'Revisión en 20 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(23, 23, 123, 1, 23, 1, SYSDATE, 'Infección postquirúrgica', 'Antibióticos intravenosos', 'Monitoreo 48h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(24, 24, 124, 2, 24, 1, SYSDATE, 'Rotura de ligamento cruzado', 'Reparación quirúrgica', 'Fisioterapia postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(25, 25, 125, 1, 25, 1, SYSDATE, 'Esterilización felina', 'Ovariohisterectomía', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(26, 26, 126, 2, 26, 1, SYSDATE, 'Tumor mamario', 'Mastectomía parcial', 'Evaluación histopatológica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(27, 27, 127, 1, 27, 1, SYSDATE, 'Hernia inguinal', 'Corrección quirúrgica', 'Reposo absoluto 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(28, 28, 128, 2, 28, 1, SYSDATE, 'Cáncer de piel', 'Escisión quirúrgica', 'Revisión oncológica mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(29, 29, 129, 1, 29, 1, SYSDATE, 'Trauma craneoencefálico', 'Cirugía de descompresión', 'Monitoreo neurológico 72h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(30, 30, 130, 2, 30, 1, SYSDATE, 'Luxación de rótula', 'Reposicionamiento quirúrgico', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(31, 31, 131, 1, 31, 1, SYSDATE, 'Colitis crónica', 'Tratamiento farmacológico', 'Revisión mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(32, 32, 132, 2, 32, 1, SYSDATE, 'Obstrucción intestinal', 'Enterotomía', 'Dieta blanda por 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(33, 33, 133, 1, 33, 1, SYSDATE, 'Quiste ovárico', 'Ovariectomía', 'Monitoreo hormonal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(34, 34, 134, 2, 34, 1, SYSDATE, 'Infección periodontal', 'Profilaxis dental', 'Control anual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(35, 35, 135, 1, 35, 1, SYSDATE, 'Fractura vertebral', 'Cirugía estabilizadora', 'Reposo absoluto 4 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(36, 36, 136, 2, 36, 1, SYSDATE, 'Neoplasia hepática', 'Hepatectomía parcial', 'Evaluación trimestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(37, 37, 137, 1, 37, 1, SYSDATE, 'Fístula perianal', 'Cirugía de escisión', 'Revisión en 14 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(38, 38, 138, 2, 38, 1, SYSDATE, 'Hemangiosarcoma', 'Esplenectomía', 'Monitoreo semestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(39, 39, 139, 1, 39, 1, SYSDATE, 'Cataratas', 'Cirugía de lente intraocular', 'Monitoreo oftalmológico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(40, 40, 140, 2, 40, 1, SYSDATE, 'Entropión', 'Corrección quirúrgica', 'Revisión a los 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(41, 41, 141, 1, 41, 1, SYSDATE, 'Pancreatitis aguda', 'Soporte intravenoso', 'Dieta baja en grasas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(42, 42, 142, 2, 42, 1, SYSDATE, 'Hernia perineal', 'Corrección quirúrgica', 'Monitoreo de incontinencia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(43, 43, 143, 1, 43, 1, SYSDATE, 'Glaucoma', 'Implante de válvula', 'Monitoreo de presión ocular', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(44, 44, 144, 2, 44, 1, SYSDATE, 'Piometra', 'Ovariohisterectomía de emergencia', 'Revisión en 10 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(45, 45, 145, 1, 45, 1, SYSDATE, 'Atresia anal', 'Cirugía reconstructiva', 'Seguimiento fecal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_HISTORIALES_MEDICOS_TB_SP(46, 46, 146, 2, 46, 1, SYSDATE, 'Fallo renal agudo', 'Hemodiálisis', 'Monitoreo renal semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(47, 47, 147, 1, 47, 1, SYSDATE, 'Megaesófago', 'Cirugía correctiva', 'Dieta semilíquida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(48, 48, 148, 2, 48, 1, SYSDATE, 'Hernia discal', 'Cirugía descompresiva', 'Rehabilitación postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(49, 49, 149, 1, 49, 1, SYSDATE, 'Insuficiencia hepática', 'Soporte hepático', 'Monitoreo mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(50, 50, 150, 2, 50, 1, SYSDATE, 'Hipertensión pulmonar', 'Tratamiento vasodilatador', 'Control de presión arterial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+END;
+/
+
+-- inserts PAGOS PLANILLAS
+BEGIN
+INSERT_PAGOS_PLANILLAS_TB_SP(1, 101, 1, SYSDATE, 2500, 2200, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(2, 102, 1, SYSDATE, 2700, 2400, 15, 350, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(3, 103, 1, SYSDATE, 2300, 2000, 5, 200, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(4, 104, 1, SYSDATE, 3200, 2900, 20, 400, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(5, 105, 1, SYSDATE, 2800, 2500, 12, 320, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(6, 106, 1, SYSDATE, 2600, 2300, 8, 310, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(7, 107, 1, SYSDATE, 2900, 2600, 18, 370, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(8, 108, 1, SYSDATE, 3100, 2800, 22, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(9, 109, 1, SYSDATE, 2400, 2100, 6, 250, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(10, 110, 1, SYSDATE, 3300, 3000, 25, 500, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(11, 111, 1, SYSDATE, 3500, 3200, 30, 550, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(12, 112, 1, SYSDATE, 2900, 2600, 18, 370, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(13, 113, 1, SYSDATE, 2700, 2400, 14, 330, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(14, 114, 1, SYSDATE, 2500, 2200, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(15, 115, 1, SYSDATE, 3100, 2800, 22, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(16, 116, 1, SYSDATE, 3400, 3100, 28, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(17, 117, 1, SYSDATE, 2600, 2300, 8, 310, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(18, 118, 1, SYSDATE, 3200, 2900, 20, 400, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(19, 119, 1, SYSDATE, 2800, 2500, 12, 320, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(20, 120, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+INSERT_PAGOS_PLANILLAS_TB_SP(21, 121, 1, SYSDATE, 2800, 2500, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(22, 122, 1, SYSDATE, 3100, 2800, 15, 350, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(23, 123, 1, SYSDATE, 2700, 2400, 12, 320, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(24, 124, 1, SYSDATE, 3500, 3200, 18, 400, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(25, 125, 1, SYSDATE, 3300, 3000, 20, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_PAGOS_PLANILLAS_TB_SP(26, 126, 1, SYSDATE, 2900, 2600, 14, 340, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(27, 127, 1, SYSDATE, 3200, 2900, 22, 480, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(28, 128, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(29, 129, 1, SYSDATE, 2600, 2300, 8, 310, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(30, 130, 1, SYSDATE, 2800, 2500, 12, 330, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_PAGOS_PLANILLAS_TB_SP(31, 131, 1, SYSDATE, 3400, 3100, 25, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(32, 132, 1, SYSDATE, 3100, 2800, 18, 380, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(33, 133, 1, SYSDATE, 3600, 3300, 28, 550, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(34, 134, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(35, 135, 1, SYSDATE, 3700, 3400, 30, 600, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_PAGOS_PLANILLAS_TB_SP(36, 136, 1, SYSDATE, 2800, 2500, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(37, 137, 1, SYSDATE, 3200, 2900, 22, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(38, 138, 1, SYSDATE, 2900, 2600, 14, 340, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(39, 139, 1, SYSDATE, 3100, 2800, 18, 380, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(40, 140, 1, SYSDATE, 3400, 3100, 25, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_PAGOS_PLANILLAS_TB_SP(41, 141, 1, SYSDATE, 3500, 3200, 28, 550, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(42, 142, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(43, 143, 1, SYSDATE, 3700, 3400, 30, 600, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(44, 144, 1, SYSDATE, 3200, 2900, 22, 480, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(45, 145, 1, SYSDATE, 2900, 2600, 14, 340, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+
+    INSERT_PAGOS_PLANILLAS_TB_SP(46, 146, 1, SYSDATE, 3100, 2800, 18, 380, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(47, 147, 1, SYSDATE, 2800, 2500, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(48, 148, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(49, 149, 1, SYSDATE, 3400, 3100, 25, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_PAGOS_PLANILLAS_TB_SP(50, 150, 1, SYSDATE, 3700, 3400, 30, 600, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+ 
+END;
+/
