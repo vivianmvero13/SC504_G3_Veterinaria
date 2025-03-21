@@ -14,9 +14,8 @@ import java.sql.SQLException;
 public class Conexion {
     public static Connection getConnection() {
         String url = "jdbc:oracle:thin:@localhost:1521:XE"; 
-        String user = "hr";
-        String password = "root";
-        
+        String user = "veterinaria_admin";
+        String password = "123";
         try {
             return DriverManager.getConnection(url, user, password);
         } catch (SQLException e) {
