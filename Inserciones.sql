@@ -46,27 +46,6 @@ BEGIN
     INSERT_DIRECCION_DISTRITO_TB_SP(60205, 0, 'San Jeronimo', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_DISTRITO_TB_SP(60901, 1, 'Parrita', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
     INSERT_DIRECCION_DISTRITO_TB_SP(61101, 1, 'Jaco', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(31, 1, 1, 102, 10203, 'Condominio La Perla, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(32, 1, 1, 118, 11801, 'Residencial Altos del Mar, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(33, 1, 1, 118, 11802, 'Villas del Sol, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(34, 1, 2, 203, 20301, 'Condominio Paseo Real, Casa 11', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(35, 1, 3, 308, 30801, 'Residencial El Eden, Casa 9', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(36, 1, 4, 403, 40301, 'Condominio El Paraiso, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(37, 1, 4, 403, 40302, 'Residencial Los Angeles, Casa 5', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(38, 1, 4, 407, 40702, 'Condominio Brisas del Mar, Casa 12', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(39, 1, 4, 409, 40901, 'Residencial Los Pinos, Casa 20', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(40, 1, 6, 602, 60205, 'Condominio La Estrella, Casa 13', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(41, 1, 6, 609, 60901, 'Residencial Vista Hermosa, Casa 22', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(42, 1, 6, 611, 61101, 'Condominio Las Palmas, Casa 4', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(43, 1, 1, 101, 10105, 'Residencial El Mirador, Casa 25', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(44, 1, 1, 101, 10107, 'Condominio San Isidro, Casa 16', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(45, 1, 1, 102, 10203, 'Residencial Los Robles, Casa 7', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(46, 1, 1, 118, 11801, 'Villas del Pacifico, Casa 8', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(47, 1, 1, 118, 11802, 'Residencial Santa Fe, Casa 10', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(48, 1, 2, 203, 20301, 'Condominio Palma Real, Casa 18', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(49, 1, 3, 308, 30801, 'Residencial Las Mercedes, Casa 21', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-    INSERT_DIRECCION_TB_SP(50, 1, 4, 403, 40301, 'Condominio San Luis, Casa 15', 'Deyber Sandi', '15/03/2025', 'Vivian Velazquez', SYSDATE);
-
 END;
 /
 -- Inserciones FIDE_DIRECCION_TB
