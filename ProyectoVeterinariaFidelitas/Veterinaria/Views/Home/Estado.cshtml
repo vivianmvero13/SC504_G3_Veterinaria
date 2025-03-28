@@ -1,0 +1,184 @@
+﻿@{
+    ViewBag.Title = "Estados";
+}
+<link href="~/Content/bootstrap-table/bootstrap-table.css" rel="stylesheet" />
+
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script src="~/Scripts/popper.js"></script>
+<script src="~/Scripts/bootstraptwitter.min.js"></script>
+<script src="~/Scripts/bootstrap.js"></script>
+<!--Bootstrap-Table-->
+<script src="~/Content/bootstrap-table/bootstrap-table.min.js"></script>
+<h2>Estados</h2>
+<button id="btnCrear" class="btn btn-md btn-primary" onclick="Crear()"><span class="glyphicon glyphicon-plus"></span> Nuevo estado</button>
+<hr />
+<table id="tblEstado" class="table table-dark table-hover table-striped table-responsive" data-locale="es">
+    <thead>
+        <tr>
+            <th data-field="idestado">Id</th>
+            <th data-field="estadoestado">Estado</th>
+            <th data-field="creadopor">Creado por</th>
+            <th data-field="fechacreacion">Fecha de creación</th>
+            <th data-field="modificadopor">Modificado por</th>
+            <th data-field="fechamodificado">Fecha de modificacion</th>
+            <th data-field="accionesestado">Acciones</th>
+        </tr>
+    <tbody>
+    </tbody>
+</table>
+<!--Agregar-->
+<div id="divAgregar" style="display:none">
+    <div class="mb-3">
+        <label for="floatingInputID">ID</label>
+        <input type="text" class="form-control" id="floatingInputID">
+    </div>
+    <div class="mb-3">
+        <label for="floatingInputEstado">Descripcion estado</label>
+        <input type="text" class="form-control" id="floatingInputEstado">
+    </div>
+    <div class="mb-3">
+        <label for="floatingInputCreadoPor">Creado por</label>
+        <input type="text" class="form-control" id="floatingInputCreadoPor">
+    </div>
+    <button class="btn btn-md btn-primary" onclick="CrearEstado()"><span class="glyphicon glyphicon-plus"></span> Crear</button>
+</div>
+
+<!--Editar-->
+<div id="divEditar" style="display:none">    
+    <div class="mb-3">
+        <label for="floatingInputIDEditar">ID</label>
+        <input type="text" class="form-control" id="floatingInputIDEditar" disabled>
+    </div>
+    <div class="mb-3">
+        <label for="floatingInputEstadoEditar">Descripcion estado</label>
+        <input type="text" class="form-control" id="floatingInputEstadoEditar">
+    </div>
+    <div class="mb-3">
+        <label for="floatingInputActualizadoPorEditar">Actualizado por</label>
+        <input type="text" class="form-control" id="floatingInputActualizadoPorEditar">
+    </div>
+    <button class="btn btn-md btn-primary" onclick="ActualizarEstado()"><span class="glyphicon glyphicon-pencil"></span> Actualizar</button>
+</div>
+
+<script>
+    $(document).ready(function () {
+        ConsultarEstados();
+    });
+
+    function ConsultarEstados() {
+        let modelo = {
+
+        };
+		$.ajax({
+			dataType: "json",
+			type: "POST",
+			url: '@Url.Action("ObtenerEstados", "Home")',
+			data: JSON.stringify(modelo),
+			contentType: "application/json; charset=utf-8",
+			async: false,
+            success: function (data) {
+                var rowCount = tblEstado.rows.length;
+                for (var i = rowCount - 1; i > 0; i--) {
+                    tblEstado.deleteRow(i);
+                }
+                if (data != null && data.length > 0) {
+                    for (var i = 0; i < data.length; i++) {
+                        let info = data[i];
+                        let fechaCreacion = formatDate(info.CreationDate);
+                        let fechaModificacion = formatDate(info.ModificationDate);
+                        tbody = `<tr>
+                                <td>${info.IdEstadoPk}</td>
+                                <td>${info.EstadoDescripcion}</td>
+                                <td>${info.CreatedBy}</td>
+                                <td>${fechaCreacion}</td>
+                                <td>${info.ModifiedBy}</td>
+                                <td>${fechaModificacion}</td>
+                                <td><button id="btnEditar" class="btn btn-md btn-success" onclick="Editar(${info.IdEstadoPk},'${info.EstadoDescripcion}','${info.ModifiedBy}')"><span class="glyphicon glyphicon-pencil"></span></button> <button id="btnEliminar" class="btn btn-md btn-danger" onclick="Eliminar(${info.IdEstadoPk})"><span class="glyphicon glyphicon-trash"></span></button></td>
+                            </tr>`;
+                        $('#tblEstado tr:last').after(tbody);
+
+                    }
+                }
+			}
+		});
+    }
+
+    function CrearEstado() {
+        let modelo = {
+            id: $("#floatingInputID").val(),
+            estado: $("#floatingInputEstado").val(),
+            creadoPor: $("#floatingInputCreadoPor").val()
+        };
+		$.ajax({
+			dataType: "json",
+			type: "POST",
+			url: '@Url.Action("CrearEstado", "Home")',
+			data: JSON.stringify(modelo),
+			contentType: "application/json; charset=utf-8",
+			async: false,
+            success: function (data) {
+                window.location.href = window.location.href;
+			}
+		});
+    }
+
+    function Crear() {
+        $("#divAgregar").css('display', 'block');
+    }
+
+    function Editar(id, estado, modificadoPor) {
+        $("#divEditar").css('display', 'block');
+        $("#floatingInputIDEditar").val(id);
+        $("#floatingInputEstadoEditar").val(estado);
+        $("#floatingInputActualizadoPorEditar").val(modificadoPor);
+    }
+
+    function ActualizarEstado() {
+        let modelo = {
+            id: $("#floatingInputIDEditar").val(),
+            estado: $("#floatingInputEstadoEditar").val(),
+            actualizadoPor: $("#floatingInputActualizadoPorEditar").val()
+        };
+		$.ajax({
+			dataType: "json",
+			type: "POST",
+			url: '@Url.Action("ActualizarEstado", "Home")',
+			data: JSON.stringify(modelo),
+			contentType: "application/json; charset=utf-8",
+			async: false,
+            success: function (data) {
+                window.location.href = window.location.href;
+			}
+		});
+    }
+
+    function Eliminar(id) {
+        let modelo = {
+            id: id
+        };
+		$.ajax({
+			dataType: "json",
+			type: "POST",
+			url: '@Url.Action("EliminarEstado", "Home")',
+			data: JSON.stringify(modelo),
+			contentType: "application/json; charset=utf-8",
+			async: false,
+            success: function (data) {
+                window.location.href = window.location.href;
+			}
+		});
+    }
+
+    // Función para formatear la fecha /Date(milliseconds)/ a dd/MM/yyyy
+    function formatDate(dateString) {
+        if (!dateString) {
+            return ''; // O algún otro valor por defecto si la fecha es nula
+        }
+        const milliseconds = parseInt(dateString.replace('/Date(', '').replace(')/', ''));
+        const date = new Date(milliseconds);
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0'); // Los meses en JavaScript son de 0 a 11
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+    }
+</script>
