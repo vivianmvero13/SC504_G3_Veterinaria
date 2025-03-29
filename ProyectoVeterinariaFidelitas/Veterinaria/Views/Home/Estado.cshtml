@@ -103,7 +103,24 @@
 		});
     }
 
+    function ValidacionCrear() {
+        if ($("#floatingInputID").val() == "") {
+            alert("Ingrese el ID");
+            return false;
+        }
+        if ($("#floatingInputEstado").val() == "") {
+            alert("Ingrese la descripción del estado");
+            return false;
+        }
+        if ($("#floatingInputCreadoPor").val() == "") {
+            alert("Ingrese el usuario que crea el estado");
+            return false;
+        }
+        return true;
+    }
+
     function CrearEstado() {
+        if (!ValidacionCrear()) return;
         let modelo = {
             id: $("#floatingInputID").val(),
             estado: $("#floatingInputEstado").val(),
@@ -133,7 +150,24 @@
         $("#floatingInputActualizadoPorEditar").val(modificadoPor);
     }
 
+    function ValidacionActualizar() {
+        if ($("#floatingInputIDEditar").val() == "") {
+            alert("Ingrese el ID");
+            return false;
+        }
+        if ($("#floatingInputEstadoEditar").val() == "") {
+            alert("Ingrese la descripción del estado");
+            return false;
+        }
+        if ($("#floatingInputActualizadoPorEditar").val() == "") {
+            alert("Ingrese el usuario que actualiza el estado");
+            return false;
+        }
+        return true;
+    }
+
     function ActualizarEstado() {
+        if (!ValidacionActualizar()) return;
         let modelo = {
             id: $("#floatingInputIDEditar").val(),
             estado: $("#floatingInputEstadoEditar").val(),

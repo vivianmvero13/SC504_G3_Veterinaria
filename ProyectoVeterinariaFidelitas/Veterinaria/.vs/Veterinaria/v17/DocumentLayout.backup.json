@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:views\\home\\estado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|c:\\users\\josencion\\desktop\\totemsoft\\2 - proyectos\\proyectoveterinariafidelitas\\veterinaria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\Veterinaria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|c:\\users\\josencion\\desktop\\totemsoft\\2 - proyectos\\proyectoveterinariafidelitas\\veterinaria\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\Veterinaria\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,8 +48,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T03:52:01.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T03:52:01.811Z"
             },
             {
               "$type": "Document",
@@ -61,8 +60,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowEEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T00:42:11.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T00:42:11.418Z"
             },
             {
               "$type": "Document",
@@ -74,8 +72,7 @@
               "RelativeToolTip": "..\\BaseDeDatos\\Llamados.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAA8wFUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T00:47:57.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T00:47:57.202Z"
             },
             {
               "$type": "Document",
@@ -87,8 +84,7 @@
               "RelativeToolTip": "..\\BaseDeDatos\\ModeloDatos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T02:15:09.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T02:15:09.703Z"
             },
             {
               "$type": "Document",
@@ -98,7 +94,7 @@
               "RelativeDocumentMoniker": "Views\\Home\\Estado.cshtml",
               "ToolTip": "C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\Veterinaria\\Views\\Home\\Estado.cshtml",
               "RelativeToolTip": "Views\\Home\\Estado.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAYwNkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-28T02:19:01.53Z",
               "EditorCaption": ""
@@ -113,8 +109,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T05:48:51.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T05:48:51.222Z"
             }
           ]
         }
