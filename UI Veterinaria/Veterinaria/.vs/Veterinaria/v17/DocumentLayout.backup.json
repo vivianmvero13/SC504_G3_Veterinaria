@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE74E05-6358-4B64-A778-BD0C263C75E1}|..\\BaseDeDatos\\BaseDeDatos.csproj|c:\\users\\cris\\desktop\\proyectolenguaje\\sc504_g3_veterinaria\\ui veterinaria\\basededatos\\llamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|c:\\users\\cris\\desktop\\proyectolenguaje\\sc504_g3_veterinaria\\ui veterinaria\\veterinaria\\views\\home\\estado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:views\\home\\estado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6396599-4B86-45A2-93B6-BF104D46A89A}|Veterinaria.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cris\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cris\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Llamados.cs",
+              "DocumentMoniker": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\BaseDeDatos\\Llamados.cs",
+              "RelativeDocumentMoniker": "..\\BaseDeDatos\\Llamados.cs",
+              "ToolTip": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\BaseDeDatos\\Llamados.cs",
+              "RelativeToolTip": "..\\BaseDeDatos\\Llamados.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T21:31:55.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T19:03:09.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-29T18:56:48.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Llamados.cs",
+              "DocumentMoniker": "C:\\Users\\Cris\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "ToolTip": "C:\\Users\\Cris\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwFcAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:56:30.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T03:52:01.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowEEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T00:42:11.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Llamados.cs",
+              "DocumentMoniker": "C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "ToolTip": "C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\Llamados.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T00:47:57.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estado.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Home\\Estado.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Estado.cshtml",
+              "ToolTip": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Home\\Estado.cshtml",
+              "RelativeToolTip": "Views\\Home\\Estado.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAMgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T02:19:01.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModeloDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Cris\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "ToolTip": "C:\\Users\\Cris\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Downloads\\SC504_G3_Veterinaria-ProyectoWeb (1)\\SC504_G3_Veterinaria-ProyectoWeb\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:00:48.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModeloDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "ToolTip": "C:\\Users\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Josencion\\Desktop\\TotemSoft\\2 - Proyectos\\ProyectoVeterinariaFidelitas\\BaseDeDatos\\ModeloDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T02:15:09.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cris\\Desktop\\ProyectoLenguaje\\SC504_G3_Veterinaria\\UI Veterinaria\\Veterinaria\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T05:48:51.222Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
