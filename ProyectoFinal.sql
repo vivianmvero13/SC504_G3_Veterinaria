@@ -1198,7 +1198,6 @@ CREATE OR REPLACE PACKAGE PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG AS
 PROCEDURE INSERT_ORDEN_COMPRA_SP(
         P_ID_PROVEEDOR IN FIDE_ORDEN_COMPRA_TB.ID_PROVEEDOR_FK%TYPE,
         P_ID_ESTADO IN FIDE_ORDEN_COMPRA_TB.ID_ESTADO_FK%TYPE,
-        P_FECHA IN FIDE_ORDEN_COMPRA_TB.ORDEN_COMPRA_FECHA%TYPE,
         P_PRECIO_TOTAL IN FIDE_ORDEN_COMPRA_TB.ORDEN_COMPRA_PRECIO_TOTAL%TYPE,
         P_CREATED_BY IN FIDE_ORDEN_COMPRA_TB.CREATED_BY%TYPE,
         P_MODIFIED_BY IN FIDE_ORDEN_COMPRA_TB.MODIFIED_BY%TYPE
@@ -1208,7 +1207,6 @@ PROCEDURE INSERT_ORDEN_COMPRA_SP(
         P_ID_ORDEN IN FIDE_ORDEN_COMPRA_TB.ID_ORDEN_COMPRA_PK%TYPE,
         P_ID_PROVEEDOR IN FIDE_ORDEN_COMPRA_TB.ID_PROVEEDOR_FK%TYPE,
         P_ID_ESTADO IN FIDE_ORDEN_COMPRA_TB.ID_ESTADO_FK%TYPE,
-        P_FECHA IN FIDE_ORDEN_COMPRA_TB.ORDEN_COMPRA_FECHA%TYPE,
         P_PRECIO_TOTAL IN FIDE_ORDEN_COMPRA_TB.ORDEN_COMPRA_PRECIO_TOTAL%TYPE,
         P_MODIFIED_BY IN FIDE_ORDEN_COMPRA_TB.MODIFIED_BY%TYPE
     );
@@ -4370,7 +4368,7 @@ PROCEDURE FIDE_CONSULTA_MOTIVO_SELECT_SP(P_RESULTADO OUT SYS_REFCURSOR) AS
     END;
 
 END PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG;
-
+/
 
 /*------------------------------------------------------------------------------
 -----------------------------CREACION SECUENCIAS--------------------------------
@@ -4436,6 +4434,24 @@ CREATE SEQUENCE ID_CIRUGIA_PK_SEQ START WITH 1 INCREMENT BY 1;
 -- Secuencia ID_PAGO_PLANILLA_PK_SEQ
 CREATE SEQUENCE ID_PAGO_PLANILLA_PK_SEQ START WITH 1 INCREMENT BY 1;
 /
+
+/*------------------------------------------------------------------------------
+---------------------------FUNCION DETALLE FACTURA------------------------------
+------------------------------------------------------------------------------*/
+create or replace function ID_FACTURA_PK_FN
+    return varchar2 as
+    v_letra char(1);
+    v_letra2 char(1);
+    v_letra3 char(1);
+    v_seq varchar2(100);
+    begin
+    v_letra:=chr(65+trunc(DBMS_RANDOM.VALUE(0,26)));
+    v_letra2:=chr(65+trunc(DBMS_RANDOM.VALUE(0,26)));
+    v_letra3:=chr(65+trunc(DBMS_RANDOM.VALUE(0,26)));
+    v_seq:=v_letra||TO_CHAR(SYSDATE,'DDMMYY')||v_letra2||ID_FACTURA_PK_SEQ.NEXTVAL||'-'||v_letra3;
+    RETURN v_seq;
+    end;
+    /
 /*------------------------------------------------------------------------------
 ------------------------------CREACION TRIGGERS---------------------------------
 ------------------------------------------------------------------------------*/
@@ -5497,7 +5513,7 @@ BEGIN
     :NEW.CREATION_DATE := SYSTIMESTAMP;
 
 END;
-
+/
 -- Fecha Orden Compra FIDE_PAGOS_PLANILLAS_TB
 CREATE OR REPLACE TRIGGER FECHA_FIDE_ORDEN_COMPRA_TB_TRG
 BEFORE INSERT ON FIDE_ORDEN_COMPRA_TB
