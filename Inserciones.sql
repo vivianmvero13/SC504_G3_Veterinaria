@@ -685,615 +685,460 @@ BEGIN
     PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 50, 'AnimalKingdom', 'animalkingdom@example.com', 'Servicios y productos para mascotas de lujo', 'Cristopher Vargas', NULL);
 END;
 /
--- Inserts de Fide_Productos
+--INSERTS EN PRODUCTOS
 BEGIN
-    INSERT_PRODUCTOS_TB_SP(1, 'Antibiotico Canino', 'Medicamento para infecciones bacterianas', 25.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(2, 'Desparasitante Felino', 'Tratamiento contra parasitos internos', 18.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(3, 'Collar Antipulgas', 'Proteccion contra pulgas y garrapatas', 12.75, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(4, 'Shampoo Dermatologico', 'Shampoo especial para alergias en piel', 15.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(5, 'Vitaminas Multiespecie', 'Suplemento vitaminico para mascotas', 20.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(6, 'Juguete Dental', 'Juguete para limpiar dientes y encias', 9.99, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(7, 'Alimento para Cachorros', 'Comida balanceada para cachorros', 45.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(8, 'Alimento para Gatos', 'Comida especializada para gatos adultos', 42.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(9, 'Pomada Cicatrizante', 'Crema para curacion de heridas superficiales', 13.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(10, 'Bebedero Portatil', 'Recipiente portatil para agua', 8.75, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(11, 'Correa Ajustable', 'Correa de nylon ajustable', 16.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(12, 'Camisa para Mascotas', 'Ropa comoda para perros y gatos', 22.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(13, 'Arena Sanitaria', 'Arena aglomerante para gatos', 14.80, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(14, 'Cepillo para Pelo', 'Cepillo para eliminar pelo suelto', 11.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(15, 'Kit de Cuidado Dental', 'Set de cepillo y pasta para mascotas', 19.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(16, 'Antiinflamatorio', 'Medicamento para aliviar inflamaciones', 27.30, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(17, 'Collar de Identificacion', 'Collar con placa grabada', 17.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(18, 'Transportadora', 'Caja transportadora para mascotas', 55.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(19, 'Gotas Oculares', 'Solucion para limpieza ocular', 21.10, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(20, 'Antiparasitario Externo', 'Spray contra parasitos externos', 23.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(21, 'Juguete Interactivo', 'Juguete de estimulacion mental', 29.99, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(22, 'Cama Ortopedica', 'Cama ergonomica para mascotas mayores', 68.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(23, 'Kit de Curacion', 'Kit de primeros auxilios para mascotas', 32.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(24, 'Locion Repelente', 'Locion contra insectos y parasitos', 26.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(25, 'Comedero Inteligente', 'Dispensador automatico de comida', 75.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(26, 'Sueroterapia Oral', 'Suero de rehidratacion para mascotas', 24.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(27, 'Arnes Reflectante', 'Arnes de seguridad con reflectores', 30.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(28, 'Alimento Hipocalorico', 'Alimento para control de peso', 48.75, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(29, 'Collar Electrico', 'Collar de entrenamiento por vibracion', 80.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(30, 'Toallitas Humedas', 'Toallitas para limpieza de mascotas', 12.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(31, 'Suplemento Articular', 'Complemento para salud articular', 39.99, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(32, 'Gel Dental', 'Gel para higiene bucal', 16.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(33, 'Ropa Impermeable', 'Chaqueta impermeable para mascotas', 45.60, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(34, 'Juguete de Caucho', 'Juguete masticable duradero', 14.30, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(35, 'Alimento Senior', 'Alimento para mascotas mayores', 50.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(36, 'Spray Calmant', 'Spray para reducir estres y ansiedad', 28.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(37, 'Botiquin Veterinario', 'Botiquin completo para emergencias', 65.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(38, 'Banda de Rehabilitacion', 'Banda elastica para terapia fisica', 33.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(39, 'Protector Solar', 'Protector solar para piel de mascotas', 22.80, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(40, 'Silla de Ruedas', 'Dispositivo de movilidad para mascotas', 120.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(41, 'Juguete Sonoro', 'Juguete con sonidos para entretener', 18.60, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(42, 'Snack Natural', 'Bocadillos saludables para mascotas', 14.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(43, 'Rascador para Gatos', 'Rascador vertical para gatos', 55.80, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(44, 'Lampara UV', 'Lampara de desinfeccion UV', 89.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(45, 'Gel Cicatrizante', 'Gel regenerador para heridas', 31.25, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(46, 'Termometro Digital', 'Termometro de uso veterinario', 43.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(47, 'Collar Luminoso', 'Collar con luz LED para visibilidad', 35.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(48, 'Spray Antiseptico', 'Spray desinfectante para heridas', 27.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(49, 'Guantes Quirurgicos', 'Guantes esteriles para cirugias', 18.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(50, 'Cortauï¿½as', 'Herramienta para cortar uï¿½as de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
-    
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(1, 1,'Antibiotico Canino', 'Medicamento para infecciones bacterianas', 25.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(2, 1,'Desparasitante Felino', 'Tratamiento contra parasitos internos', 18.50, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(3, 1,'Collar Antipulgas', 'Proteccion contra pulgas y garrapatas', 12.75, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(4, 1,'Shampoo Dermatologico', 'Shampoo especial para alergias en piel', 15.90, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(5, 1,'Vitaminas Multiespecie', 'Suplemento vitaminico para mascotas', 20.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(6, 1,'Juguete Dental', 'Juguete para limpiar dientes y encias', 9.99, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(7, 1,'Alimento para Cachorros', 'Comida balanceada para cachorros', 45.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(8, 1,'Alimento para Gatos', 'Comida especializada para gatos adultos', 42.50, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(9, 1,'Pomada Cicatrizante', 'Crema para curacion de heridas superficiales', 13.20, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(10, 1,'Bebedero Portatil', 'Recipiente portatil para agua', 8.75, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(11, 1,'Correa Ajustable', 'Correa de nylon ajustable', 16.50, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(12, 1,'Camisa para Mascotas', 'Ropa comoda para perros y gatos', 22.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(13, 1,'Arena Sanitaria', 'Arena aglomerante para gatos', 14.80, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(14, 1,'Cepillo para Pelo', 'Cepillo para eliminar pelo suelto', 11.40, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(15, 1,'Kit de Cuidado Dental', 'Set de cepillo y pasta para mascotas', 19.90, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(16, 1,'Antiinflamatorio', 'Medicamento para aliviar inflamaciones', 27.30, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(17, 1,'Collar de Identificacion', 'Collar con placa grabada', 17.50, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(18, 1,'Transportadora', 'Caja transportadora para mascotas', 55.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(19, 1,'Gotas Oculares', 'Solucion para limpieza ocular', 21.10, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(20, 1,'Antiparasitario Externo', 'Spray contra parasitos externos', 23.40, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(21, 1,'Juguete Interactivo', 'Juguete de estimulacion mental', 29.99, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(22, 1,'Cama Ortopedica', 'Cama ergonomica para mascotas mayores', 68.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(23, 1,'Kit de Curacion', 'Kit de primeros auxilios para mascotas', 32.50, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(24, 1,'Locion Repelente', 'Locion contra insectos y parasitos', 26.90, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(25, 1,'Comedero Inteligente', 'Dispensador automatico de comida', 75.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(26, 1,'Sueroterapia Oral', 'Suero de rehidratacion para mascotas', 24.50, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(27, 1,'Arnes Reflectante', 'Arnes de seguridad con reflectores', 30.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(28, 1,'Alimento Hipocalorico', 'Alimento para control de peso', 48.75, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(29, 1,'Collar Electrico', 'Collar de entrenamiento por vibracion', 80.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(30, 1,'Toallitas Humedas', 'Toallitas para limpieza de mascotas', 12.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(31, 1,'Suplemento Articular', 'Complemento para salud articular', 39.99, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(32, 1,'Gel Dental', 'Gel para higiene bucal', 16.20, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(33, 1,'Ropa Impermeable', 'Chaqueta impermeable para mascotas', 45.60, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(34, 1,'Juguete de Caucho', 'Juguete masticable duradero', 14.30, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(35, 1,'Alimento Senior', 'Alimento para mascotas mayores', 50.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(36, 1,'Spray Calmant', 'Spray para reducir estres y ansiedad', 28.90, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(37, 1,'Botiquin Veterinario', 'Botiquin completo para emergencias', 65.50, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(38, 1,'Banda de Rehabilitacion', 'Banda elastica para terapia fisica', 33.40, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(39, 1,'Protector Solar', 'Protector solar para piel de mascotas', 22.80, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(40, 1,'Silla de Ruedas', 'Dispositivo de movilidad para mascotas', 120.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(41, 1,'Juguete Sonoro', 'Juguete con sonidos para entretener', 18.60, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(42, 1,'Snack Natural', 'Bocadillos saludables para mascotas', 14.20, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(43, 1,'Rascador para Gatos', 'Rascador vertical para gatos', 55.80, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(44, 1,'Lampara UV', 'Lampara de desinfeccion UV', 89.90, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(45, 1,'Gel Cicatrizante', 'Gel regenerador para heridas', 31.25, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(46, 1,'Termometro Digital', 'Termometro de uso veterinario', 43.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(47, 1,'Collar Luminoso', 'Collar con luz LED para visibilidad', 35.20, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(48, 1,'Spray Antiseptico', 'Spray desinfectante para heridas', 27.40, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(49, 1,'Guantes Quirurgicos', 'Guantes esteriles para cirugias', 18.00, 30,  'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PRODUCTOS_SP(50, 1,'Cortauñas', 'Herramienta para cortar uñas de mascotas', 15.75, 30,  'VETERINARIA_ADMIN', NULL);
 END;
-/
--- Inserts de Fide_Productos
-BEGIN
-    INSERT_PRODUCTOS_TB_SP(1, 'Antibiotico Canino', 'Medicamento para infecciones bacterianas', 25.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(2, 'Desparasitante Felino', 'Tratamiento contra parasitos internos', 18.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(3, 'Collar Antipulgas', 'Proteccion contra pulgas y garrapatas', 12.75, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(4, 'Shampoo Dermatologico', 'Shampoo especial para alergias en piel', 15.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(5, 'Vitaminas Multiespecie', 'Suplemento vitaminico para mascotas', 20.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(6, 'Juguete Dental', 'Juguete para limpiar dientes y encias', 9.99, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(7, 'Alimento para Cachorros', 'Comida balanceada para cachorros', 45.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(8, 'Alimento para Gatos', 'Comida especializada para gatos adultos', 42.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(9, 'Pomada Cicatrizante', 'Crema para curacion de heridas superficiales', 13.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(10, 'Bebedero Portatil', 'Recipiente portatil para agua', 8.75, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(11, 'Correa Ajustable', 'Correa de nylon ajustable', 16.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(12, 'Camisa para Mascotas', 'Ropa comoda para perros y gatos', 22.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(13, 'Arena Sanitaria', 'Arena aglomerante para gatos', 14.80, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(14, 'Cepillo para Pelo', 'Cepillo para eliminar pelo suelto', 11.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(15, 'Kit de Cuidado Dental', 'Set de cepillo y pasta para mascotas', 19.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(16, 'Antiinflamatorio', 'Medicamento para aliviar inflamaciones', 27.30, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(17, 'Collar de Identificacion', 'Collar con placa grabada', 17.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(18, 'Transportadora', 'Caja transportadora para mascotas', 55.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(19, 'Gotas Oculares', 'Solucion para limpieza ocular', 21.10, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(20, 'Antiparasitario Externo', 'Spray contra parasitos externos', 23.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(21, 'Juguete Interactivo', 'Juguete de estimulacion mental', 29.99, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(22, 'Cama Ortopedica', 'Cama ergonomica para mascotas mayores', 68.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(23, 'Kit de Curacion', 'Kit de primeros auxilios para mascotas', 32.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(24, 'Locion Repelente', 'Locion contra insectos y parasitos', 26.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(25, 'Comedero Inteligente', 'Dispensador automatico de comida', 75.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(26, 'Sueroterapia Oral', 'Suero de rehidratacion para mascotas', 24.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(27, 'Arnes Reflectante', 'Arnes de seguridad con reflectores', 30.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(28, 'Alimento Hipocalorico', 'Alimento para control de peso', 48.75, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(29, 'Collar Electrico', 'Collar de entrenamiento por vibracion', 80.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(30, 'Toallitas Humedas', 'Toallitas para limpieza de mascotas', 12.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(31, 'Suplemento Articular', 'Complemento para salud articular', 39.99, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(32, 'Gel Dental', 'Gel para higiene bucal', 16.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(33, 'Ropa Impermeable', 'Chaqueta impermeable para mascotas', 45.60, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(34, 'Juguete de Caucho', 'Juguete masticable duradero', 14.30, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(35, 'Alimento Senior', 'Alimento para mascotas mayores', 50.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(36, 'Spray Calmant', 'Spray para reducir estres y ansiedad', 28.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(37, 'Botiquin Veterinario', 'Botiquin completo para emergencias', 65.50, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(38, 'Banda de Rehabilitacion', 'Banda elastica para terapia fisica', 33.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(39, 'Protector Solar', 'Protector solar para piel de mascotas', 22.80, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(40, 'Silla de Ruedas', 'Dispositivo de movilidad para mascotas', 120.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(41, 'Juguete Sonoro', 'Juguete con sonidos para entretener', 18.60, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(42, 'Snack Natural', 'Bocadillos saludables para mascotas', 14.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(43, 'Rascador para Gatos', 'Rascador vertical para gatos', 55.80, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(44, 'Lampara UV', 'Lampara de desinfeccion UV', 89.90, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(45, 'Gel Cicatrizante', 'Gel regenerador para heridas', 31.25, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(46, 'Termometro Digital', 'Termometro de uso veterinario', 43.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(47, 'Collar Luminoso', 'Collar con luz LED para visibilidad', 35.20, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(48, 'Spray Antiseptico', 'Spray desinfectante para heridas', 27.40, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(49, 'Guantes Quirurgicos', 'Guantes esteriles para cirugias', 18.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(50, 'Cortauï¿½as', 'Herramienta para cortar uï¿½as de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
-    
-END;
-/
---Inserts de Fide_Orden Productos
-
-BEGIN
-  INSERT_ORDEN_PRODUCTOS_TB_SP(1, 101, 2001, 1, 5, 10.50, 52.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(2, 102, 2002, 2, 10, 11.50, 115.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(3, 103, 2003, 3, 15, 12.50, 187.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(4, 104, 2004, 1, 20, 13.50, 270.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(5, 105, 2005, 2, 25, 14.50, 362.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(6, 106, 2006, 3, 30, 15.50, 465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(7, 107, 2007, 1, 35, 16.50, 577.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(8, 108, 2008, 2, 40, 17.50, 700.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(9, 109, 2009, 3, 45, 18.50, 832.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(10, 110, 2010, 1, 50, 19.50, 975.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(11, 111, 2011, 2, 55, 20.50, 1127.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(12, 112, 2012, 3, 60, 21.50, 1290.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(13, 113, 2013, 1, 65, 22.50, 1462.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(14, 114, 2014, 2, 70, 23.50, 1645.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(15, 115, 2015, 3, 75, 24.50, 1837.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(16, 116, 2016, 1, 80, 25.50, 2040.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(17, 117, 2017, 2, 85, 26.50, 2252.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(18, 118, 2018, 3, 90, 27.50, 2475.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(19, 119, 2019, 1, 95, 28.50, 2707.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(20, 120, 2020, 2, 100, 29.50, 2950.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(21, 121, 2021, 3, 105, 30.50, 3202.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(22, 122, 2022, 1, 110, 31.50, 3465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(23, 123, 2023, 2, 115, 32.50, 3737.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(24, 124, 2024, 3, 120, 33.50, 4020.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(25, 125, 2025, 1, 125, 34.50, 4312.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_ORDEN_PRODUCTOS_TB_SP(26, 126, 2026, 2, 130, 35.50, 4615.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(27, 127, 2027, 3, 135, 36.50, 4927.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(28, 128, 2028, 1, 140, 37.50, 5250.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(29, 129, 2029, 2, 145, 38.50, 5582.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(30, 130, 2030, 3, 150, 39.50, 5925.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(31, 131, 2031, 1, 155, 40.50, 6277.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(32, 132, 2032, 2, 160, 41.50, 6630.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(33, 133, 2033, 3, 165, 42.50, 6992.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(34, 134, 2034, 1, 170, 43.50, 7365.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(35, 135, 2035, 2, 175, 44.50, 7747.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(36, 136, 2036, 3, 180, 45.50, 8130.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(37, 137, 2037, 1, 185, 46.50, 8522.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(38, 138, 2038, 2, 190, 47.50, 8925.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(39, 139, 2039, 3, 195, 48.50, 9337.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(40, 140, 2040, 1, 200, 49.50, 9750.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(41, 141, 2041, 2, 205, 50.50, 10172.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(42, 142, 2042, 3, 210, 51.50, 10505.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(43, 143, 2043, 1, 215, 52.50, 10837.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(44, 144, 2044, 2, 220, 53.50, 11180.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(45, 145, 2045, 3, 225, 54.50, 11532.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(46, 146, 2046, 1, 230, 55.50, 11885.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(47, 147, 2047, 2, 235, 56.50, 12247.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(48, 148, 2048, 3, 240, 57.50, 12620.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(49, 149, 2049, 1, 245, 58.50, 12992.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_PRODUCTOS_TB_SP(50, 150, 2050, 2, 250, 59.50, 13375.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-END;
-/
 
 --Inserts FIDE_ORDEN_COMPRA_TB
 BEGIN
-  INSERT_ORDEN_COMPRA_TB_SP(1, 201, 1, 1, SYSDATE, 52.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(2, 202, 2, 2, SYSDATE, 115.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(3, 203, 3, 3, SYSDATE, 187.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(4, 204, 1, 4, SYSDATE, 270.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(5, 205, 2, 5, SYSDATE, 362.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(6, 206, 3, 6, SYSDATE, 465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(7, 207, 1, 7, SYSDATE, 577.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(8, 208, 2, 8, SYSDATE, 700.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(9, 209, 3, 9, SYSDATE, 832.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(10, 210, 1, 10, SYSDATE, 975.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_ORDEN_COMPRA_TB_SP(11, 211, 2, 11, SYSDATE, 1127.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(12, 212, 3, 12, SYSDATE, 1290.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(13, 213, 1, 13, SYSDATE, 1462.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(14, 214, 2, 14, SYSDATE, 1645.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(15, 215, 3, 15, SYSDATE, 1837.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(16, 216, 1, 16, SYSDATE, 2040.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(17, 217, 2, 17, SYSDATE, 2252.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(18, 218, 3, 18, SYSDATE, 2475.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(19, 219, 1, 19, SYSDATE, 2707.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(20, 220, 2, 20, SYSDATE, 2950.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_ORDEN_COMPRA_TB_SP(21, 221, 3, 21, SYSDATE, 3202.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(22, 222, 1, 22, SYSDATE, 3465.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(23, 223, 2, 23, SYSDATE, 3737.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(24, 224, 3, 24, SYSDATE, 4020.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(25, 225, 1, 25, SYSDATE, 4312.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(26, 226, 2, 26, SYSDATE, 4615.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(27, 227, 3, 27, SYSDATE, 4927.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(28, 228, 1, 28, SYSDATE, 5250.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(29, 229, 2, 29, SYSDATE, 5582.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(30, 230, 3, 30, SYSDATE, 5925.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_ORDEN_COMPRA_TB_SP(31, 231, 1, 31, SYSDATE, 6277.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(32, 232, 2, 32, SYSDATE, 6640.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(33, 233, 3, 33, SYSDATE, 7012.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(34, 234, 1, 34, SYSDATE, 7395.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(35, 235, 2, 35, SYSDATE, 7787.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(36, 236, 3, 36, SYSDATE, 8190.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(37, 237, 1, 37, SYSDATE, 8602.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(38, 238, 2, 38, SYSDATE, 9025.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(39, 239, 3, 39, SYSDATE, 9457.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(40, 240, 1, 40, SYSDATE, 9900.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(41, 241, 2, 41, SYSDATE, 10352.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(42, 242, 3, 42, SYSDATE, 10815.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(43, 243, 1, 43, SYSDATE, 11287.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(44, 244, 2, 44, SYSDATE, 11770.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(45, 245, 3, 45, SYSDATE, 12262.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(46, 246, 1, 46, SYSDATE, 12765.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(47, 247, 2, 47, SYSDATE, 13277.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(48, 248, 3, 48, SYSDATE, 13700.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(49, 249, 1, 49, SYSDATE, 14132.50, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ORDEN_COMPRA_TB_SP(50, 250, 2, 50, SYSDATE, 14575.00, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(1, 1, 51230.75, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(2, 1, 47215.60, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(3, 1, 53490.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(4, 1, 60870.35, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(5, 1, 49230.80, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(6, 1, 52110.25, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(7, 1, 55600.95, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(8, 1, 48990.40, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(9, 1, 47380.70, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(10, 1, 50400.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(11, 1, 59120.55, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(12, 1, 51875.65, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(13, 1, 54730.10, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(14, 1, 50325.50, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(15, 1, 46890.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(16, 1, 61020.20, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(17, 1, 49080.15, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(18, 1, 53115.90, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(19, 1, 48999.99, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(20, 1, 50075.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(21, 1, 47250.25, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(22, 1, 55800.80, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(23, 1, 54020.10, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(24, 1, 48760.45, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(25, 1, 60100.35, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(26, 1, 55230.20, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(27, 1, 50300.95, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(28, 1, 57490.40, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(29, 1, 58999.90, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(30, 1, 61234.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(31, 1, 48010.85, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(32, 1, 49575.70, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(33, 1, 52900.25, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(34, 1, 51345.60, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(35, 1, 54780.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(36, 1, 56720.35, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(37, 1, 59010.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(38, 1, 50800.75, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(39, 1, 48250.30, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(40, 1, 61010.50, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(41, 1, 59999.99, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(42, 1, 51110.10, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(43, 1, 47500.55, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(44, 1, 53580.00, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(45, 1, 50234.25, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(46, 1, 51980.90, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(47, 1, 56075.75, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(48, 1, 49210.30, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(49, 1, 57777.77, 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_COMPRA_SP(50, 1, 60111.11, 'VETERINARIA_ADMIN', NULL);
+END;
+/
+--Inserts de Fide_Orden Productos
+BEGIN
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(9, 47, 1, 1, 42, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(2, 13, 1, 2, 28, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(44, 5, 1, 2, 17, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(14, 24, 1, 3, 66, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(1, 12, 1, 2, 45, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(36, 29, 1, 1, 74, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(13, 32, 1, 2, 22, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(19, 41, 1, 3, 23, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(28, 10, 1, 1, 20, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(33, 46, 1, 2, 36, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(8, 6, 1, 2, 19, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(26, 14, 1, 1, 25, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(17, 38, 1, 3, 20, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(31, 15, 1, 2, 50, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(46, 30, 1, 1, 12, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(4, 9, 1, 3, 33, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(22, 18, 1, 1, 65, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(11, 22, 1, 2, 20, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(7, 35, 1, 3, 29, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(25, 11, 1, 1, 16, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(43, 27, 1, 1, 15, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(20, 39, 1, 2, 22, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(9, 2, 1, 3, 18, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(13, 47, 1, 2, 35, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(35, 21, 1, 1, 30, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(48, 6, 1, 2, 12, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(12, 17, 1, 3, 20, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(28, 5, 1, 1, 49, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(50, 29, 1, 2, 38, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(19, 10, 1, 3, 26, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(39, 12, 1, 2, 50, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(5, 21, 1, 1, 15, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(37, 46, 1, 1, 43, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(14, 7, 1, 2, 73, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(29, 30, 1, 1, 94, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(10, 5, 1, 2, 33, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(26, 40, 1, 2, 80, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(14, 34, 1, 2, 43, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(45, 17, 1, 2, 68, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(22, 3, 1, 1, 53, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(17, 44, 1, 2, 38, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(4, 19, 1, 2, 83, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(25, 2, 1, 3, 21, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(40, 15, 1, 1, 38, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(31, 33, 1, 3, 30, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(8, 50, 1, 2, 19, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(6, 6, 1, 2, 16, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(11, 26, 1, 2, 40, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ORDEN_PRODUCTO_SP(48, 38, 1, 3, 23, 'VETERINARIA_ADMIN', NULL);
 END;
 /
 --inserts Tabla FIDE_TIPO_VIA_TB
-
 BEGIN
-  INSERT_TIPO_VIA_TB_SP(1, 1, 'Intravenosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_TIPO_VIA_TB_SP(2, 1, 'Intraperitoneal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_TIPO_VIA_TB_SP(3, 1, 'Subcutï¿½nea', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_TIPO_VIA_TB_SP(4, 1, 'Oral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_VIA_SP(1, 'Intravenosa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_VIA_SP(1, 'Intraperitoneal', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_VIA_SP(1, 'Subcutánea', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_VIA_SP(1, 'Oral', 'VETERINARIA_ADMIN', NULL);
 END;
 /
-
--- Inserts ROLES_CIRUGIA_TB
-
 BEGIN
-  INSERT_ROLES_CIRUGIA_TB_SP(1, 1, 'Dra. Ana Mï¿½ndez', 'Dr. Carlos Rojas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(2, 1, 'Dr. Luis Paredes', 'Dra. Sofï¿½a Jimï¿½nez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(3, 1, 'Dra. Mariana Torres', 'Dr. Andrï¿½s Salazar', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(4, 1, 'Dr. Josï¿½ Ramï¿½rez', 'Dra. Laura Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(5, 1, 'Dra. Patricia ï¿½lvarez', 'Dr. Miguel Castillo', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(6, 1, 'Dr. Fernando Rï¿½os', 'Dra. Gabriela Soto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(7, 1, 'Dra. Silvia Guzmï¿½n', 'Dr. Ricardo Leï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(8, 1, 'Dr. Manuel Ortega', 'Dra. Valeria Nï¿½ï¿½ez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(9, 1, 'Dra. Beatriz Herrera', 'Dr. Javier Molina', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(10, 1, 'Dr. Alejandro Ruiz', 'Dra. Carolina Peï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(11, 1, 'Dra. Natalia Flores', 'Dr. Sergio Calderï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(12, 1, 'Dr. Oscar Martï¿½nez', 'Dra. Paula Ramï¿½rez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(13, 1, 'Dra. Camila Ortiz', 'Dr. Rafael Jimï¿½nez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(14, 1, 'Dr. Andrï¿½s Navarro', 'Dra. Mï¿½nica Herrera', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(15, 1, 'Dra. Isabel Castro', 'Dr. Cristian Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(16, 1, 'Dr. Diego Fuentes', 'Dra. Tatiana Lï¿½pez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(17, 1, 'Dra. Valentina Morales', 'Dr. Hugo Sï¿½nchez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(18, 1, 'Dr. Javier Espinoza', 'Dra. Karla Medina', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(19, 1, 'Dra. Lorena Gutiï¿½rrez', 'Dr. Pedro Alvarado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(20, 1, 'Dr. Mauricio Delgado', 'Dra. Elisa Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Ana Méndez', 'Dr. Carlos Rojas', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Luis Paredes', 'Dra. Sofía Jiménez', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Mariana Torres', 'Dr. Andrés Salazar', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. José Ramírez', 'Dra. Laura Vargas', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Patricia Álvarez', 'Dr. Miguel Castillo', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Fernando Ríos', 'Dra. Gabriela Soto', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Silvia Guzmán', 'Dr. Ricardo León', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Manuel Ortega', 'Dra. Valeria Núñez', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Beatriz Herrera', 'Dr. Javier Molina', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Alejandro Ruiz', 'Dra. Carolina Peña', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Natalia Flores', 'Dr. Sergio Calderón', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Oscar Martínez', 'Dra. Paula Ramírez', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Camila Ortiz', 'Dr. Rafael Jiménez', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Andrés Navarro', 'Dra. Mónica Herrera', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Isabel Castro', 'Dr. Cristian Vargas', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Diego Fuentes', 'Dra. Tatiana López', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Valentina Morales', 'Dr. Hugo Sánchez', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Javier Espinoza', 'Dra. Karla Medina', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dra. Lorena Gutiérrez', 'Dr. Pedro Alvarado', 'VETERINARIA_ADMIN',  NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_ROLES_CIRUGIA_SP(1, 'Dr. Mauricio Delgado', 'Dra. Elisa Vargas', 'VETERINARIA_ADMIN',  NULL);
 END;
 /
-
 --Inserts REGISTRO_CIRUGIAS_TB
-
 BEGIN
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(1, TO_DATE('2023-09-10 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 101, 'Cirugï¿½a sin complicaciones', 'Fractura en pata derecha', 'Fractura reducida con ï¿½xito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(2, TO_DATE('2023-09-12 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 102, 'Extracciï¿½n de cuerpo extraï¿½o', 'Obstrucciï¿½n intestinal', 'Obstrucciï¿½n removida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(3, TO_DATE('2023-09-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 103, 'Esterilizaciï¿½n exitosa', 'Esterilizaciï¿½n programada', 'Esterilizaciï¿½n realizada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(4, TO_DATE('2023-09-18 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-18 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 104, 'Sin complicaciones', 'Luxaciï¿½n de cadera', 'Cadera reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(5, TO_DATE('2023-09-21 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-21 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 105, 'Buena recuperaciï¿½n', 'Cï¿½lculos renales', 'Cï¿½lculos removidos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(6, TO_DATE('2023-09-24 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-24 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 106, 'Sin complicaciones postoperatorias', 'Tumor mamario', 'Extirpaciï¿½n exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(7, TO_DATE('2023-09-28 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-28 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 107, 'Buena evoluciï¿½n', 'Hernia umbilical', 'Correcciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(8, TO_DATE('2023-10-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-01 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 108, 'Cirugï¿½a ambulatoria', 'Masa subcutï¿½nea', 'Masa benigna extraï¿½da', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(9, TO_DATE('2023-10-04 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-04 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 109, 'Recuperaciï¿½n satisfactoria', 'Fractura femoral', 'Reducciï¿½n con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(10, TO_DATE('2023-10-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-07 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 110, 'Postoperatorio estable', 'Quiste ovï¿½rico', 'Extirpaciï¿½n exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
- INSERT_REGISTRO_CIRUGIAS_TB_SP(11, TO_DATE('2023-10-10 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 111, 'Procedimiento exitoso', 'Luxaciï¿½n de rï¿½tula', 'Rï¿½tula reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(12, TO_DATE('2023-10-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-12 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 112, 'Sin complicaciones', 'Cï¿½lculo vesical', 'Cï¿½lculo extraï¿½do', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(13, TO_DATE('2023-10-14 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-14 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 113, 'Buena respuesta postoperatoria', 'Tumor hepï¿½tico', 'Resecciï¿½n parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(14, TO_DATE('2023-10-16 07:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-16 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 114, 'Recuperaciï¿½n estable', 'Hernia diafragmï¿½tica', 'Correcciï¿½n exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(15, TO_DATE('2023-10-18 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-18 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 115, 'Postoperatorio estable', 'Cuerpo extraï¿½o gï¿½strico', 'Remociï¿½n por gastrotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(16, TO_DATE('2023-10-20 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-20 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 116, 'Sin complicaciones', 'Fractura tibial', 'Fijaciï¿½n con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(17, TO_DATE('2023-10-22 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-22 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 117, 'Recuperaciï¿½n satisfactoria', 'Neoplasia cutï¿½nea', 'Extirpaciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(18, TO_DATE('2023-10-24 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-24 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 118, 'Cirugï¿½a exitosa', 'Piometra', 'Ovariohisterectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(19, TO_DATE('2023-10-26 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-26 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 119, 'Buena evoluciï¿½n', 'Esterilizaciï¿½n programada', 'Procedimiento completado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(20, TO_DATE('2023-10-28 07:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-28 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 120, 'Recuperaciï¿½n favorable', 'Fractura de radio', 'Fijaciï¿½n con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  -- Inserciones del 21 al 50
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(21, TO_DATE('2023-11-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 121, 'Sin complicaciones', 'Luxaciï¿½n de codo', 'Reducciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(22, TO_DATE('2023-11-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-03 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 122, 'Recuperaciï¿½n favorable', 'Cï¿½lculo uretral', 'Extracciï¿½n por uretrostomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(23, TO_DATE('2023-11-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 123, 'Procedimiento exitoso', 'Fractura de mandï¿½bula', 'Reducciï¿½n y fijaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(24, TO_DATE('2023-11-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 124, 'Evoluciï¿½n positiva', 'Hemangiosarcoma esplï¿½nico', 'Esplenectomï¿½a completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucciï¿½n intestinal', 'Enterectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucciï¿½n intestinal', 'Enterectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(26, TO_DATE('2023-11-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 126, 'Recuperaciï¿½n favorable', 'Cuerpo extraï¿½o esofï¿½gico', 'Extracciï¿½n endoscï¿½pica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(27, TO_DATE('2023-11-13 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 127, 'Cirugï¿½a exitosa', 'Fractura de hï¿½mero', 'Fijaciï¿½n con placa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(28, TO_DATE('2023-11-15 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-15 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 128, 'Buena evoluciï¿½n', 'Mastocitoma', 'Resecciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(29, TO_DATE('2023-11-17 07:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-17 10:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 129, 'Postoperatorio estable', 'Esterilizaciï¿½n', 'Ovariohisterectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(30, TO_DATE('2023-11-19 09:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-19 12:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 130, 'Recuperaciï¿½n satisfactoria', 'Fractura de fï¿½mur', 'Fijaciï¿½n con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  -- Inserciones del 31 al 40
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(31, TO_DATE('2023-11-21 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-21 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 131, 'Sin complicaciones', 'Hernia umbilical', 'Correcciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(32, TO_DATE('2023-11-23 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-23 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 132, 'Buena respuesta postoperatoria', 'Tumor mamario', 'Mastectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(33, TO_DATE('2023-11-25 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-25 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 133, 'Recuperaciï¿½n estable', 'Prolapso rectal', 'Reposiciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(34, TO_DATE('2023-11-27 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-27 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 134, 'Sin complicaciones', 'Piometra', 'Ovariohisterectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(35, TO_DATE('2023-11-29 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-29 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 135, 'Cirugï¿½a completada con ï¿½xito', 'Obstrucciï¿½n intestinal', 'Enterotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(36, TO_DATE('2023-12-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 136, 'Recuperaciï¿½n sin complicaciones', 'Cï¿½lculo vesical', 'Cistotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(37, TO_DATE('2023-12-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-03 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 137, 'Sin incidentes', 'Neoplasia cutï¿½nea', 'Extirpaciï¿½n total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(38, TO_DATE('2023-12-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 138, 'Cirugï¿½a exitosa', 'Fractura de tibia', 'Reducciï¿½n y fijaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(39, TO_DATE('2023-12-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 139, 'Buena evoluciï¿½n', 'Esterilizaciï¿½n', 'Ovariectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(40, TO_DATE('2023-12-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-09 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 140, 'Recuperaciï¿½n satisfactoria', 'Tumor esplï¿½nico', 'Esplenectomï¿½a total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-INSERT_REGISTRO_CIRUGIAS_TB_SP(41, TO_DATE('2023-12-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 141, 'Recuperaciï¿½n estable', 'Hernia perineal', 'Correcciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(42, TO_DATE('2023-12-13 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-13 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 142, 'Postoperatorio sin complicaciones', 'Torsiï¿½n gï¿½strica', 'Gastropexia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(43, TO_DATE('2023-12-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 143, 'Buena evoluciï¿½n', 'Fractura mandibular', 'Reducciï¿½n y fijaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(44, TO_DATE('2023-12-17 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-17 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 144, 'Recuperaciï¿½n favorable', 'Mastocitoma', 'Resecciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(45, TO_DATE('2023-12-19 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-19 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 145, 'Sin complicaciones', 'Cï¿½lculo renal', 'Nefrotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(46, TO_DATE('2023-12-21 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-21 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 146, 'Cirugï¿½a completada con ï¿½xito', 'Obstrucciï¿½n uretral', 'Uretrostomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(47, TO_DATE('2023-12-23 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-23 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 147, 'Buena recuperaciï¿½n', 'Rotura de ligamento cruzado', 'Reparaciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(48, TO_DATE('2023-12-25 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-25 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 148, 'Postoperatorio estable', 'Tumor hepï¿½tico', 'Hepatectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(49, TO_DATE('2023-12-27 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-27 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 149, 'Recuperaciï¿½n sin incidentes', 'Hernia inguinal', 'Correcciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(50, TO_DATE('2023-12-29 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-29 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 150, 'Cirugï¿½a exitosa', 'Osteosarcoma', 'Amputaciï¿½n de miembro', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-09-10 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 1, 'Cirugía sin complicaciones', 'Fractura en pata derecha', 'Fractura reducida con éxito', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-09-12 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 2, 'Extracción de cuerpo extraño', 'Obstrucción intestinal', 'Obstrucción removida', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-09-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 3, 'Esterilización exitosa', 'Esterilización programada', 'Esterilización realizada', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-09-18 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-18 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 4, 'Sin complicaciones', 'Luxación de cadera', 'Cadera reducida', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-09-21 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-21 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 5, 'Buena recuperación', 'Cálculos renales', 'Cálculos removidos', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-09-24 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-24 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 6, 'Sin complicaciones postoperatorias', 'Tumor mamario', 'Extirpación exitosa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-09-28 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-28 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 7, 'Buena evolución', 'Hernia umbilical', 'Corrección completa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-01 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 8, 'Cirugía ambulatoria', 'Masa subcutánea', 'Masa benigna extraída', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-04 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-04 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 9, 'Recuperación satisfactoria', 'Fractura femoral', 'Reducción con placas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-07 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 10, 'Postoperatorio estable', 'Quiste ovárico', 'Extirpación exitosa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-10 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 11, 'Procedimiento exitoso', 'Luxación de rótula', 'Rótula reducida', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-12 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 12, 'Sin complicaciones', 'Cálculo vesical', 'Cálculo extraído', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-14 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-14 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 13, 'Buena respuesta postoperatoria', 'Tumor hepático', 'Resección parcial', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-16 07:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-16 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 14, 'Recuperación estable', 'Hernia diafragmática', 'Corrección exitosa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-18 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-18 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 15, 'Postoperatorio estable', 'Cuerpo extraño gástrico', 'Remoción por gastrotomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-20 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-20 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 16, 'Sin complicaciones', 'Fractura tibial', 'Fijación con clavos', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-22 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-22 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 17, 'Recuperación satisfactoria', 'Neoplasia cutánea', 'Extirpación completa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-24 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-24 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 18, 'Cirugía exitosa', 'Piometra', 'Ovariohisterectomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-26 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-26 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 19, 'Buena evolución', 'Esterilización programada', 'Procedimiento completado', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-10-28 07:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-28 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 20, 'Recuperación favorable', 'Fractura de radio', 'Fijación con placas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 21, 'Sin complicaciones', 'Luxación de codo', 'Reducción quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-03 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 22, 'Recuperación favorable', 'Cálculo uretral', 'Extracción por uretrostomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 23, 'Procedimiento exitoso', 'Fractura de mandíbula', 'Reducción y fijación', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 24, 'Evolución positiva', 'Hemangiosarcoma esplénico', 'Esplenectomía completa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 25, 'Sin complicaciones postoperatorias', 'Obstrucción intestinal', 'Enterectomía parcial', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 25, 'Sin complicaciones postoperatorias', 'Obstrucción intestinal', 'Enterectomía parcial', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 26, 'Recuperación favorable', 'Cuerpo extraño esofágico', 'Extracción endoscópica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-13 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 27, 'Cirugía exitosa', 'Fractura de húmero', 'Fijación con placa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-15 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-15 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 28, 'Buena evolución', 'Mastocitoma', 'Resección completa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-17 07:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-17 10:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 29, 'Postoperatorio estable', 'Esterilización', 'Ovariohisterectomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-19 09:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-19 12:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 30, 'Recuperación satisfactoria', 'Fractura de fémur', 'Fijación con clavos', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-21 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-21 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 31, 'Sin complicaciones', 'Hernia umbilical', 'Corrección quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-23 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-23 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 32, 'Buena respuesta postoperatoria', 'Tumor mamario', 'Mastectomía parcial', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-25 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-25 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 33, 'Recuperación estable', 'Prolapso rectal', 'Reposición quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-27 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-27 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 34, 'Sin complicaciones', 'Piometra', 'Ovariohisterectomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-11-29 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-29 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 35, 'Cirugía completada con éxito', 'Obstrucción intestinal', 'Enterotomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 36, 'Recuperación sin complicaciones', 'Cálculo vesical', 'Cistotomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-03 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 37, 'Sin incidentes', 'Neoplasia cutánea', 'Extirpación total', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 38, 'Cirugía exitosa', 'Fractura de tibia', 'Reducción y fijación', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 39, 'Buena evolución', 'Esterilización', 'Ovariectomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-09 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 40, 'Recuperación satisfactoria', 'Tumor esplénico', 'Esplenectomía total', 'VETERINARIA_ADMIN', NULL);PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 141, 'Recuperación estable', 'Hernia perineal', 'Corrección quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-13 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-13 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 42, 'Postoperatorio sin complicaciones', 'Torsión gástrica', 'Gastropexia', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 43, 'Buena evolución', 'Fractura mandibular', 'Reducción y fijación', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-17 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-17 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 44, 'Recuperación favorable', 'Mastocitoma', 'Resección completa', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-19 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-19 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 45, 'Sin complicaciones', 'Cálculo renal', 'Nefrotomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-21 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-21 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 46, 'Cirugía completada con éxito', 'Obstrucción uretral', 'Uretrostomía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-23 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-23 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 47, 'Buena recuperación', 'Rotura de ligamento cruzado', 'Reparación quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-25 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-25 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 48, 'Postoperatorio estable', 'Tumor hepático', 'Hepatectomía parcial', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-27 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-27 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 49, 'Recuperación sin incidentes', 'Hernia inguinal', 'Corrección quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_REGISTRO_CIRUGIA_SP(TO_DATE('2023-12-29 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-29 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 50, 'Cirugía exitosa', 'Osteosarcoma', 'Amputación de miembro', 'VETERINARIA_ADMIN', NULL);
 END;
 /
-
 --Inserts CIRUGIAS_MEDICAMENTOS
 BEGIN
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(1, 31, 201, 1, 1, '50 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(2, 32, 202, 1, 2, '25 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(3, 33, 203, 1, 3, '100 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(4, 34, 204, 1, 4, '5 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(5, 35, 205, 1, 1, '20 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(6, 36, 206, 1, 2, '30 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(7, 37, 207, 1, 3, '75 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(8, 38, 208, 1, 4, '10 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(9, 39, 209, 1, 1, '15 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(10, 40, 210, 1, 2, '40 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(11, 41, 211, 1, 3, '60 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(12, 42, 212, 1, 4, '8 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(13, 43, 213, 1, 1, '25 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(14, 44, 214, 1, 2, '50 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(15, 45, 215, 1, 3, '90 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(16, 46, 216, 1, 4, '12 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(17, 47, 217, 1, 1, '35 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(18, 48, 218, 1, 2, '45 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(19, 49, 219, 1, 3, '70 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(20, 50, 220, 1, 4, '6 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(21, 31, 221, 1, 1, '10 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(22, 32, 222, 1, 2, '5 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(23, 33, 223, 1, 3, '15 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(24, 34, 224, 1, 4, '20 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(25, 35, 225, 1, 1, '30 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(26, 36, 226, 1, 2, '40 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(27, 37, 227, 1, 3, '50 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(28, 38, 228, 1, 4, '60 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(29, 39, 229, 1, 1, '10 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(30, 40, 230, 1, 2, '12 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(31, 41, 231, 1, 3, '14 ml cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(32, 42, 232, 1, 4, '16 ml cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(33, 43, 233, 1, 1, '18 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(34, 44, 234, 1, 2, '20 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(35, 45, 235, 1, 3, '22 ml cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(36, 46, 236, 1, 4, '24 ml cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(37, 47, 237, 1, 1, '26 ml cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(38, 48, 238, 1, 2, '28 ml cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(39, 49, 239, 1, 3, '30 ml cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(40, 50, 240, 1, 4, '32 ml cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(41, 31, 241, 1, 1, '35 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(42, 32, 242, 1, 2, '38 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(43, 33, 243, 1, 3, '42 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(44, 34, 244, 1, 4, '46 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(45, 35, 245, 1, 1, '50 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(46, 36, 246, 1, 2, '55 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(47, 37, 247, 1, 3, '60 mg cada 12 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(48, 38, 248, 1, 4, '65 mg cada 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(49, 39, 249, 1, 1, '70 mg cada 8 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_CIRUGIAS_MEDICAMENTOS_TB_SP(50, 40, 250, 1, 2, '75 mg cada 6 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(1, 31, 1, 1, '50 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(2, 32, 1, 2, '25 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(3, 33, 1, 3, '100 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(4, 34, 1, 4, '5 ml cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(5, 35, 1, 1, '20 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(6, 36, 1, 2, '30 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(7, 37, 1, 3, '75 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(8, 38, 1, 4, '10 ml cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(9, 39, 1, 1, '15 mg cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(10, 40, 1, 2, '40 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(11, 41, 1, 3, '60 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(12, 42, 1, 4, '8 ml cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(13, 43, 1, 1, '25 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(14, 44, 1, 2, '50 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(15, 45, 1, 3, '90 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(16, 46, 1, 4, '12 ml cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(17, 47, 1, 1, '35 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(18, 48, 1, 2, '45 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(19, 49, 1, 3, '70 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(20, 50, 1, 4, '6 ml cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(21, 31, 1, 1, '10 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(22, 32, 1, 2, '5 ml cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(23, 33, 1, 3, '15 mg cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(24, 34, 1, 4, '20 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(25, 35, 1, 1, '30 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(26, 36, 1, 2, '40 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(27, 37, 1, 3, '50 mg cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(28, 38, 1, 4, '60 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(29, 39, 1, 1, '10 ml cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(30, 40, 1, 2, '12 ml cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(31, 41, 1, 3, '14 ml cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(32, 42, 1, 4, '16 ml cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(33, 43, 1, 1, '18 ml cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(34, 44, 1, 2, '20 ml cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(35, 45, 1, 3, '22 ml cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(36, 46, 1, 4, '24 ml cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(37, 47, 1, 1, '26 ml cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(38, 48, 1, 2, '28 ml cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(39, 49, 1, 3, '30 ml cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(40, 50, 1, 4, '32 ml cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(41, 31, 1, 1, '35 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(43, 33, 1, 3, '42 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(44, 34, 1, 4, '46 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(45, 35, 1, 1, '50 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(46, 36, 1, 2, '55 mg cada 6 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(47, 37, 1, 3, '60 mg cada 12 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(48, 38, 1, 4, '65 mg cada 24 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(49, 39, 1, 1, '70 mg cada 8 horas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_MEDICAMENTO_SP(50, 40, 1, 2, '75 mg cada 6 horas', 'VETERINARIA_ADMIN', NULL);
 END;
-
+/
 -- Inserts CIRUGIAS_PERSONAL_TB
 BEGIN
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(1, 101, 1, 31, 11, 1, 'Sin novedades', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(2, 102, 2, 32, 12, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(3, 103, 1, 33, 13, 1, 'Monitoreo constante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(4, 104, 2, 34, 14, 1, 'Recuperaciï¿½n favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(5, 105, 1, 35, 15, 1, 'Anestesia aplicada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(6, 106, 2, 36, 16, 1, 'Cirugï¿½a sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(7, 107, 1, 37, 17, 1, 'Estabilidad garantizada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(8, 108, 2, 38, 18, 1, 'Postoperatorio en proceso', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(9, 109, 1, 39, 19, 1, 'Monitoreo 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(10, 110, 2, 40, 20, 1, 'Evaluaciï¿½n continua', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(11, 111, 1, 41, 21, 1, 'Paciente alerta', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(12, 112, 2, 42, 22, 1, 'Cirugï¿½a concluida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(13, 113, 1, 43, 23, 1, 'Se administrï¿½ medicaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(14, 114, 2, 44, 24, 1, 'Condiciï¿½n estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(15, 115, 1, 45, 25, 1, 'Recuperaciï¿½n lenta', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(16, 116, 2, 46, 26, 1, 'Sin reacciones adversas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(17, 117, 1, 47, 27, 1, 'Observaciï¿½n intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(18, 118, 2, 48, 28, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(19, 119, 1, 49, 29, 1, 'Se aplicï¿½ tratamiento', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(20, 120, 2, 50, 30, 1, 'Alta programada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(21, 121, 1, 1, 1, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(22, 122, 2, 2, 2, 1, 'Monitoreo continuo', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(23, 123, 1, 3, 3, 1, 'Recuperaciï¿½n favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(24, 124, 2, 4, 4, 1, 'Postoperatorio en proceso', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(25, 125, 1, 5, 5, 1, 'Se administrï¿½ analgï¿½sico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(26, 126, 2, 6, 6, 1, 'Evaluaciï¿½n estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(27, 127, 1, 7, 7, 1, 'Anestesia aplicada con ï¿½xito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(28, 128, 2, 8, 8, 1, 'Observaciï¿½n 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(29, 129, 1, 9, 9, 1, 'Cirugï¿½a sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(30, 130, 2, 10, 10, 1, 'Sin reacciones adversas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(31, 131, 1, 11, 11, 1, 'Paciente en recuperaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(32, 132, 2, 12, 12, 1, 'Postoperatorio controlado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(33, 133, 1, 13, 13, 1, 'Condiciï¿½n estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(34, 134, 2, 14, 14, 1, 'Aplicaciï¿½n de sedante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(35, 135, 1, 15, 15, 1, 'Observaciï¿½n intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(36, 136, 2, 16, 16, 1, 'Monitoreo cardiaco', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(37, 137, 1, 17, 17, 1, 'Revisiï¿½n postquirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(38, 138, 2, 18, 18, 1, 'Evaluaciï¿½n constante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(39, 139, 1, 19, 19, 1, 'Paciente bajo observaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(40, 140, 2, 20, 20, 1, 'Sin complicaciones adicionales', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(41, 141, 1, 21, 21, 1, 'Administraciï¿½n de antibiï¿½tico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(42, 142, 2, 22, 22, 1, 'Paciente con signos vitales estables', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(43, 143, 1, 23, 23, 1, 'Revisiï¿½n de sutura', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(44, 144, 2, 24, 24, 1, 'Monitoreo respiratorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(45, 145, 1, 25, 25, 1, 'Alta programada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(46, 146, 2, 26, 26, 1, 'Condiciï¿½n controlada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(47, 147, 1, 27, 27, 1, 'Observaciï¿½n postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(48, 148, 2, 28, 28, 1, 'Paciente consciente', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(49, 149, 1, 29, 29, 1, 'Recuperaciï¿½n satisfactoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(50, 150, 2, 30, 30, 1, 'Sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(1, 5, 1, 1, 2, 'Asistencia en preparación preoperatoria', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(2, 12, 2, 1, 1, 'Supervisión del proceso anestésico', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(3, 18, 1, 1, 5, 'Control del instrumental quirúrgico', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(4, 24, 2, 1, 2, 'Apoyo durante la incisión', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(5, 7, 1, 1, 1, 'Monitoreo de signos vitales', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(6, 10, 2, 1, 5, 'Revisión de historial del paciente', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(7, 14, 1, 1, 2, 'Encargado del conteo de gasas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(8, 2, 2, 1, 1, 'Documentación del procedimiento', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(9, 21, 1, 1, 5, 'Control de tiempo quirúrgico', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(10, 30, 2, 1, 1, 'Desinfección del área quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(11, 17, 1, 1, 2, 'Preparación de equipo de sutura', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(12, 33, 2, 1, 1, 'Coordinación con anestesiólogo', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(13, 9, 1, 1, 5, 'Encargado de materiales estériles', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(14, 16, 2, 1, 2, 'Asistencia en cierre quirúrgico', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(15, 3, 1, 1, 1, 'Monitoreo postoperatorio inmediato', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(1, 8, 2, 1, 5, 'Recepción del paciente quirúrgico', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(2, 22, 1, 1, 1, 'Verificación de datos del paciente', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(3, 4, 2, 1, 2, 'Comunicación con familiares', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(4, 13, 1, 1, 1, 'Revisión de inventario quirúrgico', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(5, 19, 2, 1, 5, 'Limpieza del quirófano pre y post', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(6, 26, 1, 1, 2, 'Apoyo logístico durante cirugía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(7, 28, 2, 1, 1, 'Toma de signos antes de anestesia', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(8, 31, 1, 1, 5, 'Toma de muestra intraoperatoria', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(9, 11, 2, 1, 2, 'Revisión de protocolos quirúrgicos', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(10, 20, 1, 1, 1, 'Coordinación de cirugía de urgencia', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(11, 23, 2, 1, 2, 'Encargado de sistema de monitoreo', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(12, 27, 1, 1, 5, 'Apoyo en preparación de insumos', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(13, 29, 2, 1, 1, 'Responsable de agenda quirúrgica', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(14, 6, 1, 1, 5, 'Colaboración con cirujano principal', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(15, 25, 2, 1, 2, 'Seguimiento a paciente postcirugía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(1, 15, 1, 1, 1, 'Descarte de residuos biológicos', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(2, 32, 2, 1, 5, 'Limpieza profunda del quirófano', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(3, 34, 1, 1, 2, 'Atención en sala de recuperación', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(4, 35, 2, 1, 1, 'Evaluación de signos preoperatorios', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(5, 36, 1, 1, 5, 'Supervisión de anestesia inhalada', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(6, 37, 2, 1, 2, 'Entrega de insumos a quirófano', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(7, 38, 1, 1, 1, 'Colaboración en cierre de heridas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(8, 39, 2, 1, 5, 'Asistencia con electrobisturí', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(9, 40, 1, 1, 2, 'Comunicación con laboratorio', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(10, 41, 2, 1, 1, 'Instalación de vías venosas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(11, 42, 1, 1, 5, 'Preparación de anestesia local', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(12, 43, 2, 1, 2, 'Seguimiento de indicaciones médicas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(13, 44, 1, 1, 1, 'Distribución de insumos postcirugía', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(14, 45, 2, 1, 5, 'Observación durante recuperación', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(15, 46, 1, 1, 2, 'Gestión de reportes quirúrgicos', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(1, 47, 2, 1, 1, 'Atención a paciente crítico', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(2, 48, 1, 1, 5, 'Ayuda en inmovilización', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(3, 49, 2, 1, 2, 'Limpieza de heridas', 'VETERINARIA_ADMIN', NULL);
+  PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CIRUGIA_PERSONAL_SP(4, 50, 1, 1, 1, 'Control de temperatura ambiental', 'VETERINARIA_ADMIN', NULL);
 END;
 /
-
--- Inserts HISTORIALES_MEDICOS
+-- Inserts PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP
 BEGIN
-    INSERT_HISTORIALES_MEDICOS_TB_SP(1, 1, 101, 1, 1, 1, SYSDATE, 'Fractura de fï¿½mur', 'Fijaciï¿½n interna', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(2, 2, 102, 2, 2, 1, SYSDATE, 'Luxaciï¿½n de cadera', 'Reducciï¿½n cerrada', 'Reposo absoluto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(3, 3, 103, 1, 3, 1, SYSDATE, 'Hernia umbilical', 'Cirugï¿½a correctiva', 'Revisiï¿½n en 7 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(4, 4, 104, 2, 4, 1, SYSDATE, 'Infecciï¿½n urinaria', 'Antibiï¿½ticos orales', 'Control en 14 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(5, 5, 105, 1, 5, 1, SYSDATE, 'Rotura de ligamento', 'Reparaciï¿½n quirï¿½rgica', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(6, 6, 106, 2, 6, 1, SYSDATE, 'Cï¿½lculo renal', 'Cirugï¿½a laparoscï¿½pica', 'Hidrataciï¿½n intravenosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(7, 7, 107, 1, 7, 1, SYSDATE, 'Otitis media', 'Lavado ï¿½tico', 'Uso de gotas antibiï¿½ticas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(8, 8, 108, 2, 8, 1, SYSDATE, 'Absceso dental', 'Extracciï¿½n de molar', 'Antibiï¿½ticos por 10 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(9, 9, 109, 1, 9, 1, SYSDATE, 'Trauma ocular', 'Enucleaciï¿½n ocular', 'Monitoreo por 3 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(10, 10, 110, 2, 10, 1, SYSDATE, 'Displasia de cadera', 'Terapia fï¿½sica', 'Control bimensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(11, 11, 111, 1, 11, 1, SYSDATE, 'Neoplasia mamaria', 'Mastectomï¿½a', 'Evaluaciï¿½n histopatolï¿½gica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(12, 12, 112, 2, 12, 1, SYSDATE, 'Gastroenteritis', 'Fluidoterapia', 'Dieta blanda por 5 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(13, 13, 113, 1, 13, 1, SYSDATE, 'Esterilizaciï¿½n', 'Ovariohisterectomï¿½a', 'Revisiï¿½n en 10 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(14, 14, 114, 2, 14, 1, SYSDATE, 'Fractura mandibular', 'Reducciï¿½n quirï¿½rgica', 'Dieta lï¿½quida 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(15, 15, 115, 1, 15, 1, SYSDATE, 'Artritis', 'Tratamiento antiinflamatorio', 'Ejercicios controlados', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(16, 16, 116, 2, 16, 1, SYSDATE, 'Dermatitis alï¿½rgica', 'Baï¿½os medicados', 'Revisar en 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(17, 17, 117, 1, 17, 1, SYSDATE, 'Epilepsia', 'Anticonvulsivantes', 'Monitoreo trimestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(18, 18, 118, 2, 18, 1, SYSDATE, 'Infecciï¿½n respiratoria', 'Antibiï¿½ticos y nebulizaciï¿½n', 'Revisiï¿½n en 7 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(19, 19, 119, 1, 19, 1, SYSDATE, 'Hernia discal', 'Cirugï¿½a descompresiva', 'Rehabilitaciï¿½n postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(20, 20, 120, 2, 20, 1, SYSDATE, 'Hipotiroidismo', 'Levotiroxina', 'Monitoreo hormonal semestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-INSERT_HISTORIALES_MEDICOS_TB_SP(21, 21, 121, 1, 21, 1, SYSDATE, 'Cï¿½lculos biliares', 'Colecistectomï¿½a', 'Control postquirï¿½rgico en 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(22, 22, 122, 2, 22, 1, SYSDATE, 'Fractura de radio', 'Fijaciï¿½n externa', 'Revisiï¿½n en 20 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(23, 23, 123, 1, 23, 1, SYSDATE, 'Infecciï¿½n postquirï¿½rgica', 'Antibiï¿½ticos intravenosos', 'Monitoreo 48h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(24, 24, 124, 2, 24, 1, SYSDATE, 'Rotura de ligamento cruzado', 'Reparaciï¿½n quirï¿½rgica', 'Fisioterapia postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(25, 25, 125, 1, 25, 1, SYSDATE, 'Esterilizaciï¿½n felina', 'Ovariohisterectomï¿½a', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(26, 26, 126, 2, 26, 1, SYSDATE, 'Tumor mamario', 'Mastectomï¿½a parcial', 'Evaluaciï¿½n histopatolï¿½gica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(27, 27, 127, 1, 27, 1, SYSDATE, 'Hernia inguinal', 'Correcciï¿½n quirï¿½rgica', 'Reposo absoluto 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(28, 28, 128, 2, 28, 1, SYSDATE, 'Cï¿½ncer de piel', 'Escisiï¿½n quirï¿½rgica', 'Revisiï¿½n oncolï¿½gica mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(29, 29, 129, 1, 29, 1, SYSDATE, 'Trauma craneoencefï¿½lico', 'Cirugï¿½a de descompresiï¿½n', 'Monitoreo neurolï¿½gico 72h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(30, 30, 130, 2, 30, 1, SYSDATE, 'Luxaciï¿½n de rï¿½tula', 'Reposicionamiento quirï¿½rgico', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(31, 31, 131, 1, 31, 1, SYSDATE, 'Colitis crï¿½nica', 'Tratamiento farmacolï¿½gico', 'Revisiï¿½n mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(32, 32, 132, 2, 32, 1, SYSDATE, 'Obstrucciï¿½n intestinal', 'Enterotomï¿½a', 'Dieta blanda por 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(33, 33, 133, 1, 33, 1, SYSDATE, 'Quiste ovï¿½rico', 'Ovariectomï¿½a', 'Monitoreo hormonal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(34, 34, 134, 2, 34, 1, SYSDATE, 'Infecciï¿½n periodontal', 'Profilaxis dental', 'Control anual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(35, 35, 135, 1, 35, 1, SYSDATE, 'Fractura vertebral', 'Cirugï¿½a estabilizadora', 'Reposo absoluto 4 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(36, 36, 136, 2, 36, 1, SYSDATE, 'Neoplasia hepï¿½tica', 'Hepatectomï¿½a parcial', 'Evaluaciï¿½n trimestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(37, 37, 137, 1, 37, 1, SYSDATE, 'Fï¿½stula perianal', 'Cirugï¿½a de escisiï¿½n', 'Revisiï¿½n en 14 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(38, 38, 138, 2, 38, 1, SYSDATE, 'Hemangiosarcoma', 'Esplenectomï¿½a', 'Monitoreo semestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(39, 39, 139, 1, 39, 1, SYSDATE, 'Cataratas', 'Cirugï¿½a de lente intraocular', 'Monitoreo oftalmolï¿½gico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(40, 40, 140, 2, 40, 1, SYSDATE, 'Entropiï¿½n', 'Correcciï¿½n quirï¿½rgica', 'Revisiï¿½n a los 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(41, 41, 141, 1, 41, 1, SYSDATE, 'Pancreatitis aguda', 'Soporte intravenoso', 'Dieta baja en grasas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(42, 42, 142, 2, 42, 1, SYSDATE, 'Hernia perineal', 'Correcciï¿½n quirï¿½rgica', 'Monitoreo de incontinencia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(43, 43, 143, 1, 43, 1, SYSDATE, 'Glaucoma', 'Implante de vï¿½lvula', 'Monitoreo de presiï¿½n ocular', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(44, 44, 144, 2, 44, 1, SYSDATE, 'Piometra', 'Ovariohisterectomï¿½a de emergencia', 'Revisiï¿½n en 10 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(45, 45, 145, 1, 45, 1, SYSDATE, 'Atresia anal', 'Cirugï¿½a reconstructiva', 'Seguimiento fecal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_HISTORIALES_MEDICOS_TB_SP(46, 46, 146, 2, 46, 1, SYSDATE, 'Fallo renal agudo', 'Hemodiï¿½lisis', 'Monitoreo renal semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(47, 47, 147, 1, 47, 1, SYSDATE, 'Megaesï¿½fago', 'Cirugï¿½a correctiva', 'Dieta semilï¿½quida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(48, 48, 148, 2, 48, 1, SYSDATE, 'Hernia discal', 'Cirugï¿½a descompresiva', 'Rehabilitaciï¿½n postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(49, 49, 149, 1, 49, 1, SYSDATE, 'Insuficiencia hepï¿½tica', 'Soporte hepï¿½tico', 'Monitoreo mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(50, 50, 150, 2, 50, 1, SYSDATE, 'Hipertensiï¿½n pulmonar', 'Tratamiento vasodilatador', 'Control de presiï¿½n arterial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(1, 1, 1, 3, 1, TO_DATE('01-07-2021', 'DD-MM-YYYY'), 'Fractura de tibia', 'Desparasitación interna', 'Vacunas al día', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(2, 2, 2, 7, 1, TO_DATE('21-04-2022', 'DD-MM-YYYY'), 'Infección respiratoria', 'Amoxicilina oral', 'Requiere seguimiento en una semana', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(3, 3, 3, 6, 1, TO_DATE('04-01-2023', 'DD-MM-YYYY'), 'Anemia leve', 'Antibiótico tópico', 'Propietario indica disminución de apetito', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(4, 4, 4, 4, 1, TO_DATE('26-08-2022', 'DD-MM-YYYY'), 'Parásitos intestinales', 'Cirugía ortopédica', 'Se sugiere control mensual', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(6, 6, 6, 3, 1, TO_DATE('06-12-2023', 'DD-MM-YYYY'), 'Dermatitis alérgica', 'Tratamiento antiinflamatorio', 'Evaluar cambios en comportamiento', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(7, 7, 7, 7, 1, TO_DATE('17-11-2022', 'DD-MM-YYYY'), 'Infección respiratoria', 'Antibiótico tópico', 'Vacunas al día', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(8, 8, 8, 1, 1, TO_DATE('14-09-2023', 'DD-MM-YYYY'), 'Gingivitis leve', 'Limpieza dental', 'Requiere seguimiento en una semana', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(9, 9, 9, 2, 1, TO_DATE('07-05-2021', 'DD-MM-YYYY'), 'Gastritis crónica', 'Suplemento vitamínico', 'Propietario indica disminución de apetito', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(10, 10, 10, 5, 1, TO_DATE('20-06-2020', 'DD-MM-YYYY'), 'Dermatitis alérgica', 'Baño medicado', 'Mejoría evidente desde última consulta', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(11, 11, 11, 1, 1, TO_DATE('15-02-2022', 'DD-MM-YYYY'), 'Otitis media', 'Tratamiento tópico', 'Revisar en 10 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(12, 12, 12, 2, 1, TO_DATE('30-08-2023', 'DD-MM-YYYY'), 'Conjuntivitis', 'Gotas oftálmicas', 'Evitar exposición al polvo', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(13, 13, 13, 5, 1, TO_DATE('03-12-2021', 'DD-MM-YYYY'), 'Desnutrición leve', 'Dieta especial', 'Seguimiento nutricional mensual', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(14, 14, 14, 4, 1, TO_DATE('11-01-2020', 'DD-MM-YYYY'), 'Hernia umbilical', 'Cirugía menor', 'Requiere cuidados postoperatorios', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(16, 16, 16, 3, 1, TO_DATE('14-10-2021', 'DD-MM-YYYY'), 'Leishmaniasis', 'Medicamento oral', 'Control cada 15 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(17, 17, 17, 6, 1, TO_DATE('09-04-2023', 'DD-MM-YYYY'), 'Cataratas incipientes', 'No se requiere cirugía aún', 'Monitoreo visual cada 6 meses', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(18, 18, 18, 2, 1, TO_DATE('22-09-2020', 'DD-MM-YYYY'), 'Otitis externa', 'Limpieza auricular', 'Revisión cada semana', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(19, 19, 19, 7, 1, TO_DATE('10-03-2021', 'DD-MM-YYYY'), 'Pulgas y garrapatas', 'Tratamiento antiparasitario', 'Revisar casa del paciente', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(20, 20, 20, 5, 1, TO_DATE('19-06-2024', 'DD-MM-YYYY'), 'Obesidad leve', 'Plan alimenticio', 'Control mensual de peso', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(21, 21, 21, 1, 1, TO_DATE('05-12-2020', 'DD-MM-YYYY'), 'Fiebre persistente', 'Antipirético oral', 'Control en 3 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(22, 22, 22, 4, 1, TO_DATE('27-03-2023', 'DD-MM-YYYY'), 'Lesión en pata trasera', 'Reposo y analgesia', 'No exponer a ejercicios', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(23, 23, 23, 3, 1, TO_DATE('13-11-2022', 'DD-MM-YYYY'), 'Alergia estacional', 'Antihistamínico', 'Evitar caminatas en zonas con polen', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(24, 24, 24, 6, 1, TO_DATE('01-06-2021', 'DD-MM-YYYY'), 'Cálculos renales', 'Dieta especializada', 'Requiere ultrasonido semestral', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(26, 26, 26, 7, 1, TO_DATE('28-04-2024', 'DD-MM-YYYY'), 'Anemia', 'Suplemento de hierro', 'Revisar niveles en un mes', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(27, 27, 27, 1, 1, TO_DATE('15-08-2020', 'DD-MM-YYYY'), 'Infección urinaria', 'Antibiótico', 'Control en 5 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(28, 28, 28, 3, 1, TO_DATE('17-10-2023', 'DD-MM-YYYY'), 'Dolor articular', 'Condroprotector', 'Revisar articulaciones semestralmente', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(29, 29, 29, 2, 1, TO_DATE('11-07-2022', 'DD-MM-YYYY'), 'Inflamación de ganglios', 'Esteroides', 'Monitoreo semanal', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(30, 30, 30, 5, 1, TO_DATE('03-05-2023', 'DD-MM-YYYY'), 'Ingesta de cuerpo extraño', 'Radiografía y cirugía', 'Seguimiento postoperatorio', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(31, 31, 31, 4, 1, TO_DATE('14-09-2021', 'DD-MM-YYYY'), 'Golpe en tórax', 'Antiinflamatorios', 'Reposo total', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(32, 32, 32, 6, 1, TO_DATE('23-02-2022', 'DD-MM-YYYY'), 'Diabetes mellitus', 'Insulina diaria', 'Control mensual de glucosa', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(34, 34, 34, 7, 1, TO_DATE('26-07-2020', 'DD-MM-YYYY'), 'Lesión ocular', 'Gotas y collar isabelino', 'Revisión en 5 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(35, 35, 35, 2, 1, TO_DATE('13-12-2021', 'DD-MM-YYYY'), 'Otitis interna', 'Tratamiento oral y tópico', 'Reposo en casa', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(36, 36, 36, 1, 1, TO_DATE('07-06-2022', 'DD-MM-YYYY'), 'Dermatitis severa', 'Inyección de corticoide', 'Revisión semanal', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(37, 37, 37, 5, 1, TO_DATE('02-03-2023', 'DD-MM-YYYY'), 'Fractura leve', 'Inmovilización', 'Radiografía en 15 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(38, 38, 38, 3, 1, TO_DATE('21-11-2020', 'DD-MM-YYYY'), 'Absceso en piel', 'Drenaje y antibióticos', 'Cambio de vendaje cada 2 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(39, 39, 39, 6, 1, TO_DATE('30-10-2023', 'DD-MM-YYYY'), 'Problemas dentales', 'Extracción y limpieza', 'Revisión postoperatoria', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(40, 40, 40, 4, 1, TO_DATE('17-08-2021', 'DD-MM-YYYY'), 'Luxación de cadera', 'Cirugía recomendada', 'Cita con ortopedista', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(41, 41, 41, 7, 1, TO_DATE('12-05-2022', 'DD-MM-YYYY'), 'Anemia moderada', 'Vitaminas y dieta', 'Control hematológico mensual', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(43, 43, 43, 2, 1, TO_DATE('24-04-2020', 'DD-MM-YYYY'), 'Gripe canina', 'Reposo e hidratación', 'Vacunación anual sugerida', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(44, 44, 44, 3, 1, TO_DATE('08-07-2024', 'DD-MM-YYYY'), 'Infección cutánea', 'Baño medicado y antibiótico', 'Evitar rascado', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(45, 45, 45, 5, 1, TO_DATE('11-02-2021', 'DD-MM-YYYY'), 'Infección hepática', 'Tratamiento con antibióticos', 'Ultrasonido en 3 semanas', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(46, 46, 46, 6, 1, TO_DATE('29-03-2022', 'DD-MM-YYYY'), 'Problemas renales', 'Control y dieta renal', 'Revisión mensual', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(47, 47, 47, 1, 1, TO_DATE('16-09-2021', 'DD-MM-YYYY'), 'Hernia discal', 'Terapia física', 'Evitar saltos y escaleras', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(48, 48, 48, 4, 1, TO_DATE('22-06-2020', 'DD-MM-YYYY'), 'Accidente leve', 'Analgésicos y reposo', 'Cita de control en 7 días', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(49, 49, 49, 7, 1, TO_DATE('14-11-2022', 'DD-MM-YYYY'), 'Epilepsia controlada', 'Fenobarbital diario', 'Control semestral neurológico', 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_HISTORIAL_MEDICO_SP(50, 50, 50, 2, 1, TO_DATE('10-04-2023', 'DD-MM-YYYY'), 'Trauma ocular', 'Cirugía menor', 'Control visual semanal', 'VETERINARIA_ADMIN', NULL);
 END;
 /
-
 -- inserts PAGOS PLANILLAS
 BEGIN
-INSERT_PAGOS_PLANILLAS_TB_SP(1, 101, 1, SYSDATE, 2500, 2200, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(2, 102, 1, SYSDATE, 2700, 2400, 15, 350, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(3, 103, 1, SYSDATE, 2300, 2000, 5, 200, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(4, 104, 1, SYSDATE, 3200, 2900, 20, 400, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(5, 105, 1, SYSDATE, 2800, 2500, 12, 320, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(6, 106, 1, SYSDATE, 2600, 2300, 8, 310, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(7, 107, 1, SYSDATE, 2900, 2600, 18, 370, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(8, 108, 1, SYSDATE, 3100, 2800, 22, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(9, 109, 1, SYSDATE, 2400, 2100, 6, 250, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(10, 110, 1, SYSDATE, 3300, 3000, 25, 500, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(11, 111, 1, SYSDATE, 3500, 3200, 30, 550, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(12, 112, 1, SYSDATE, 2900, 2600, 18, 370, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(13, 113, 1, SYSDATE, 2700, 2400, 14, 330, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(14, 114, 1, SYSDATE, 2500, 2200, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(15, 115, 1, SYSDATE, 3100, 2800, 22, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(16, 116, 1, SYSDATE, 3400, 3100, 28, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(17, 117, 1, SYSDATE, 2600, 2300, 8, 310, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(18, 118, 1, SYSDATE, 3200, 2900, 20, 400, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(19, 119, 1, SYSDATE, 2800, 2500, 12, 320, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(20, 120, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-INSERT_PAGOS_PLANILLAS_TB_SP(21, 121, 1, SYSDATE, 2800, 2500, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(22, 122, 1, SYSDATE, 3100, 2800, 15, 350, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(23, 123, 1, SYSDATE, 2700, 2400, 12, 320, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(24, 124, 1, SYSDATE, 3500, 3200, 18, 400, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(25, 125, 1, SYSDATE, 3300, 3000, 20, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_PAGOS_PLANILLAS_TB_SP(26, 126, 1, SYSDATE, 2900, 2600, 14, 340, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(27, 127, 1, SYSDATE, 3200, 2900, 22, 480, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(28, 128, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(29, 129, 1, SYSDATE, 2600, 2300, 8, 310, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(30, 130, 1, SYSDATE, 2800, 2500, 12, 330, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_PAGOS_PLANILLAS_TB_SP(31, 131, 1, SYSDATE, 3400, 3100, 25, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(32, 132, 1, SYSDATE, 3100, 2800, 18, 380, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(33, 133, 1, SYSDATE, 3600, 3300, 28, 550, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(34, 134, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(35, 135, 1, SYSDATE, 3700, 3400, 30, 600, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_PAGOS_PLANILLAS_TB_SP(36, 136, 1, SYSDATE, 2800, 2500, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(37, 137, 1, SYSDATE, 3200, 2900, 22, 450, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(38, 138, 1, SYSDATE, 2900, 2600, 14, 340, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(39, 139, 1, SYSDATE, 3100, 2800, 18, 380, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(40, 140, 1, SYSDATE, 3400, 3100, 25, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_PAGOS_PLANILLAS_TB_SP(41, 141, 1, SYSDATE, 3500, 3200, 28, 550, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(42, 142, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(43, 143, 1, SYSDATE, 3700, 3400, 30, 600, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(44, 144, 1, SYSDATE, 3200, 2900, 22, 480, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(45, 145, 1, SYSDATE, 2900, 2600, 14, 340, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-
-    INSERT_PAGOS_PLANILLAS_TB_SP(46, 146, 1, SYSDATE, 3100, 2800, 18, 380, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(47, 147, 1, SYSDATE, 2800, 2500, 10, 300, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(48, 148, 1, SYSDATE, 3000, 2700, 16, 360, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(49, 149, 1, SYSDATE, 3400, 3100, 25, 520, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_PAGOS_PLANILLAS_TB_SP(50, 150, 1, SYSDATE, 3700, 3400, 30, 600, 'Emmanuel Cordero', SYSDATE, NULL, NULL);
- 
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(1, 1, SYSDATE, 2500, 2200, 10, 300, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(2,  1, SYSDATE, 2700, 2400, 15, 350, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(3, 1, SYSDATE, 2300, 2000, 5, 200, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(4, 1, SYSDATE, 3200, 2900, 20, 400, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(5, 1, SYSDATE, 2800, 2500, 12, 320, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(6, 1, SYSDATE, 2600, 2300, 8, 310, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(7, 1, SYSDATE, 2900, 2600, 18, 370, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(8, 1, SYSDATE, 3100, 2800, 22, 450, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(9, 1, SYSDATE, 2400, 2100, 6, 250, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(10,1, SYSDATE, 3300, 3000, 25, 500, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(11, 1, SYSDATE, 3500, 3200, 30, 550, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(12, 1, SYSDATE, 2900, 2600, 18, 370, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(13, 1, SYSDATE, 2700, 2400, 14, 330, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(14, 1, SYSDATE, 2500, 2200, 10, 300, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(15, 1, SYSDATE, 3100, 2800, 22, 450, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(16, 1, SYSDATE, 3400, 3100, 28, 520, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(17, 1, SYSDATE, 2600, 2300, 8, 310, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(18, 1, SYSDATE, 3200, 2900, 20, 400, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(19, 1, SYSDATE, 2800, 2500, 12, 320, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(20, 1, SYSDATE, 3000, 2700, 16, 360, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(21, 1, SYSDATE, 2800, 2500, 10, 300, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(22, 1, SYSDATE, 3100, 2800, 15, 350, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(23, 1, SYSDATE, 2700, 2400, 12, 320, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(24, 1, SYSDATE, 3500, 3200, 18, 400, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(25, 1, SYSDATE, 3300, 3000, 20, 450, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(26, 1, SYSDATE, 2900, 2600, 14, 340, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(27, 1, SYSDATE, 3200, 2900, 22, 480, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(28, 1, SYSDATE, 3000, 2700, 16, 360, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(29, 1, SYSDATE, 2600, 2300, 8, 310, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(30, 1, SYSDATE, 2800, 2500, 12, 330, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(31, 1, SYSDATE, 3400, 3100, 25, 520, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(32,  1, SYSDATE, 3100, 2800, 18, 380, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(33, 1, SYSDATE, 3600, 3300, 28, 550, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(34, 1, SYSDATE, 3000, 2700, 16, 360, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(35, 1, SYSDATE, 3700, 3400, 30, 600, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(36, 1, SYSDATE, 2800, 2500, 10, 300, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(37, 1, SYSDATE, 3200, 2900, 22, 450, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(38, 1, SYSDATE, 2900, 2600, 14, 340, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(39, 1, SYSDATE, 3100, 2800, 18, 380, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(40, 1, SYSDATE, 3400, 3100, 25, 520, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(41, 1, SYSDATE, 3500, 3200, 28, 550, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(42, 1, SYSDATE, 3000, 2700, 16, 360, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(43, 1, SYSDATE, 3700, 3400, 30, 600, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(44, 1, SYSDATE, 3200, 2900, 22, 480, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(45, 1, SYSDATE, 2900, 2600, 14, 340, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(46, 1, SYSDATE, 3100, 2800, 18, 380, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(47, 1, SYSDATE, 2800, 2500, 10, 300, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(48, 1, SYSDATE, 3000, 2700, 16, 360, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(49, 1, SYSDATE, 3400, 3100, 25, 520, 'VETERINARIA_ADMIN', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PAGOS_PLANILLAS_SP(50, 1, SYSDATE, 3700, 3400, 30, 600, 'VETERINARIA_ADMIN', NULL); 
 END;
-/
+
+
+
