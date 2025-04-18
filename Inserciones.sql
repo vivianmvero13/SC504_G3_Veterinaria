@@ -240,399 +240,449 @@ BEGIN
 END;
 --Inserts de especies
 BEGIN
-    INSERT_MASCOTA_ESPECIE_TB_SP(1, 1, 'Perro', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_ESPECIE_TB_SP(2, 1, 'Gato', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_ESPECIE_TB_SP(3, 1, 'Conejo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_ESPECIE_TB_SP(4, 1, 'Hamster', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_ESPECIE_TB_SP(5, 1, 'Loro', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_ESPECIE_TB_SP(6, 1, 'Perico', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_ESPECIE_TB_SP(1, 'Perro', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_ESPECIE_TB_SP(1, 'Gato', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_ESPECIE_TB_SP(1, 'Conejo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_ESPECIE_TB_SP(1, 'Hamster', 'Cristopher Vargas',  NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_ESPECIE_TB_SP(1, 'Loro', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_ESPECIE_TB_SP(1, 'Perico', 'Cristopher Vargas', NULL);
 END;
 /
 --Inserts de razas
 BEGIN
-    INSERT_MASCOTA_RAZA_TB_SP(1, 1, 'Labrador Retriever', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(2, 1, 'Bulldog Frances', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(3, 1, 'Golden Retriever', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(4, 1, 'Beagle', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(5, 1, 'Chihuahua', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(6, 1, 'Husky Siberiano', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(7, 1, 'Dachshund', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(8, 1, 'Boxer', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(9, 1, 'Dalmata', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(10, 1, 'Shih Tzu', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(11, 1, 'Persa', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(12, 1, 'Siames', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(13, 1, 'Bengali', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(14, 1, 'Ragdoll', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(15, 1, 'Esfinge', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(16, 1, 'Azul Ruso', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(17, 1, 'Scottish Fold', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(18, 1, 'Birmano', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(19, 1, 'Angora', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(20, 1, 'Himalayo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(21, 1, 'British Shorthair', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(22, 1, 'Maine Coon', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(23, 1, 'Mini Lop', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(24, 1, 'Belier', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(25, 1, 'Roborovski', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(26, 1, 'Cacatua Alba', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(27, 1, 'Diamante Mandarin', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(28, 1, 'Canario Roller', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(29, 1, 'Canario Yorkshire', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(30, 1, 'Cotorra Argentina', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(31, 1, 'Periquito Australiano', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(32, 1, 'Periquito Ingles', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(33, 1, 'Hamster Campbell', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(34, 1, 'Bulldog Ingles', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(35, 1, 'Loro Amazonas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_RAZA_TB_SP(36, 1, 'Yorkshire Terrier', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Labrador Retriever', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Bulldog Frances', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Golden Retriever', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Beagle', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Chihuahua', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Husky Siberiano', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Dachshund', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Boxer', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Dalmata', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Shih Tzu', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Persa', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Siames', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Bengali', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Ragdoll', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Esfinge', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Azul Ruso', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Scottish Fold', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Birmano', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Angora', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Himalayo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'British Shorthair', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Maine Coon', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Mini Lop', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Belier', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Roborovski', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Cacatua Alba', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Diamante Mandarin', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Canario Roller', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Canario Yorkshire', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Cotorra Argentina', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Periquito Australiano', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Periquito Ingles', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Hamster Campbell', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Bulldog Ingles', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Loro Amazonas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_RAZA_TB_SP(1, 'Yorkshire Terrier', 'Cristopher Vargas', NULL);
 END;
 /
 --Inserts de mascotas
 BEGIN
-    INSERT_MASCOTA_TB_SP(1, 1, 1, 1, 51, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(2, 1, 1, 2, 51, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(3, 1, 1, 3, 52, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(4, 1, 2, 11, 52, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(1, 1, 1, 1, NULL, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(2, 1, 1, 2, NULL, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(3, 1, 1, 3, NULL, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(4, 1, 2, 11, NULL, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(5, 1, 2, 12, NULL, 'Simba', TO_DATE('2022-06-30','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(6, 1, 2, 13, NULL, 'Luna', TO_DATE('2017-09-05','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(7, 1, 3, 23, NULL, 'Nieve', TO_DATE('2020-01-15','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(8, 1, 3, 24, NULL, 'Bunny', TO_DATE('2021-04-07','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(9, 1, 4, 33, NULL, 'Bolt', TO_DATE('2022-03-14','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(10, 1, 4, 33, NULL, 'Dobby', TO_DATE('2021-07-22','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(11, 1, 5, 26, NULL, 'Kiwi', TO_DATE('2019-10-10','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(12, 1, 5, 26, NULL, 'Coco', TO_DATE('2020-12-19','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(13, 1, 6, 31, NULL, 'Pipoca', TO_DATE('2018-06-18','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(14, 1, 6, 30, NULL, 'Tuki', TO_DATE('2021-01-11','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(15, 1, 1, 5, NULL, 'Toby', TO_DATE('2020-10-01','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(16, 1, 1, 7, NULL, 'Molly', TO_DATE('2019-05-23','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(17, 1, 2, 14, NULL, 'Felix', TO_DATE('2018-03-17','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(18, 1, 3, 25, NULL, 'Snowball', TO_DATE('2022-02-12','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(19, 1, 4, 33, NULL, 'Chispa', TO_DATE('2021-08-08','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(20, 1, 5, 27, NULL, 'Limon', TO_DATE('2019-04-29','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(21, 1, 6, 30, NULL, 'Azul', TO_DATE('2020-09-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(22, 1, 1, 8, NULL, 'Rex', TO_DATE('2019-07-01','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(23, 1, 2, 13, NULL, 'Mimi', TO_DATE('2017-12-31','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(24, 1, 5, 28, NULL, 'Paco', TO_DATE('2016-08-19','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(25, 1, 3, 24, NULL, 'Pelusa', TO_DATE('2018-02-10','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(26, 1, 1, 9, NULL, 'Loki', TO_DATE('2021-05-03','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(27, 1, 2, 15, NULL, 'Luna', TO_DATE('2019-07-11','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(28, 1, 3, 24, NULL, 'Snow', TO_DATE('2022-03-20','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(29, 1, 4, 33, NULL, 'Peanut', TO_DATE('2021-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(30, 1, 5, 29, NULL, 'Kiwi', TO_DATE('2020-06-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(31, 1, 6, 32, NULL, 'Pio', TO_DATE('2018-09-08','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(32, 1, 1, 6, NULL, 'Charlie', TO_DATE('2017-12-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(33, 1, 2, 16, NULL, 'Tigger', TO_DATE('2016-05-05','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(34, 1, 3, 24, NULL, 'Floppy', TO_DATE('2019-03-21','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(35, 1, 4, 33, NULL, 'Speedy', TO_DATE('2022-07-17','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(36, 1, 5, 28, NULL, 'Paco', TO_DATE('2021-10-12','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(37, 1, 6, 30, NULL, 'Sky', TO_DATE('2019-08-18','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(38, 1, 1, 10, NULL, 'Buddy', TO_DATE('2018-06-22','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(39, 1, 2, 17, NULL, 'Nala', TO_DATE('2017-04-09','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(40, 1, 3, 23, NULL, 'Bambi', TO_DATE('2021-02-15','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(41, 1, 4, 33, NULL, 'Sparky', TO_DATE('2020-01-28','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(42, 1, 5, 27, NULL, 'Clemente', TO_DATE('2019-03-17','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(43, 1, 6, 31, NULL, 'Tito', TO_DATE('2018-07-05','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(44, 1, 1, 4, NULL, 'Zeus', TO_DATE('2016-10-09','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(45, 1, 2, 18, NULL, 'Misha', TO_DATE('2015-12-14','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(46, 1, 3, 24, NULL, 'Nina', TO_DATE('2022-01-10','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(47, 1, 4, 33, NULL, 'Rex', TO_DATE('2019-05-28','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(48, 1, 5, 26, NULL, 'Loro', TO_DATE('2017-09-23','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(49, 1, 6, 30, NULL, 'Sol', TO_DATE('2020-06-07','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_MASCOTA_TB_SP(50, 1, 1, 12, NULL, 'Bruno', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 1, 50, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas',NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 2, 50, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas',NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 3, 12, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 11, 32, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 1, 1, 'Max', TO_DATE('2020-05-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 2, 2, 'Bella', TO_DATE('2019-08-20','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 3, 3, 'Rocky', TO_DATE('2021-02-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 11, 4, 'Mia', TO_DATE('2018-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 12, 23, 'Simba', TO_DATE('2022-06-30','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 13, 43, 'Luna', TO_DATE('2017-09-05','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 23, 23, 'Nieve', TO_DATE('2020-01-15','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 24, 21, 'Bunny', TO_DATE('2021-04-07','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 4, 33, 23, 'Bolt', TO_DATE('2022-03-14','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 4, 33, 32, 'Dobby', TO_DATE('2021-07-22','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 26, 12, 'Kiwi', TO_DATE('2019-10-10','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 26, 50, 'Coco', TO_DATE('2020-12-19','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 6, 31, 1, 'Pipoca', TO_DATE('2018-06-18','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 6, 30, 2, 'Tuki', TO_DATE('2021-01-11','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 5, 1, 'Toby', TO_DATE('2020-10-01','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 7, 1, 'Molly', TO_DATE('2019-05-23','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 14, 1, 'Felix', TO_DATE('2018-03-17','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 25, 1, 'Snowball', TO_DATE('2022-02-12','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 4, 33, 1, 'Chispa', TO_DATE('2021-08-08','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 27, 1, 'Limon', TO_DATE('2019-04-29','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 6, 30, 2, 'Azul', TO_DATE('2020-09-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 8, 2, 'Rex', TO_DATE('2019-07-01','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 13, 3, 'Mimi', TO_DATE('2017-12-31','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 28, 4, 'Paco', TO_DATE('2016-08-19','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 24, 5, 'Pelusa', TO_DATE('2018-02-10','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 9, 6, 'Loki', TO_DATE('2021-05-03','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 15, 6, 'Luna', TO_DATE('2019-07-11','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 24, 6, 'Snow', TO_DATE('2022-03-20','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 4, 33, 6, 'Peanut', TO_DATE('2021-11-25','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 29, 6, 'Kiwi', TO_DATE('2020-06-15','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 6, 32, 6, 'Pio', TO_DATE('2018-09-08','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 6, 6, 'Charlie', TO_DATE('2017-12-10','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 16, 8, 'Tigger', TO_DATE('2016-05-05','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 24, 8, 'Floppy', TO_DATE('2019-03-21','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 4, 33, 8, 'Speedy', TO_DATE('2022-07-17','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 28, 8, 'Paco', TO_DATE('2021-10-12','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 6, 30, 8, 'Sky', TO_DATE('2019-08-18','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 10, 33, 'Buddy', TO_DATE('2018-06-22','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 17, 22, 'Nala', TO_DATE('2017-04-09','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 23, 22, 'Bambi', TO_DATE('2021-02-15','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 4, 33, 12, 'Sparky', TO_DATE('2020-01-28','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 27, 21, 'Clemente', TO_DATE('2019-03-17','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 6, 31, 21, 'Tito', TO_DATE('2018-07-05','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 4, 21, 'Zeus', TO_DATE('2016-10-09','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 2, 18, 21, 'Misha', TO_DATE('2015-12-14','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 3, 24, 21, 'Nina', TO_DATE('2022-01-10','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 4, 33, 21, 'Rex', TO_DATE('2019-05-28','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 5, 26, 21, 'Loro', TO_DATE('2017-09-23','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 6, 30, 21, 'Sol', TO_DATE('2020-06-07','YYYY-MM-DD'), 'Hembra', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_MASCOTA_TB_SP(1, 1, 12, 21, 'Bruno', TO_DATE('2018-04-11','YYYY-MM-DD'), 'Macho', 'Cristopher Vargas', NULL);
 END;
 /
 --Inserts de tipos de examenes
 BEGIN
-    INSERT_TIPO_EXAMEN_TB_SP(1, 1, 'Examen Fisico General', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(2, 1, 'Analisis de Sangre Completo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(3, 1, 'Radiografia (Rayos X)', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(4, 1, 'Ultrasonido Abdominal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(5, 1, 'Coproparasitario (Analisis de Heces)', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(6, 1, 'Analisis de Orina', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(7, 1, 'Electrocardiograma (ECG)', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(8, 1, 'Prueba de Alergias', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(9, 1, 'Examen Dental', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(10, 1, 'Examen Oftalmologico', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(11, 1, 'Test de Distemper Canino', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(12, 1, 'Test de Leucemia Felina (FeLV)', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(13, 1, 'Perfil Renal y Hepatico', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(14, 1, 'Examen de Hormonas (Tiroides)', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_TIPO_EXAMEN_TB_SP(15, 1, 'Test de Parvovirus Canino', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Examen Fisico General', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Analisis de Sangre Completo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Radiografia (Rayos X)', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Ultrasonido Abdominal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Coproparasitario (Analisis de Heces)', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Analisis de Orina', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Electrocardiograma (ECG)', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Prueba de Alergias', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Examen Dental', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Examen Oftalmologico', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Test de Distemper Canino', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Test de Leucemia Felina (FeLV)', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Perfil Renal y Hepatico', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Examen de Hormonas (Tiroides)', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_TIPO_EXAMEN_TB_SP(1, 'Test de Parvovirus Canino', 'Cristopher Vargas', NULL);
 END;
 /
 --Inserts de examenes
 BEGIN
-    INSERT_EXAMENES_TB_SP(1, 1, 1, 1, 'Normal', DATE '2025-01-10', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(2, 2, 1, 2, 'Anemia leve', DATE '2025-01-15', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(3, 3, 1, 3, 'Fractura detectada', DATE '2025-01-12', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(4, 4, 1, 4, 'Higado inflamado', DATE '2025-01-18', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(5, 5, 1, 5, 'Parasitos intestinales', DATE '2025-01-20', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(6, 6, 1, 6, 'Infeccion urinaria', DATE '2025-01-22', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(7, 7, 1, 7, 'Arritmia detectada', DATE '2025-01-25', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(8, 8, 1, 8, 'Alergia a polen', DATE '2025-01-30', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(9, 9, 1, 9, 'Caries avanzada', DATE '2025-02-02', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(10, 10, 1, 10, 'Vision reducida', DATE '2025-02-05', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(11, 11, 1, 11, 'Negativo para Distemper', DATE '2025-02-07', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(12, 12, 1, 12, 'Positivo para FeLV', DATE '2025-02-09', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(13, 13, 1, 13, 'Funcion renal normal', DATE '2025-02-12', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(14, 14, 1, 14, 'Hipotiroidismo leve', DATE '2025-02-15', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(15, 15, 1, 15, 'Negativo para Parvovirus', DATE '2025-02-18', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(16, 16, 1, 1, 'Resultados normales', DATE '2025-02-20', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(17, 17, 1, 2, 'Globulos rojos bajos', DATE '2025-02-22', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(18, 18, 1, 3, 'Huesos sin lesiones', DATE '2025-02-25', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(19, 19, 1, 4, 'Problema hepatico leve', DATE '2025-02-27', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(20, 20, 1, 5, 'Huevos de parasitos detectados', DATE '2025-03-01', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(21, 21, 1, 6, 'Cristales en la orina', DATE '2025-03-03', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(22, 22, 1, 7, 'Frecuencia cardiaca normal', DATE '2025-03-05', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(23, 23, 1, 8, 'Alergia alimentaria leve', DATE '2025-03-07', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(24, 24, 1, 9, 'Inflamacion de encias', DATE '2025-03-10', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(25, 25, 1, 10, 'Ceguera parcial detectada', DATE '2025-03-12', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(26, 26, 1, 11, 'Positivo para Distemper', DATE '2025-03-14', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(27, 27, 1, 12, 'Negativo para FeLV', DATE '2025-03-16', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(28, 28, 1, 13, 'Funcion hepatica alterada', DATE '2025-03-18', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(29, 29, 1, 14, 'Hipertiroidismo moderado', DATE '2025-03-20', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(30, 30, 1, 15, 'Negativo para Parvovirus', DATE '2025-03-22', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(31, 31, 1, 1, 'Resultados dentro de lo normal', DATE '2025-03-24', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(32, 32, 1, 2, 'Leucocitos elevados', DATE '2025-03-26', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(33, 33, 1, 3, 'Fractura en recuperacion', DATE '2025-03-28', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(34, 34, 1, 4, 'Lesion en higado cicatrizando', DATE '2025-03-30', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(35, 35, 1, 5, 'Libre de parasitos', DATE '2025-04-02', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(36, 36, 1, 6, 'Infeccion urinaria en tratamiento', DATE '2025-04-05', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(37, 37, 1, 7, 'ECG dentro de valores normales', DATE '2025-04-08', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(38, 38, 1, 8, 'Alergia controlada con dieta', DATE '2025-04-10', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(39, 39, 1, 9, 'Control dental sin caries', DATE '2025-04-12', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(40, 40, 1, 10, 'Agudeza visual reducida', DATE '2025-04-14', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(41, 41, 1, 11, 'Negativo para Distemper', DATE '2025-04-16', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(42, 42, 1, 12, 'Positivo para FeLV', DATE '2025-04-18', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(43, 43, 1, 13, 'Funcion renal estable', DATE '2025-04-20', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(44, 44, 1, 14, 'Hipotiroidismo en control', DATE '2025-04-22', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(45, 45, 1, 15, 'Negativo para Parvovirus', DATE '2025-04-24', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(46, 46, 1, 1, 'Examen general sin alteraciones', DATE '2025-04-26', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(47, 47, 1, 2, 'Leucocitos normales', DATE '2025-04-28', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(48, 48, 1, 3, 'Sin fracturas recientes', DATE '2025-04-30', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(49, 49, 1, 4, 'Higado sano', DATE '2025-05-02', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_EXAMENES_TB_SP(50, 50, 1, 5, 'Parasitologia negativa', DATE '2025-05-04', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(1, 1, 1, 'Normal', DATE '2025-01-10', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(2, 1, 2, 'Anemia leve', DATE '2025-01-15', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(3, 1, 3, 'Fractura detectada', DATE '2025-01-12', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(4, 1, 4, 'Higado inflamado', DATE '2025-01-18', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(5, 1, 5, 'Parasitos intestinales', DATE '2025-01-20', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(6, 1, 6, 'Infeccion urinaria', DATE '2025-01-22', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(7, 1, 7, 'Arritmia detectada', DATE '2025-01-25', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(8, 1, 8, 'Alergia a polen', DATE '2025-01-30', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(9, 1, 9, 'Caries avanzada', DATE '2025-02-02', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(10, 1, 10, 'Vision reducida', DATE '2025-02-05', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(11, 1, 11, 'Negativo para Distemper', DATE '2025-02-07', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(12, 1, 12, 'Positivo para FeLV', DATE '2025-02-09', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(13, 1, 13, 'Funcion renal normal', DATE '2025-02-12', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(14, 1, 14, 'Hipotiroidismo leve', DATE '2025-02-15', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(15, 1, 15, 'Negativo para Parvovirus', DATE '2025-02-18', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(16, 1, 1, 'Resultados normales', DATE '2025-02-20', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(17, 1, 2, 'Globulos rojos bajos', DATE '2025-02-22', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(18, 1, 3, 'Huesos sin lesiones', DATE '2025-02-25', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(19, 1, 4, 'Problema hepatico leve', DATE '2025-02-27', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(20, 1, 5, 'Huevos de parasitos detectados', DATE '2025-03-01', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(21, 1, 6, 'Cristales en la orina', DATE '2025-03-03', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(22, 1, 7, 'Frecuencia cardiaca normal', DATE '2025-03-05', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(23, 1, 8, 'Alergia alimentaria leve', DATE '2025-03-07', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(24, 1, 9, 'Inflamacion de encias', DATE '2025-03-10', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(25, 1, 10, 'Ceguera parcial detectada', DATE '2025-03-12', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(26, 1, 11, 'Positivo para Distemper', DATE '2025-03-14', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(27, 1, 12, 'Negativo para FeLV', DATE '2025-03-16', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(28, 1, 13, 'Funcion hepatica alterada', DATE '2025-03-18', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(29, 1, 14, 'Hipertiroidismo moderado', DATE '2025-03-20', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(30, 1, 15, 'Negativo para Parvovirus', DATE '2025-03-22', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(31, 1, 1, 'Resultados dentro de lo normal', DATE '2025-03-24', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(32, 1, 2, 'Leucocitos elevados', DATE '2025-03-26', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(33, 1, 3, 'Fractura en recuperacion', DATE '2025-03-28', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(34, 1, 4, 'Lesion en higado cicatrizando', DATE '2025-03-30', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(35, 1, 5, 'Libre de parasitos', DATE '2025-04-02', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(36, 1, 6, 'Infeccion urinaria en tratamiento', DATE '2025-04-05', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(37, 1, 7, 'ECG dentro de valores normales', DATE '2025-04-08', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(38, 1, 8, 'Alergia controlada con dieta', DATE '2025-04-10', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(39, 1, 9, 'Control dental sin caries', DATE '2025-04-12', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(40, 1, 10, 'Agudeza visual reducida', DATE '2025-04-14', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(41, 1, 11, 'Negativo para Distemper', DATE '2025-04-16', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(42, 1, 12, 'Positivo para FeLV', DATE '2025-04-18', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(43, 1, 13, 'Funcion renal estable', DATE '2025-04-20', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(44, 1, 14, 'Hipotiroidismo en control', DATE '2025-04-22', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(45, 1, 15, 'Negativo para Parvovirus', DATE '2025-04-24', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(46, 1, 1, 'Examen general sin alteraciones', DATE '2025-04-26', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(47, 1, 2, 'Leucocitos normales', DATE '2025-04-28', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(48, 1, 3, 'Sin fracturas recientes', DATE '2025-04-30', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(49, 1, 4, 'Higado sano', DATE '2025-05-02', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_EXAMENES_TB_SP(50, 1, 5, 'Parasitologia negativa', DATE '2025-05-04', 'Cristopher Vargas', NULL);
 END;
 /
 --Inserts de motivos de consultas
  BEGIN
-    INSERT_CONSULTA_MOTIVO_TB_SP(1, 1, 'Chequeo general', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(2, 1, 'Vacunacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(3, 1, 'Desparasitacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(4, 1, 'Examen de sangre', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(5, 1, 'Consulta por vomitos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(6, 1, 'Consulta por diarrea', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(7, 1, 'Consulta por cojera', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(8, 1, 'Cirugia programada', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(9, 1, 'Control postquirurgico', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(10, 1, 'Consulta por infeccion ocular', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(11, 1, 'Consulta por infeccion de oido', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(12, 1, 'Consulta por tos persistente', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(13, 1, 'Consulta por picazon en la piel', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(14, 1, 'Prueba de alergias', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(15, 1, 'Consulta por fiebre', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(16, 1, 'Examen dental', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(17, 1, 'Chequeo geriatrico', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(18, 1, 'Consulta por perdida de peso', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(19, 1, 'Consulta por perdida de apetito', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(20, 1, 'Revisar posible embarazo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(21, 1, 'Consulta por respiracion agitada', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(22, 1, 'Consulta por letargo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(23, 1, 'Consulta por convulsiones', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(24, 1, 'Consulta por intoxicacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(25, 1, 'Extraccion de cuerpo extraÃ±o', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(26, 1, 'Consulta por alergia estacional', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(27, 1, 'Ecografia', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(28, 1, 'Consulta por dificultad para orinar', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(29, 1, 'Chequeo preoperatorio', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(30, 1, 'Consulta por hinchazon en el cuerpo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(31, 1, 'Consulta por secrecion nasal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(32, 1, 'Consulta por cojera repentina', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(33, 1, 'Analisis de heces', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(34, 1, 'Consulta por problemas digestivos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(35, 1, 'Evaluacion para castracion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(36, 1, 'Consulta por envenenamiento', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(37, 1, 'Consulta por agresividad repentina', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(38, 1, 'Consulta por deshidratacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(39, 1, 'Revisar estado de vacunacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(40, 1, 'Revision de articulaciones', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(41, 1, 'Consulta por heridas leves', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(42, 1, 'Consulta por temblores', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(43, 1, 'Consulta por estreÃ±imiento', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(44, 1, 'Evaluacion cardiaca', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(45, 1, 'Consulta por dificultad para respirar', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(46, 1, 'Consulta por infeccion cutanea', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(47, 1, 'Consulta por infeccion estomacal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(48, 1, 'Evaluacion para adopcion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(49, 1, 'Consulta por perdida de pelo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTA_MOTIVO_TB_SP(50, 1, 'Evaluacion de sobrepeso', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Chequeo general', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Vacunacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Desparasitacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Examen de sangre', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por vomitos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por diarrea', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por cojera', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Cirugia programada', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Control postquirurgico', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por infeccion ocular', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por infeccion de oido', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por tos persistente', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por picazon en la piel', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Prueba de alergias', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por fiebre', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Examen dental', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Chequeo geriatrico', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por perdida de peso', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por perdida de apetito', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Revisar posible embarazo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por respiracion agitada', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por letargo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por convulsiones', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por intoxicacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Extraccion de cuerpo extraÃ±o', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por alergia estacional', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Ecografia', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por dificultad para orinar', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Chequeo preoperatorio', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por hinchazon en el cuerpo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por secrecion nasal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por cojera repentina', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Analisis de heces', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por problemas digestivos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Evaluacion para castracion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por envenenamiento', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por agresividad repentina', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por deshidratacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Revisar estado de vacunacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Revision de articulaciones', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por heridas leves', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por temblores', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por estreÃ±imiento', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Evaluacion cardiaca', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por dificultad para respirar', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por infeccion cutanea', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por infeccion estomacal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Evaluacion para adopcion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Consulta por perdida de pelo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTA_MOTIVO_TB_SP(1, 'Evaluacion de sobrepeso', 'Cristopher Vargas', NULL);
 END;
 /
 --Inserts de consultas
 BEGIN
-    INSERT_CONSULTAS_TB_SP(1, DATE '2025-03-01', 1, 1, 1, 1001, 'Chequeo anual', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(2, DATE '2025-03-02', 2, 1, 2, 1002, 'Vacunacion contra rabia', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(3, DATE '2025-03-03', 3, 1, 3, 1003, 'Desparasitacion trimestral', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(4, DATE '2025-03-04', 4, 1, 4, 1004, 'Requiere examen de sangre', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(5, DATE '2025-03-05', 5, 1, 5, 1005, 'Mascota con vomitos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(6, DATE '2025-03-06', 6, 1, 6, 1006, 'Diarrea persistente', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(7, DATE '2025-03-07', 7, 1, 7, 1007, 'Dificultad para caminar', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(8, DATE '2025-03-08', 8, 1, 8, 1008, 'Cirugia programada', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(9, DATE '2025-03-09', 9, 1, 9, 1009, 'Revision post operatoria', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(10, DATE '2025-03-10', 10, 1, 10, 1010, 'Infeccion ocular', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(11, DATE '2025-03-11', 11, 1, 11, 1011, 'Otitis en oido derecho', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(12, DATE '2025-03-12', 12, 1, 12, 1012, 'Tos frecuente', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(13, DATE '2025-03-13', 13, 1, 13, 1013, 'Rascado excesivo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(14, DATE '2025-03-14', 14, 1, 14, 1014, 'Prueba de alergias', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(15, DATE '2025-03-15', 15, 1, 15, 1015, 'Fiebre alta', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(16, DATE '2025-03-16', 16, 1, 16, 1016, 'Chequeo dental', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(17, DATE '2025-03-17', 17, 1, 17, 1017, 'Evaluacion geriatrica', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(18, DATE '2025-03-18', 18, 1, 18, 1018, 'Bajo de peso', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(19, DATE '2025-03-19', 19, 1, 19, 1019, 'Perdio el apetito', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(20, DATE '2025-03-20', 20, 1, 20, 1020, 'Revisar embarazo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(21, DATE '2025-03-21', 21, 1, 21, 1021, 'Respiracion acelerada', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(22, DATE '2025-03-22', 22, 1, 22, 1022, 'Cansancio extremo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(23, DATE '2025-03-23', 23, 1, 23, 1023, 'Convulsiones esporadicas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(24, DATE '2025-03-24', 24, 1, 24, 1024, 'Posible intoxicacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(25, DATE '2025-03-25', 25, 1, 25, 1025, 'Extraccion de cuerpo extraÃ±o', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(26, DATE '2025-03-26', 26, 1, 26, 1026, 'Sospecha de alergia', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(27, DATE '2025-03-27', 27, 1, 27, 1027, 'Ecografia abdominal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(28, DATE '2025-03-28', 28, 1, 28, 1028, 'Dificultad al orinar', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(29, DATE '2025-03-29', 29, 1, 29, 1029, 'Chequeo preoperatorio', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(30, DATE '2025-03-30', 30, 1, 30, 1030, 'Hinchazon en la pata', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(31, DATE '2025-03-31', 31, 1, 31, 1031, 'Secrecion nasal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(32, DATE '2025-04-01', 32, 1, 32, 1032, 'Cojera repentina', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(33, DATE '2025-04-02', 33, 1, 33, 1033, 'Analisis de heces', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(34, DATE '2025-04-03', 34, 1, 34, 1034, 'Problemas digestivos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(35, DATE '2025-04-04', 35, 1, 35, 1035, 'Evaluacion para castracion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(36, DATE '2025-04-05', 36, 1, 36, 1036, 'Sospecha de envenenamiento', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(37, DATE '2025-04-06', 37, 1, 37, 1037, 'Agresividad inusual', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(38, DATE '2025-04-07', 38, 1, 38, 1038, 'Deshidratacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(39, DATE '2025-04-08', 39, 1, 39, 1039, 'Chequeo de vacunacion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(40, DATE '2025-04-09', 40, 1, 40, 1040, 'Revision de articulaciones', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(41, DATE '2025-04-10', 41, 1, 41, 1041, 'Heridas leves', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(42, DATE '2025-04-11', 42, 1, 42, 1042, 'Temblores sin causa aparente', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(43, DATE '2025-04-12', 43, 1, 43, 1043, 'Problemas de digestion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(44, DATE '2025-04-13', 44, 1, 44, 1044, 'Chequeo cardiaco', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(45, DATE '2025-04-14', 45, 1, 45, 1045, 'Dificultad para respirar', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(46, DATE '2025-04-15', 46, 1, 46, 1046, 'Infeccion cutanea', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(47, DATE '2025-04-16', 47, 1, 47, 1047, 'Infeccion gastrointestinal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(48, DATE '2025-04-17', 48, 1, 48, 1048, 'Evaluacion para adopcion', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(49, DATE '2025-04-18', 49, 1, 49, 1049, 'Perdida de pelo excesiva', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_CONSULTAS_TB_SP(50, DATE '2025-04-19', 50, 1, 50, 1050, 'Evaluacion de sobrepeso', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-01','YYYY-MM-DD'), 1, 1, 1, 1, 'Chequeo anual', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-02','YYYY-MM-DD'), 2, 1, 2, 2, 'Vacunacion contra rabia', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-03','YYYY-MM-DD'), 3, 1, 3, 3, 'Desparasitacion trimestral', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-04','YYYY-MM-DD'), 4, 1, 4, 4, 'Requiere examen de sangre', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-05','YYYY-MM-DD'), 5, 1, 5, 5, 'Mascota con vomitos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-06','YYYY-MM-DD'), 6, 1, 6, 6, 'Diarrea persistente', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-07','YYYY-MM-DD'), 7, 1, 7, 7, 'Dificultad para caminar', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-08','YYYY-MM-DD'), 8, 1, 8, 8, 'Cirugia programada', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-09','YYYY-MM-DD'), 9, 1, 9, 9, 'Revision post operatoria', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-10','YYYY-MM-DD'), 10, 1, 10, 10, 'Infeccion ocular', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-11','YYYY-MM-DD'), 11, 1, 11, 11, 'Otitis en oido derecho', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-12','YYYY-MM-DD'), 12, 1, 12, 12, 'Tos frecuente', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-13','YYYY-MM-DD'), 13, 1, 13, 13, 'Rascado excesivo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-14','YYYY-MM-DD'), 14, 1, 14, 14, 'Prueba de alergias', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-15','YYYY-MM-DD'), 15, 1, 15, 15, 'Fiebre alta', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-16','YYYY-MM-DD'), 16, 1, 16, 16, 'Chequeo dental', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-17','YYYY-MM-DD'), 17, 1, 17, 17, 'Evaluacion geriatrica', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-18','YYYY-MM-DD'), 18, 1, 18, 18, 'Bajo de peso', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-19','YYYY-MM-DD'), 19, 1, 19, 19, 'Perdio el apetito', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-20','YYYY-MM-DD'), 20, 1, 20, 20, 'Revisar embarazo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-21','YYYY-MM-DD'), 21, 1, 21, 21, 'Respiracion acelerada', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-22','YYYY-MM-DD'), 22, 1, 22, 22, 'Cansancio extremo', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-23','YYYY-MM-DD'), 23, 1, 23, 23, 'Convulsiones esporadicas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-24','YYYY-MM-DD'), 24, 1, 24, 24, 'Posible intoxicacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-25','YYYY-MM-DD'), 25, 1, 25, 25, 'Extraccion de cuerpo extraÃ±o', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-26','YYYY-MM-DD'), 26, 1, 26, 26, 'Sospecha de alergia', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-27','YYYY-MM-DD'), 27, 1, 27, 27, 'Ecografia abdominal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-28','YYYY-MM-DD'), 28, 1, 28, 28, 'Dificultad al orinar', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-29','YYYY-MM-DD'), 29, 1, 29, 29, 'Chequeo preoperatorio', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-30','YYYY-MM-DD'), 30, 1, 30, 30, 'Hinchazon en la pata', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-03-31','YYYY-MM-DD'), 31, 1, 31, 31, 'Secrecion nasal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-01','YYYY-MM-DD'), 32, 1, 32, 32, 'Cojera repentina', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-02','YYYY-MM-DD'), 33, 1, 33, 33, 'Analisis de heces', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-03','YYYY-MM-DD'), 34, 1, 34, 34, 'Problemas digestivos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-04','YYYY-MM-DD'), 35, 1, 35, 35, 'Evaluacion para castracion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-05','YYYY-MM-DD'), 36, 1, 36, 36, 'Sospecha de envenenamiento', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-06','YYYY-MM-DD'), 37, 1, 37, 37, 'Agresividad inusual', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-07','YYYY-MM-DD'), 38, 1, 38, 38, 'Deshidratacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-08','YYYY-MM-DD'), 39, 1, 39, 39, 'Chequeo de vacunacion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-09','YYYY-MM-DD'), 40, 1, 40, 40, 'Revision de articulaciones', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-10','YYYY-MM-DD'), 41, 1, 41, 41, 'Heridas leves', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-11','YYYY-MM-DD'), 42, 1, 42, 42, 'Temblores sin causa aparente', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-12','YYYY-MM-DD'), 43, 1, 43, 43, 'Problemas de digestion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-13','YYYY-MM-DD'), 44, 1, 44, 44, 'Chequeo cardiaco', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-14','YYYY-MM-DD'), 45, 1, 45, 45, 'Dificultad para respirar', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-15','YYYY-MM-DD'), 46, 1, 46, 46, 'Infeccion cutanea', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-16','YYYY-MM-DD'), 47, 1, 47, 47, 'Infeccion gastrointestinal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-17','YYYY-MM-DD'), 48, 1, 48, 48, 'Evaluacion para adopcion', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-18','YYYY-MM-DD'), 49, 1, 49, 49, 'Perdida de pelo excesiva', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_CONSULTAS_TB_SP(TO_DATE('2025-04-19','YYYY-MM-DD'), 50, 1, 50, 50, 'Evaluacion de sobrepeso', 'Cristopher Vargas', NULL);
 END;
 /
 --Inserts de facturaciones
 BEGIN
-    INSERT_FACTURACIONES_TB_SP(1, 1, 1, DATE '2025-04-01', 150.00, 10.00, 13.00, 153.00, 140.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(2, 2, 1, DATE '2025-04-02', 200.00, 15.00, 13.00, 198.00, 185.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(3, 3, 1, DATE '2025-04-03', 120.00, 5.00, 13.00, 128.00, 115.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(4, 4, 1, DATE '2025-04-04', 300.00, 20.00, 13.00, 293.00, 280.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(5, 5, 1, DATE '2025-04-05', 175.00, 10.00, 13.00, 178.00, 165.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(6, 6, 1, DATE '2025-04-06', 90.00, 5.00, 13.00, 98.00, 85.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(7, 7, 1, DATE '2025-04-07', 250.00, 15.00, 13.00, 248.00, 235.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(8, 8, 1, DATE '2025-04-08', 180.00, 12.00, 13.00, 181.00, 168.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(9, 9, 1, DATE '2025-04-09', 140.00, 7.00, 13.00, 146.00, 133.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(10, 10, 1, DATE '2025-04-10', 220.00, 15.00, 13.00, 218.00, 205.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(11, 11, 1, DATE '2025-04-11', 95.00, 5.00, 13.00, 103.00, 90.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(12, 12, 1, DATE '2025-04-12', 310.00, 25.00, 13.00, 298.00, 285.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(13, 13, 1, DATE '2025-04-13', 275.00, 18.00, 13.00, 270.00, 257.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(14, 14, 1, DATE '2025-04-14', 130.00, 8.00, 13.00, 135.00, 122.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(15, 15, 1, DATE '2025-04-15', 160.00, 9.00, 13.00, 164.00, 151.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(16, 16, 1, DATE '2025-04-16', 230.00, 10.00, 13.00, 233.00, 220.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(17, 17, 1, DATE '2025-04-17', 145.00, 8.00, 13.00, 150.00, 137.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(18, 18, 1, DATE '2025-04-18', 190.00, 12.00, 13.00, 191.00, 178.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(19, 19, 1, DATE '2025-04-19', 200.00, 15.00, 13.00, 198.00, 185.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(20, 20, 1, DATE '2025-04-20', 180.00, 10.00, 13.00, 183.00, 170.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(21, 21, 1, DATE '2025-04-21', 275.00, 20.00, 13.00, 268.00, 255.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(22, 22, 1, DATE '2025-04-22', 125.00, 6.00, 13.00, 132.00, 119.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(23, 23, 1, DATE '2025-04-23', 320.00, 25.00, 13.00, 308.00, 295.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(24, 24, 1, DATE '2025-04-24', 290.00, 20.00, 13.00, 283.00, 270.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(25, 25, 1, DATE '2025-04-25', 175.00, 12.00, 13.00, 176.00, 163.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(26, 26, 1, DATE '2025-04-26', 140.00, 8.00, 13.00, 145.00, 132.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(27, 27, 1, DATE '2025-04-27', 300.00, 20.00, 13.00, 293.00, 280.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(28, 28, 1, DATE '2025-04-28', 220.00, 15.00, 13.00, 218.00, 205.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(29, 29, 1, DATE '2025-04-29', 185.00, 10.00, 13.00, 188.00, 175.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(30, 30, 1, DATE '2025-04-30', 250.00, 18.00, 13.00, 245.00, 232.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(31, 31, 1, DATE '2025-05-01', 160.00, 9.00, 13.00, 164.00, 151.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(32, 32, 1, DATE '2025-05-02', 145.00, 7.00, 13.00, 151.00, 138.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(33, 33, 1, DATE '2025-05-03', 130.00, 6.00, 13.00, 137.00, 124.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(34, 34, 1, DATE '2025-05-04', 180.00, 10.00, 13.00, 183.00, 170.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(35, 35, 1, DATE '2025-05-05', 250.00, 15.00, 13.00, 248.00, 235.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(36, 36, 1, DATE '2025-05-06', 140.00, 7.00, 13.00, 146.00, 133.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(37, 37, 1, DATE '2025-05-07', 190.00, 12.00, 13.00, 191.00, 178.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(38, 38, 1, DATE '2025-05-08', 200.00, 15.00, 13.00, 198.00, 185.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(39, 39, 1, DATE '2025-05-09', 175.00, 10.00, 13.00, 178.00, 165.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(40, 40, 1, DATE '2025-05-10', 220.00, 15.00, 13.00, 218.00, 205.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(41, 41, 1, DATE '2025-05-11', 310.00, 20.00, 13.00, 303.00, 290.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(42, 42, 1, DATE '2025-05-12', 290.00, 18.00, 13.00, 285.00, 272.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(43, 43, 1, DATE '2025-05-13', 150.00, 9.00, 13.00, 154.00, 141.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(44, 44, 1, DATE '2025-05-14', 125.00, 6.00, 13.00, 132.00, 119.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(45, 45, 1, DATE '2025-05-15', 275.00, 20.00, 13.00, 268.00, 255.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(46, 46, 1, DATE '2025-05-16', 320.00, 25.00, 13.00, 308.00, 295.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(47, 47, 1, DATE '2025-05-17', 300.00, 22.00, 13.00, 291.00, 278.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(48, 48, 1, DATE '2025-05-18', 270.00, 19.00, 13.00, 264.00, 251.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(49, 49, 1, DATE '2025-05-19', 180.00, 10.00, 13.00, 183.00, 170.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_FACTURACIONES_TB_SP(50, 50, 1, DATE '2025-05-20', 260.00, 18.00, 13.00, 255.00, 242.00, 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        1, 1, TO_DATE('2025-04-01', 'YYYY-MM-DD'), 150.00, 10.00, 13.00, 153.00, 140.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        2, 1, TO_DATE('2025-04-02', 'YYYY-MM-DD'), 200.00, 15.00, 13.00, 198.00, 185.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        3, 1, TO_DATE('2025-04-03', 'YYYY-MM-DD'), 120.00, 5.00, 13.00, 128.00, 115.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        4, 1, TO_DATE('2025-04-04', 'YYYY-MM-DD'), 300.00, 20.00, 13.00, 293.00, 280.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        5, 1, TO_DATE('2025-04-05', 'YYYY-MM-DD'), 175.00, 10.00, 13.00, 178.00, 165.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        6, 1, TO_DATE('2025-04-06', 'YYYY-MM-DD'), 90.00, 5.00, 13.00, 98.00, 85.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        7, 1, TO_DATE('2025-04-07', 'YYYY-MM-DD'), 250.00, 15.00, 13.00, 248.00, 235.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        8, 1, TO_DATE('2025-04-08', 'YYYY-MM-DD'), 180.00, 12.00, 13.00, 181.00, 168.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        9, 1, TO_DATE('2025-04-09', 'YYYY-MM-DD'), 140.00, 7.00, 13.00, 146.00, 133.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        10, 1, TO_DATE('2025-04-10', 'YYYY-MM-DD'), 220.00, 15.00, 13.00, 218.00, 205.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        11, 1, TO_DATE('2025-04-11', 'YYYY-MM-DD'), 95.00, 5.00, 13.00, 103.00, 90.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        12, 1, TO_DATE('2025-04-12', 'YYYY-MM-DD'), 310.00, 25.00, 13.00, 298.00, 285.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        13, 1, TO_DATE('2025-04-13', 'YYYY-MM-DD'), 275.00, 18.00, 13.00, 270.00, 257.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        14, 1, TO_DATE('2025-04-14', 'YYYY-MM-DD'), 130.00, 8.00, 13.00, 135.00, 122.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        15, 1, TO_DATE('2025-04-15', 'YYYY-MM-DD'), 160.00, 9.00, 13.00, 164.00, 151.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        16, 1, TO_DATE('2025-04-16', 'YYYY-MM-DD'), 230.00, 10.00, 13.00, 233.00, 220.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        17, 1, TO_DATE('2025-04-17', 'YYYY-MM-DD'), 145.00, 8.00, 13.00, 150.00, 137.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        18, 1, TO_DATE('2025-04-18', 'YYYY-MM-DD'), 190.00, 12.00, 13.00, 191.00, 178.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        19, 1, TO_DATE('2025-04-19', 'YYYY-MM-DD'), 200.00, 15.00, 13.00, 198.00, 185.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        20, 1, TO_DATE('2025-04-20', 'YYYY-MM-DD'), 180.00, 10.00, 13.00, 183.00, 170.00, 'Cristopher Vargas', NULL);
+     PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        21, 1, TO_DATE('2025-04-21', 'YYYY-MM-DD'), 275.00, 20.00, 13.00, 268.00, 255.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        22, 1, TO_DATE('2025-04-22', 'YYYY-MM-DD'), 125.00, 6.00, 13.00, 132.00, 119.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        23, 1, TO_DATE('2025-04-23', 'YYYY-MM-DD'), 320.00, 25.00, 13.00, 308.00, 295.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        24, 1, TO_DATE('2025-04-24', 'YYYY-MM-DD'), 290.00, 20.00, 13.00, 283.00, 270.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        25, 1, TO_DATE('2025-04-25', 'YYYY-MM-DD'), 175.00, 12.00, 13.00, 176.00, 163.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        26, 1, TO_DATE('2025-04-26', 'YYYY-MM-DD'), 140.00, 8.00, 13.00, 145.00, 132.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        27, 1, TO_DATE('2025-04-27', 'YYYY-MM-DD'), 300.00, 20.00, 13.00, 293.00, 280.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        28, 1, TO_DATE('2025-04-28', 'YYYY-MM-DD'), 220.00, 15.00, 13.00, 218.00, 205.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        29, 1, TO_DATE('2025-04-29', 'YYYY-MM-DD'), 185.00, 10.00, 13.00, 188.00, 175.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        30, 1, TO_DATE('2025-04-30', 'YYYY-MM-DD'), 250.00, 18.00, 13.00, 245.00, 232.00, 'Cristopher Vargas', NULL);
+     PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        31, 1, TO_DATE('2025-05-01', 'YYYY-MM-DD'), 160.00, 9.00, 13.00, 164.00, 151.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        32, 1, TO_DATE('2025-05-02', 'YYYY-MM-DD'), 145.00, 7.00, 13.00, 151.00, 138.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        33, 1, TO_DATE('2025-05-03', 'YYYY-MM-DD'), 130.00, 6.00, 13.00, 137.00, 124.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        34, 1, TO_DATE('2025-05-04', 'YYYY-MM-DD'), 180.00, 10.00, 13.00, 183.00, 170.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        35, 1, TO_DATE('2025-05-05', 'YYYY-MM-DD'), 250.00, 15.00, 13.00, 248.00, 235.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        36, 1, TO_DATE('2025-05-06', 'YYYY-MM-DD'), 140.00, 7.00, 13.00, 146.00, 133.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        37, 1, TO_DATE('2025-05-07', 'YYYY-MM-DD'), 190.00, 12.00, 13.00, 191.00, 178.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        38, 1, TO_DATE('2025-05-08', 'YYYY-MM-DD'), 200.00, 15.00, 13.00, 198.00, 185.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        39, 1, TO_DATE('2025-05-09', 'YYYY-MM-DD'), 175.00, 10.00, 13.00, 178.00, 165.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        40, 1, TO_DATE('2025-05-10', 'YYYY-MM-DD'), 220.00, 15.00, 13.00, 218.00, 205.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        41, 1, TO_DATE('2025-05-11', 'YYYY-MM-DD'), 310.00, 20.00, 13.00, 303.00, 290.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        42, 1, TO_DATE('2025-05-12', 'YYYY-MM-DD'), 290.00, 18.00, 13.00, 285.00, 272.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        43, 1, TO_DATE('2025-05-13', 'YYYY-MM-DD'), 150.00, 9.00, 13.00, 154.00, 141.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        44, 1, TO_DATE('2025-05-14', 'YYYY-MM-DD'), 125.00, 6.00, 13.00, 132.00, 119.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        45, 1, TO_DATE('2025-05-15', 'YYYY-MM-DD'), 275.00, 20.00, 13.00, 268.00, 255.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        46, 1, TO_DATE('2025-05-16', 'YYYY-MM-DD'), 320.00, 25.00, 13.00, 308.00, 295.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        47, 1, TO_DATE('2025-05-17', 'YYYY-MM-DD'), 300.00, 22.00, 13.00, 291.00, 278.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        48, 1, TO_DATE('2025-05-18', 'YYYY-MM-DD'), 270.00, 19.00, 13.00, 264.00, 251.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        49, 1, TO_DATE('2025-05-19', 'YYYY-MM-DD'), 180.00, 10.00, 13.00, 183.00, 170.00, 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_FACTURACIONES_TB_SP(
+        50, 1, TO_DATE('2025-05-20', 'YYYY-MM-DD'), 260.00, 18.00, 13.00, 255.00, 242.00, 'Cristopher Vargas', NULL);  
 END;
 /
 --Inserts de proveedores
 BEGIN
-    INSERT_PROVEEDORES_TB_SP(1, 1, 101, 201, 'Vet Supplies SA', 'contacto@vetsupplies.com', 'Medicinas y equipos veterinarios', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(2, 1, 102, 202, 'Alimentos Pet', 'ventas@alimentos-pet.com', 'Alimentos premium para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(3, 1, 103, 203, 'Mascota Feliz', 'info@mascotafeliz.com', 'Accesorios para perros y gatos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(4, 1, 104, 204, 'DogoShop', 'ventas@dogoshop.com', 'Juguetes para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(5, 1, 105, 205, 'Pajareria El Nido', 'nido@pajareria.com', 'Jaulas y alimentos para aves', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(6, 1, 106, 206, 'Acuarios Marinos', 'acuarios@marinos.com', 'Peceras y accesorios para peces', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(7, 1, 107, 207, 'Veterinaria Central', 'ventas@vetcentral.com', 'Medicinas y vacunas para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(8, 1, 108, 208, 'Clinica PetLife', 'contacto@petlife.com', 'Servicios de salud animal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(9, 1, 109, 209, 'Huesitos y Croquetas', 'info@huesitosycroquetas.com', 'Snacks para perros y gatos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(10, 1, 110, 210, 'Granja Canina', 'contacto@granjacanina.com', 'Criaderos y reproducciÃ³n de razas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(11, 1, 111, 211, 'EquiVet', 'info@equivet.com', 'Accesorios y alimentos para caballos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(12, 1, 112, 212, 'Felino Express', 'ventas@felinoexpress.com', 'Productos especializados para gatos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(13, 1, 113, 213, 'Reptilandia', 'contacto@reptilandia.com', 'Accesorios y alimentos para reptiles', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(14, 1, 114, 214, 'Mascota Moderna', 'ventas@mascotamoderna.com', 'Ropa y accesorios de lujo para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(15, 1, 115, 215, 'PetClean', 'contacto@petclean.com', 'Higiene y limpieza para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(16, 1, 116, 216, 'CanarioMusic', 'ventas@canariomusic.com', 'Productos para aves cantoras', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(17, 1, 117, 217, 'ZooMed', 'info@zoomed.com', 'Suministros para animales exÃ³ticos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(18, 1, 118, 218, 'HappyPets', 'contacto@happypets.com', 'Sillas, camas y muebles para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(19, 1, 119, 219, 'VetLab', 'ventas@vetlab.com', 'Equipos para laboratorios veterinarios', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(20, 1, 120, 220, 'PerroTech', 'info@perrotech.com', 'TecnologÃ­a y dispositivos para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(21, 1, 121, 221, 'BioPet', 'bio@biopet.com', 'Alimentos orgÃ¡nicos para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(22, 1, 122, 222, 'PetExpress', 'ventas@petexpress.com', 'Transporte especializado de mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(23, 1, 123, 223, 'DogFitness', 'info@dogfitness.com', 'Ejercicio y bienestar para perros', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(24, 1, 124, 224, 'CatLux', 'contacto@catlux.com', 'Lujo y bienestar para gatos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(25, 1, 125, 225, 'FarmaVet', 'ventas@farmavet.com', 'Suministros farmacÃ©uticos veterinarios', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(26, 1, 126, 226, 'WildZoo', 'info@wildzoo.com', 'Accesorios para zoolÃ³gicos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(27, 1, 127, 227, 'PetWater', 'contacto@petwater.com', 'Purificadores y fuentes de agua para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(28, 1, 128, 228, 'PetSafe', 'ventas@petsafe.com', 'Sistemas de seguridad para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(29, 1, 129, 229, 'VetTools', 'info@vettools.com', 'Herramientas para veterinarios', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(30, 1, 130, 230, 'PetMed', 'contacto@petmed.com', 'Seguros y salud para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(31, 1, 131, 231, 'DogCare', 'contacto@dogcare.com', 'Higiene y bienestar para perros', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(32, 1, 132, 232, 'FishWorld', 'ventas@fishworld.com', 'Alimentos y acuarios para peces', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(33, 1, 133, 233, 'VetSmart', 'info@vetsmart.com', 'InnovaciÃ³n en medicina veterinaria', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(34, 1, 134, 234, 'GatoPremium', 'contacto@gatopremium.com', 'Alimentos premium para gatos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(35, 1, 135, 235, 'PetGlobe', 'ventas@petglobe.com', 'Red internacional de productos para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(36, 1, 136, 236, 'EcoPets', 'info@ecopets.com', 'Productos ecolÃ³gicos para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(37, 1, 137, 237, 'HappyDog', 'contacto@happydog.com', 'Comida saludable para perros', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(38, 1, 138, 238, 'FelixPet', 'ventas@felixpet.com', 'Rascadores y juguetes para gatos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(39, 1, 139, 239, 'VetExpress', 'info@vetexpress.com', 'Medicamentos y suministros veterinarios', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(40, 1, 140, 240, 'BirdyWorld', 'contacto@birdyworld.com', 'Accesorios para aves exÃ³ticas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(41, 1, 141, 241, 'ExoticPet', 'ventas@exoticpet.com', 'Suministros para reptiles y anfibios', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(42, 1, 142, 242, 'PetWear', 'info@petwear.com', 'Moda y ropa para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(43, 1, 143, 243, 'CanVet', 'contacto@canvet.com', 'Vacunas y antiparasitarios para perros', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(44, 1, 144, 244, 'AquaZoo', 'ventas@aquazoo.com', 'Peceras y productos para animales acuÃ¡ticos', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(45, 1, 145, 245, 'PetFarm', 'info@petfarm.com', 'Granos y alimentos naturales para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(46, 1, 146, 246, 'VetGuard', 'contacto@vetguard.com', 'Seguros de salud para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(47, 1, 147, 247, 'PetWellness', 'ventas@petwellness.com', 'Suplementos y vitaminas para animales', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(48, 1, 148, 248, 'ZooTech', 'info@zootech.com', 'TecnologÃ­a avanzada para el cuidado animal', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(49, 1, 149, 249, 'Paws & Tails', 'contacto@pawsandtails.com', 'Collares, correas y accesorios para mascotas', 'Cristopher Vargas', SYSDATE, NULL, NULL);
-    INSERT_PROVEEDORES_TB_SP(50, 1, 150, 250, 'AnimalKingdom', 'ventas@animalkingdom.com', 'Servicios y productos para mascotas de lujo', 'Cristopher Vargas', SYSDATE, NULL, NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 1, 'Vet Supplies SA', 'contacto@vetsupplies.com', 'Medicinas y equipos veterinarios', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 2, 2, 'Alimentos Pet', 'ventas@alimentos-pet.com', 'Alimentos premium para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 3, 3, 'Mascota Feliz', 'info@mascotafeliz.com', 'Accesorios para perros y gatos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 4, 4, 'DogoShop', 'ventas@dogoshop.com', 'Juguetes para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 5, 5, 'Pajareria El Nido', 'nido@pajareria.com', 'Jaulas y alimentos para aves', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 6, 6, 'Acuarios Marinos', 'acuarios@marinos.com', 'Peceras y accesorios para peces', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 7, 7, 'Veterinaria Central', 'ventas@vetcentral.com', 'Medicinas y vacunas para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 8, 'Clinica PetLife', 'contacto@petlife.com', 'Servicios de salud animal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 2, 9, 'Huesitos y Croquetas', 'info@huesitosycroquetas.com', 'Snacks para perros y gatos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 3, 10, 'Granja Canina', 'contacto@granjacanina.com', 'Criaderos y reproducciÃ³n de razas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 4, 11, 'EquiVet', 'info@equivet.com', 'Accesorios y alimentos para caballos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 5, 12, 'Felino Express', 'ventas@felinoexpress.com', 'Productos especializados para gatos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 6, 13, 'Reptilandia', 'contacto@reptilandia.com', 'Accesorios y alimentos para reptiles', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 7, 14, 'Mascota Moderna', 'ventas@mascotamoderna.com', 'Ropa y accesorios de lujo para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 15, 'PetClean', 'contacto@petclean.com', 'Higiene y limpieza para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 2, 16, 'CanarioMusic', 'ventas@canariomusic.com', 'Productos para aves cantoras', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 3, 17, 'ZooMed', 'info@zoomed.com', 'Suministros para animales exÃ³ticos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 4, 18, 'HappyPets', 'contacto@happypets.com', 'Sillas, camas y muebles para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 5, 19, 'VetLab', 'ventas@vetlab.com', 'Equipos para laboratorios veterinarios', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 6, 20, 'PerroTech', 'info@perrotech.com', 'TecnologÃ­a y dispositivos para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 7, 21, 'BioPet', 'biopet@example.com', 'Alimentos orgÃ¡nicos para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 22, 'PetExpress', 'petexpress@example.com', 'Transporte especializado de mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 2, 23, 'DogFitness', 'dogfitness@example.com', 'Ejercicio y bienestar para perros', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 3, 24, 'CatLux', 'catlux@example.com', 'Lujo y bienestar para gatos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 4, 25, 'FarmaVet', 'farmavet@example.com', 'Suministros farmacÃ©uticos veterinarios', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 5, 26, 'WildZoo', 'wildzoo@example.com', 'Accesorios para zoolÃ³gicos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 6, 27, 'PetWater', 'petwater@example.com', 'Purificadores y fuentes de agua para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 7, 28, 'PetSafe', 'petsafe@example.com', 'Sistemas de seguridad para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 29, 'VetTools', 'vettools@example.com', 'Herramientas para veterinarios', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 2, 30, 'PetMed', 'petmed@example.com', 'Seguros y salud para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 3, 31, 'DogCare', 'dogcare@example.com', 'Higiene y bienestar para perros', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 4, 32, 'FishWorld', 'fishworld@example.com', 'Alimentos y acuarios para peces', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 5, 33, 'VetSmart', 'vetsmart@example.com', 'InnovaciÃ³n en medicina veterinaria', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 6, 34, 'GatoPremium', 'gatopremium@example.com', 'Alimentos premium para gatos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 7, 35, 'PetGlobe', 'petglobe@example.com', 'Red internacional de productos para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 36, 'EcoPets', 'ecopets@example.com', 'Productos ecolÃ³gicos para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 2, 37, 'HappyDog', 'happydog@example.com', 'Comida saludable para perros', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 3, 38, 'FelixPet', 'felixpet@example.com', 'Rascadores y juguetes para gatos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 4, 39, 'VetExpress', 'vetexpress@example.com', 'Medicamentos y suministros veterinarios', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 5, 40, 'BirdyWorld', 'birdyworld@example.com', 'Accesorios para aves exÃ³ticas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 6, 41, 'ExoticPet', 'exoticpet@example.com', 'Suministros para reptiles y anfibios', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 7, 42, 'PetWear', 'petwear@example.com', 'Moda y ropa para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 43, 'CanVet', 'canvet@example.com', 'Vacunas y antiparasitarios para perros', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 2, 44, 'AquaZoo', 'aquazoo@example.com', 'Peceras y productos para animales acuÃ¡ticos', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 3, 45, 'PetFarm', 'petfarm@example.com', 'Granos y alimentos naturales para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 4, 46, 'VetGuard', 'vetguard@example.com', 'Seguros de salud para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 5, 47, 'PetWellness', 'petwellness@example.com', 'Suplementos y vitaminas para animales', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 6, 48, 'ZooTech', 'zootech@example.com', 'TecnologÃ­a avanzada para el cuidado animal', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 7, 49, 'Paws & Tails', 'pawsandtails@example.com', 'Collares, correas y accesorios para mascotas', 'Cristopher Vargas', NULL);
+    PROYECTO_FUNCIONES_PROCEDIMIENTOS_PKG.INSERT_PROVEEDORES_TB_SP(1, 1, 50, 'AnimalKingdom', 'animalkingdom@example.com', 'Servicios y productos para mascotas de lujo', 'Cristopher Vargas', NULL);
 END;
 /
 -- Inserts de Fide_Productos
@@ -686,7 +736,7 @@ BEGIN
     INSERT_PRODUCTOS_TB_SP(47, 'Collar Luminoso', 'Collar con luz LED para visibilidad', 35.20, 'Emmanuel Cordero', SYSDATE);
     INSERT_PRODUCTOS_TB_SP(48, 'Spray Antiseptico', 'Spray desinfectante para heridas', 27.40, 'Emmanuel Cordero', SYSDATE);
     INSERT_PRODUCTOS_TB_SP(49, 'Guantes Quirurgicos', 'Guantes esteriles para cirugias', 18.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(50, 'Cortauñas', 'Herramienta para cortar uñas de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(50, 'Cortauï¿½as', 'Herramienta para cortar uï¿½as de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
     
 END;
 /
@@ -741,7 +791,7 @@ BEGIN
     INSERT_PRODUCTOS_TB_SP(47, 'Collar Luminoso', 'Collar con luz LED para visibilidad', 35.20, 'Emmanuel Cordero', SYSDATE);
     INSERT_PRODUCTOS_TB_SP(48, 'Spray Antiseptico', 'Spray desinfectante para heridas', 27.40, 'Emmanuel Cordero', SYSDATE);
     INSERT_PRODUCTOS_TB_SP(49, 'Guantes Quirurgicos', 'Guantes esteriles para cirugias', 18.00, 'Emmanuel Cordero', SYSDATE);
-    INSERT_PRODUCTOS_TB_SP(50, 'Cortauñas', 'Herramienta para cortar uñas de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
+    INSERT_PRODUCTOS_TB_SP(50, 'Cortauï¿½as', 'Herramienta para cortar uï¿½as de mascotas', 15.75, 'Emmanuel Cordero', SYSDATE);
     
 END;
 /
@@ -865,7 +915,7 @@ END;
 BEGIN
   INSERT_TIPO_VIA_TB_SP(1, 1, 'Intravenosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   INSERT_TIPO_VIA_TB_SP(2, 1, 'Intraperitoneal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_TIPO_VIA_TB_SP(3, 1, 'Subcutánea', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_TIPO_VIA_TB_SP(3, 1, 'Subcutï¿½nea', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   INSERT_TIPO_VIA_TB_SP(4, 1, 'Oral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
 END;
@@ -874,25 +924,25 @@ END;
 -- Inserts ROLES_CIRUGIA_TB
 
 BEGIN
-  INSERT_ROLES_CIRUGIA_TB_SP(1, 1, 'Dra. Ana Méndez', 'Dr. Carlos Rojas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(2, 1, 'Dr. Luis Paredes', 'Dra. Sofía Jiménez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(3, 1, 'Dra. Mariana Torres', 'Dr. Andrés Salazar', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(4, 1, 'Dr. José Ramírez', 'Dra. Laura Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(5, 1, 'Dra. Patricia Álvarez', 'Dr. Miguel Castillo', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(6, 1, 'Dr. Fernando Ríos', 'Dra. Gabriela Soto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(7, 1, 'Dra. Silvia Guzmán', 'Dr. Ricardo León', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(8, 1, 'Dr. Manuel Ortega', 'Dra. Valeria Núñez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(1, 1, 'Dra. Ana Mï¿½ndez', 'Dr. Carlos Rojas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(2, 1, 'Dr. Luis Paredes', 'Dra. Sofï¿½a Jimï¿½nez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(3, 1, 'Dra. Mariana Torres', 'Dr. Andrï¿½s Salazar', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(4, 1, 'Dr. Josï¿½ Ramï¿½rez', 'Dra. Laura Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(5, 1, 'Dra. Patricia ï¿½lvarez', 'Dr. Miguel Castillo', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(6, 1, 'Dr. Fernando Rï¿½os', 'Dra. Gabriela Soto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(7, 1, 'Dra. Silvia Guzmï¿½n', 'Dr. Ricardo Leï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(8, 1, 'Dr. Manuel Ortega', 'Dra. Valeria Nï¿½ï¿½ez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   INSERT_ROLES_CIRUGIA_TB_SP(9, 1, 'Dra. Beatriz Herrera', 'Dr. Javier Molina', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(10, 1, 'Dr. Alejandro Ruiz', 'Dra. Carolina Peña', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(11, 1, 'Dra. Natalia Flores', 'Dr. Sergio Calderón', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(12, 1, 'Dr. Oscar Martínez', 'Dra. Paula Ramírez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(13, 1, 'Dra. Camila Ortiz', 'Dr. Rafael Jiménez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(14, 1, 'Dr. Andrés Navarro', 'Dra. Mónica Herrera', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(10, 1, 'Dr. Alejandro Ruiz', 'Dra. Carolina Peï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(11, 1, 'Dra. Natalia Flores', 'Dr. Sergio Calderï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(12, 1, 'Dr. Oscar Martï¿½nez', 'Dra. Paula Ramï¿½rez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(13, 1, 'Dra. Camila Ortiz', 'Dr. Rafael Jimï¿½nez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(14, 1, 'Dr. Andrï¿½s Navarro', 'Dra. Mï¿½nica Herrera', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   INSERT_ROLES_CIRUGIA_TB_SP(15, 1, 'Dra. Isabel Castro', 'Dr. Cristian Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(16, 1, 'Dr. Diego Fuentes', 'Dra. Tatiana López', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(17, 1, 'Dra. Valentina Morales', 'Dr. Hugo Sánchez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(16, 1, 'Dr. Diego Fuentes', 'Dra. Tatiana Lï¿½pez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(17, 1, 'Dra. Valentina Morales', 'Dr. Hugo Sï¿½nchez', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   INSERT_ROLES_CIRUGIA_TB_SP(18, 1, 'Dr. Javier Espinoza', 'Dra. Karla Medina', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-  INSERT_ROLES_CIRUGIA_TB_SP(19, 1, 'Dra. Lorena Gutiérrez', 'Dr. Pedro Alvarado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_ROLES_CIRUGIA_TB_SP(19, 1, 'Dra. Lorena Gutiï¿½rrez', 'Dr. Pedro Alvarado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   INSERT_ROLES_CIRUGIA_TB_SP(20, 1, 'Dr. Mauricio Delgado', 'Dra. Elisa Vargas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
 END;
@@ -901,106 +951,106 @@ END;
 --Inserts REGISTRO_CIRUGIAS_TB
 
 BEGIN
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(1, TO_DATE('2023-09-10 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 101, 'Cirugía sin complicaciones', 'Fractura en pata derecha', 'Fractura reducida con éxito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(1, TO_DATE('2023-09-10 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 101, 'Cirugï¿½a sin complicaciones', 'Fractura en pata derecha', 'Fractura reducida con ï¿½xito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(2, TO_DATE('2023-09-12 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 102, 'Extracción de cuerpo extraño', 'Obstrucción intestinal', 'Obstrucción removida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(2, TO_DATE('2023-09-12 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-12 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 102, 'Extracciï¿½n de cuerpo extraï¿½o', 'Obstrucciï¿½n intestinal', 'Obstrucciï¿½n removida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(3, TO_DATE('2023-09-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 103, 'Esterilización exitosa', 'Esterilización programada', 'Esterilización realizada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(3, TO_DATE('2023-09-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 103, 'Esterilizaciï¿½n exitosa', 'Esterilizaciï¿½n programada', 'Esterilizaciï¿½n realizada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(4, TO_DATE('2023-09-18 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-18 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 104, 'Sin complicaciones', 'Luxación de cadera', 'Cadera reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(4, TO_DATE('2023-09-18 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-18 16:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 104, 'Sin complicaciones', 'Luxaciï¿½n de cadera', 'Cadera reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(5, TO_DATE('2023-09-21 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-21 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 105, 'Buena recuperación', 'Cálculos renales', 'Cálculos removidos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(5, TO_DATE('2023-09-21 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-21 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 105, 'Buena recuperaciï¿½n', 'Cï¿½lculos renales', 'Cï¿½lculos removidos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(6, TO_DATE('2023-09-24 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-24 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 106, 'Sin complicaciones postoperatorias', 'Tumor mamario', 'Extirpación exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(6, TO_DATE('2023-09-24 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-24 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 106, 'Sin complicaciones postoperatorias', 'Tumor mamario', 'Extirpaciï¿½n exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(7, TO_DATE('2023-09-28 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-28 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 107, 'Buena evolución', 'Hernia umbilical', 'Corrección completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(7, TO_DATE('2023-09-28 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-09-28 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 107, 'Buena evoluciï¿½n', 'Hernia umbilical', 'Correcciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(8, TO_DATE('2023-10-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-01 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 108, 'Cirugía ambulatoria', 'Masa subcutánea', 'Masa benigna extraída', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(8, TO_DATE('2023-10-01 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-01 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 108, 'Cirugï¿½a ambulatoria', 'Masa subcutï¿½nea', 'Masa benigna extraï¿½da', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(9, TO_DATE('2023-10-04 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-04 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 109, 'Recuperación satisfactoria', 'Fractura femoral', 'Reducción con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(9, TO_DATE('2023-10-04 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-04 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 109, 'Recuperaciï¿½n satisfactoria', 'Fractura femoral', 'Reducciï¿½n con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(10, TO_DATE('2023-10-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-07 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 110, 'Postoperatorio estable', 'Quiste ovárico', 'Extirpación exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
- INSERT_REGISTRO_CIRUGIAS_TB_SP(11, TO_DATE('2023-10-10 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 111, 'Procedimiento exitoso', 'Luxación de rótula', 'Rótula reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(10, TO_DATE('2023-10-07 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-07 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 110, 'Postoperatorio estable', 'Quiste ovï¿½rico', 'Extirpaciï¿½n exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+ INSERT_REGISTRO_CIRUGIAS_TB_SP(11, TO_DATE('2023-10-10 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-10 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 111, 'Procedimiento exitoso', 'Luxaciï¿½n de rï¿½tula', 'Rï¿½tula reducida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(12, TO_DATE('2023-10-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-12 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 112, 'Sin complicaciones', 'Cálculo vesical', 'Cálculo extraído', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(12, TO_DATE('2023-10-12 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-12 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 112, 'Sin complicaciones', 'Cï¿½lculo vesical', 'Cï¿½lculo extraï¿½do', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(13, TO_DATE('2023-10-14 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-14 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 113, 'Buena respuesta postoperatoria', 'Tumor hepático', 'Resección parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(13, TO_DATE('2023-10-14 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-14 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 113, 'Buena respuesta postoperatoria', 'Tumor hepï¿½tico', 'Resecciï¿½n parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(14, TO_DATE('2023-10-16 07:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-16 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 114, 'Recuperación estable', 'Hernia diafragmática', 'Corrección exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(14, TO_DATE('2023-10-16 07:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-16 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 114, 'Recuperaciï¿½n estable', 'Hernia diafragmï¿½tica', 'Correcciï¿½n exitosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(15, TO_DATE('2023-10-18 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-18 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 115, 'Postoperatorio estable', 'Cuerpo extraño gástrico', 'Remoción por gastrotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(15, TO_DATE('2023-10-18 08:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-18 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 115, 'Postoperatorio estable', 'Cuerpo extraï¿½o gï¿½strico', 'Remociï¿½n por gastrotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(16, TO_DATE('2023-10-20 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-20 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 116, 'Sin complicaciones', 'Fractura tibial', 'Fijación con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(16, TO_DATE('2023-10-20 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-20 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 116, 'Sin complicaciones', 'Fractura tibial', 'Fijaciï¿½n con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(17, TO_DATE('2023-10-22 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-22 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 117, 'Recuperación satisfactoria', 'Neoplasia cutánea', 'Extirpación completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(17, TO_DATE('2023-10-22 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-22 14:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 117, 'Recuperaciï¿½n satisfactoria', 'Neoplasia cutï¿½nea', 'Extirpaciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(18, TO_DATE('2023-10-24 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-24 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 118, 'Cirugía exitosa', 'Piometra', 'Ovariohisterectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(18, TO_DATE('2023-10-24 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-24 11:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 118, 'Cirugï¿½a exitosa', 'Piometra', 'Ovariohisterectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(19, TO_DATE('2023-10-26 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-26 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 119, 'Buena evolución', 'Esterilización programada', 'Procedimiento completado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(19, TO_DATE('2023-10-26 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-26 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 119, 'Buena evoluciï¿½n', 'Esterilizaciï¿½n programada', 'Procedimiento completado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(20, TO_DATE('2023-10-28 07:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-28 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 120, 'Recuperación favorable', 'Fractura de radio', 'Fijación con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(20, TO_DATE('2023-10-28 07:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-10-28 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 120, 'Recuperaciï¿½n favorable', 'Fractura de radio', 'Fijaciï¿½n con placas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
   -- Inserciones del 21 al 50
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(21, TO_DATE('2023-11-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 121, 'Sin complicaciones', 'Luxación de codo', 'Reducción quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(21, TO_DATE('2023-11-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 121, 'Sin complicaciones', 'Luxaciï¿½n de codo', 'Reducciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(22, TO_DATE('2023-11-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-03 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 122, 'Recuperación favorable', 'Cálculo uretral', 'Extracción por uretrostomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(22, TO_DATE('2023-11-03 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-03 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 122, 'Recuperaciï¿½n favorable', 'Cï¿½lculo uretral', 'Extracciï¿½n por uretrostomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(23, TO_DATE('2023-11-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 123, 'Procedimiento exitoso', 'Fractura de mandíbula', 'Reducción y fijación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(23, TO_DATE('2023-11-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 123, 'Procedimiento exitoso', 'Fractura de mandï¿½bula', 'Reducciï¿½n y fijaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(24, TO_DATE('2023-11-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 124, 'Evolución positiva', 'Hemangiosarcoma esplénico', 'Esplenectomía completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(24, TO_DATE('2023-11-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 124, 'Evoluciï¿½n positiva', 'Hemangiosarcoma esplï¿½nico', 'Esplenectomï¿½a completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucción intestinal', 'Enterectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucción intestinal', 'Enterectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucciï¿½n intestinal', 'Enterectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_REGISTRO_CIRUGIAS_TB_SP(25, TO_DATE('2023-11-09 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 125, 'Sin complicaciones postoperatorias', 'Obstrucciï¿½n intestinal', 'Enterectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(26, TO_DATE('2023-11-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 126, 'Recuperación favorable', 'Cuerpo extraño esofágico', 'Extracción endoscópica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(26, TO_DATE('2023-11-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 126, 'Recuperaciï¿½n favorable', 'Cuerpo extraï¿½o esofï¿½gico', 'Extracciï¿½n endoscï¿½pica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(27, TO_DATE('2023-11-13 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 127, 'Cirugía exitosa', 'Fractura de húmero', 'Fijación con placa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(27, TO_DATE('2023-11-13 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-13 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 127, 'Cirugï¿½a exitosa', 'Fractura de hï¿½mero', 'Fijaciï¿½n con placa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(28, TO_DATE('2023-11-15 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-15 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 128, 'Buena evolución', 'Mastocitoma', 'Resección completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(28, TO_DATE('2023-11-15 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-15 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 128, 'Buena evoluciï¿½n', 'Mastocitoma', 'Resecciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(29, TO_DATE('2023-11-17 07:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-17 10:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 129, 'Postoperatorio estable', 'Esterilización', 'Ovariohisterectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(29, TO_DATE('2023-11-17 07:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-17 10:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 129, 'Postoperatorio estable', 'Esterilizaciï¿½n', 'Ovariohisterectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(30, TO_DATE('2023-11-19 09:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-19 12:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 130, 'Recuperación satisfactoria', 'Fractura de fémur', 'Fijación con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(30, TO_DATE('2023-11-19 09:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-19 12:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 130, 'Recuperaciï¿½n satisfactoria', 'Fractura de fï¿½mur', 'Fijaciï¿½n con clavos', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
   -- Inserciones del 31 al 40
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(31, TO_DATE('2023-11-21 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-21 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 131, 'Sin complicaciones', 'Hernia umbilical', 'Corrección quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(31, TO_DATE('2023-11-21 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-21 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 131, 'Sin complicaciones', 'Hernia umbilical', 'Correcciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(32, TO_DATE('2023-11-23 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-23 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 132, 'Buena respuesta postoperatoria', 'Tumor mamario', 'Mastectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(32, TO_DATE('2023-11-23 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-23 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 132, 'Buena respuesta postoperatoria', 'Tumor mamario', 'Mastectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(33, TO_DATE('2023-11-25 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-25 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 133, 'Recuperación estable', 'Prolapso rectal', 'Reposición quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(33, TO_DATE('2023-11-25 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-25 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 133, 'Recuperaciï¿½n estable', 'Prolapso rectal', 'Reposiciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(34, TO_DATE('2023-11-27 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-27 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 134, 'Sin complicaciones', 'Piometra', 'Ovariohisterectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(34, TO_DATE('2023-11-27 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-27 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 134, 'Sin complicaciones', 'Piometra', 'Ovariohisterectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(35, TO_DATE('2023-11-29 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-29 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 135, 'Cirugía completada con éxito', 'Obstrucción intestinal', 'Enterotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(35, TO_DATE('2023-11-29 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-11-29 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 135, 'Cirugï¿½a completada con ï¿½xito', 'Obstrucciï¿½n intestinal', 'Enterotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(36, TO_DATE('2023-12-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 136, 'Recuperación sin complicaciones', 'Cálculo vesical', 'Cistotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(36, TO_DATE('2023-12-01 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 136, 'Recuperaciï¿½n sin complicaciones', 'Cï¿½lculo vesical', 'Cistotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(37, TO_DATE('2023-12-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-03 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 137, 'Sin incidentes', 'Neoplasia cutánea', 'Extirpación total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(37, TO_DATE('2023-12-03 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-03 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 137, 'Sin incidentes', 'Neoplasia cutï¿½nea', 'Extirpaciï¿½n total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(38, TO_DATE('2023-12-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 138, 'Cirugía exitosa', 'Fractura de tibia', 'Reducción y fijación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(38, TO_DATE('2023-12-05 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-05 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 138, 'Cirugï¿½a exitosa', 'Fractura de tibia', 'Reducciï¿½n y fijaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(39, TO_DATE('2023-12-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 139, 'Buena evolución', 'Esterilización', 'Ovariectomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(39, TO_DATE('2023-12-07 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-07 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 139, 'Buena evoluciï¿½n', 'Esterilizaciï¿½n', 'Ovariectomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(40, TO_DATE('2023-12-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-09 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 140, 'Recuperación satisfactoria', 'Tumor esplénico', 'Esplenectomía total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-INSERT_REGISTRO_CIRUGIAS_TB_SP(41, TO_DATE('2023-12-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 141, 'Recuperación estable', 'Hernia perineal', 'Corrección quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(40, TO_DATE('2023-12-09 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-09 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 140, 'Recuperaciï¿½n satisfactoria', 'Tumor esplï¿½nico', 'Esplenectomï¿½a total', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+INSERT_REGISTRO_CIRUGIAS_TB_SP(41, TO_DATE('2023-12-11 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-11 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 141, 'Recuperaciï¿½n estable', 'Hernia perineal', 'Correcciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(42, TO_DATE('2023-12-13 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-13 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 142, 'Postoperatorio sin complicaciones', 'Torsión gástrica', 'Gastropexia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(42, TO_DATE('2023-12-13 09:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-13 12:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 142, 'Postoperatorio sin complicaciones', 'Torsiï¿½n gï¿½strica', 'Gastropexia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(43, TO_DATE('2023-12-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 143, 'Buena evolución', 'Fractura mandibular', 'Reducción y fijación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(43, TO_DATE('2023-12-15 10:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-15 13:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 143, 'Buena evoluciï¿½n', 'Fractura mandibular', 'Reducciï¿½n y fijaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(44, TO_DATE('2023-12-17 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-17 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 144, 'Recuperación favorable', 'Mastocitoma', 'Resección completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(44, TO_DATE('2023-12-17 07:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-17 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 144, 'Recuperaciï¿½n favorable', 'Mastocitoma', 'Resecciï¿½n completa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(45, TO_DATE('2023-12-19 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-19 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 145, 'Sin complicaciones', 'Cálculo renal', 'Nefrotomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(45, TO_DATE('2023-12-19 08:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-19 11:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 145, 'Sin complicaciones', 'Cï¿½lculo renal', 'Nefrotomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(46, TO_DATE('2023-12-21 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-21 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 146, 'Cirugía completada con éxito', 'Obstrucción uretral', 'Uretrostomía', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(46, TO_DATE('2023-12-21 09:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-21 12:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 146, 'Cirugï¿½a completada con ï¿½xito', 'Obstrucciï¿½n uretral', 'Uretrostomï¿½a', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(47, TO_DATE('2023-12-23 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-23 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 147, 'Buena recuperación', 'Rotura de ligamento cruzado', 'Reparación quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(47, TO_DATE('2023-12-23 10:15:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-23 13:15:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 147, 'Buena recuperaciï¿½n', 'Rotura de ligamento cruzado', 'Reparaciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(48, TO_DATE('2023-12-25 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-25 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 148, 'Postoperatorio estable', 'Tumor hepático', 'Hepatectomía parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(48, TO_DATE('2023-12-25 08:00:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-25 11:00:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 148, 'Postoperatorio estable', 'Tumor hepï¿½tico', 'Hepatectomï¿½a parcial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(49, TO_DATE('2023-12-27 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-27 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 149, 'Recuperación sin incidentes', 'Hernia inguinal', 'Corrección quirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(49, TO_DATE('2023-12-27 09:45:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-27 12:45:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 149, 'Recuperaciï¿½n sin incidentes', 'Hernia inguinal', 'Correcciï¿½n quirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-  INSERT_REGISTRO_CIRUGIAS_TB_SP(50, TO_DATE('2023-12-29 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-29 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 150, 'Cirugía exitosa', 'Osteosarcoma', 'Amputación de miembro', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+  INSERT_REGISTRO_CIRUGIAS_TB_SP(50, TO_DATE('2023-12-29 10:30:00', 'YYYY-MM-DD HH24:MI:SS'), TO_DATE('2023-12-29 13:30:00', 'YYYY-MM-DD HH24:MI:SS'), 1, 150, 'Cirugï¿½a exitosa', 'Osteosarcoma', 'Amputaciï¿½n de miembro', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
   
 END;
 /
@@ -1073,52 +1123,52 @@ BEGIN
     INSERT_CIRUGIAS_PERSONAL_TB_SP(1, 101, 1, 31, 11, 1, 'Sin novedades', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(2, 102, 2, 32, 12, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(3, 103, 1, 33, 13, 1, 'Monitoreo constante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(4, 104, 2, 34, 14, 1, 'Recuperación favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(4, 104, 2, 34, 14, 1, 'Recuperaciï¿½n favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(5, 105, 1, 35, 15, 1, 'Anestesia aplicada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(6, 106, 2, 36, 16, 1, 'Cirugía sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(6, 106, 2, 36, 16, 1, 'Cirugï¿½a sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(7, 107, 1, 37, 17, 1, 'Estabilidad garantizada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(8, 108, 2, 38, 18, 1, 'Postoperatorio en proceso', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(9, 109, 1, 39, 19, 1, 'Monitoreo 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(10, 110, 2, 40, 20, 1, 'Evaluación continua', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(10, 110, 2, 40, 20, 1, 'Evaluaciï¿½n continua', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(11, 111, 1, 41, 21, 1, 'Paciente alerta', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(12, 112, 2, 42, 22, 1, 'Cirugía concluida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(13, 113, 1, 43, 23, 1, 'Se administró medicación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(14, 114, 2, 44, 24, 1, 'Condición estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(15, 115, 1, 45, 25, 1, 'Recuperación lenta', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(12, 112, 2, 42, 22, 1, 'Cirugï¿½a concluida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(13, 113, 1, 43, 23, 1, 'Se administrï¿½ medicaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(14, 114, 2, 44, 24, 1, 'Condiciï¿½n estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(15, 115, 1, 45, 25, 1, 'Recuperaciï¿½n lenta', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(16, 116, 2, 46, 26, 1, 'Sin reacciones adversas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(17, 117, 1, 47, 27, 1, 'Observación intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(17, 117, 1, 47, 27, 1, 'Observaciï¿½n intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(18, 118, 2, 48, 28, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(19, 119, 1, 49, 29, 1, 'Se aplicó tratamiento', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(19, 119, 1, 49, 29, 1, 'Se aplicï¿½ tratamiento', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(20, 120, 2, 50, 30, 1, 'Alta programada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(21, 121, 1, 1, 1, 1, 'Paciente estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(22, 122, 2, 2, 2, 1, 'Monitoreo continuo', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(23, 123, 1, 3, 3, 1, 'Recuperación favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(23, 123, 1, 3, 3, 1, 'Recuperaciï¿½n favorable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(24, 124, 2, 4, 4, 1, 'Postoperatorio en proceso', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(25, 125, 1, 5, 5, 1, 'Se administró analgésico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(26, 126, 2, 6, 6, 1, 'Evaluación estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(27, 127, 1, 7, 7, 1, 'Anestesia aplicada con éxito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(28, 128, 2, 8, 8, 1, 'Observación 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(29, 129, 1, 9, 9, 1, 'Cirugía sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(25, 125, 1, 5, 5, 1, 'Se administrï¿½ analgï¿½sico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(26, 126, 2, 6, 6, 1, 'Evaluaciï¿½n estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(27, 127, 1, 7, 7, 1, 'Anestesia aplicada con ï¿½xito', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(28, 128, 2, 8, 8, 1, 'Observaciï¿½n 24 horas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(29, 129, 1, 9, 9, 1, 'Cirugï¿½a sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(30, 130, 2, 10, 10, 1, 'Sin reacciones adversas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(31, 131, 1, 11, 11, 1, 'Paciente en recuperación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(31, 131, 1, 11, 11, 1, 'Paciente en recuperaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(32, 132, 2, 12, 12, 1, 'Postoperatorio controlado', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(33, 133, 1, 13, 13, 1, 'Condición estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(34, 134, 2, 14, 14, 1, 'Aplicación de sedante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(35, 135, 1, 15, 15, 1, 'Observación intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(33, 133, 1, 13, 13, 1, 'Condiciï¿½n estable', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(34, 134, 2, 14, 14, 1, 'Aplicaciï¿½n de sedante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(35, 135, 1, 15, 15, 1, 'Observaciï¿½n intensiva', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(36, 136, 2, 16, 16, 1, 'Monitoreo cardiaco', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(37, 137, 1, 17, 17, 1, 'Revisión postquirúrgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(38, 138, 2, 18, 18, 1, 'Evaluación constante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(39, 139, 1, 19, 19, 1, 'Paciente bajo observación', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(37, 137, 1, 17, 17, 1, 'Revisiï¿½n postquirï¿½rgica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(38, 138, 2, 18, 18, 1, 'Evaluaciï¿½n constante', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(39, 139, 1, 19, 19, 1, 'Paciente bajo observaciï¿½n', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(40, 140, 2, 20, 20, 1, 'Sin complicaciones adicionales', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(41, 141, 1, 21, 21, 1, 'Administración de antibiótico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(41, 141, 1, 21, 21, 1, 'Administraciï¿½n de antibiï¿½tico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(42, 142, 2, 22, 22, 1, 'Paciente con signos vitales estables', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(43, 143, 1, 23, 23, 1, 'Revisión de sutura', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(43, 143, 1, 23, 23, 1, 'Revisiï¿½n de sutura', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(44, 144, 2, 24, 24, 1, 'Monitoreo respiratorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(45, 145, 1, 25, 25, 1, 'Alta programada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(46, 146, 2, 26, 26, 1, 'Condición controlada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(47, 147, 1, 27, 27, 1, 'Observación postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(46, 146, 2, 26, 26, 1, 'Condiciï¿½n controlada', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(47, 147, 1, 27, 27, 1, 'Observaciï¿½n postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(48, 148, 2, 28, 28, 1, 'Paciente consciente', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_CIRUGIAS_PERSONAL_TB_SP(49, 149, 1, 29, 29, 1, 'Recuperación satisfactoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_CIRUGIAS_PERSONAL_TB_SP(49, 149, 1, 29, 29, 1, 'Recuperaciï¿½n satisfactoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_CIRUGIAS_PERSONAL_TB_SP(50, 150, 2, 30, 30, 1, 'Sin complicaciones', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
 END;
@@ -1126,64 +1176,64 @@ END;
 
 -- Inserts HISTORIALES_MEDICOS
 BEGIN
-    INSERT_HISTORIALES_MEDICOS_TB_SP(1, 1, 101, 1, 1, 1, SYSDATE, 'Fractura de fémur', 'Fijación interna', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(2, 2, 102, 2, 2, 1, SYSDATE, 'Luxación de cadera', 'Reducción cerrada', 'Reposo absoluto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(3, 3, 103, 1, 3, 1, SYSDATE, 'Hernia umbilical', 'Cirugía correctiva', 'Revisión en 7 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(4, 4, 104, 2, 4, 1, SYSDATE, 'Infección urinaria', 'Antibióticos orales', 'Control en 14 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(5, 5, 105, 1, 5, 1, SYSDATE, 'Rotura de ligamento', 'Reparación quirúrgica', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(1, 1, 101, 1, 1, 1, SYSDATE, 'Fractura de fï¿½mur', 'Fijaciï¿½n interna', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(2, 2, 102, 2, 2, 1, SYSDATE, 'Luxaciï¿½n de cadera', 'Reducciï¿½n cerrada', 'Reposo absoluto', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(3, 3, 103, 1, 3, 1, SYSDATE, 'Hernia umbilical', 'Cirugï¿½a correctiva', 'Revisiï¿½n en 7 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(4, 4, 104, 2, 4, 1, SYSDATE, 'Infecciï¿½n urinaria', 'Antibiï¿½ticos orales', 'Control en 14 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(5, 5, 105, 1, 5, 1, SYSDATE, 'Rotura de ligamento', 'Reparaciï¿½n quirï¿½rgica', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-    INSERT_HISTORIALES_MEDICOS_TB_SP(6, 6, 106, 2, 6, 1, SYSDATE, 'Cálculo renal', 'Cirugía laparoscópica', 'Hidratación intravenosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(7, 7, 107, 1, 7, 1, SYSDATE, 'Otitis media', 'Lavado ótico', 'Uso de gotas antibióticas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(8, 8, 108, 2, 8, 1, SYSDATE, 'Absceso dental', 'Extracción de molar', 'Antibióticos por 10 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(9, 9, 109, 1, 9, 1, SYSDATE, 'Trauma ocular', 'Enucleación ocular', 'Monitoreo por 3 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(10, 10, 110, 2, 10, 1, SYSDATE, 'Displasia de cadera', 'Terapia física', 'Control bimensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(6, 6, 106, 2, 6, 1, SYSDATE, 'Cï¿½lculo renal', 'Cirugï¿½a laparoscï¿½pica', 'Hidrataciï¿½n intravenosa', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(7, 7, 107, 1, 7, 1, SYSDATE, 'Otitis media', 'Lavado ï¿½tico', 'Uso de gotas antibiï¿½ticas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(8, 8, 108, 2, 8, 1, SYSDATE, 'Absceso dental', 'Extracciï¿½n de molar', 'Antibiï¿½ticos por 10 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(9, 9, 109, 1, 9, 1, SYSDATE, 'Trauma ocular', 'Enucleaciï¿½n ocular', 'Monitoreo por 3 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(10, 10, 110, 2, 10, 1, SYSDATE, 'Displasia de cadera', 'Terapia fï¿½sica', 'Control bimensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-    INSERT_HISTORIALES_MEDICOS_TB_SP(11, 11, 111, 1, 11, 1, SYSDATE, 'Neoplasia mamaria', 'Mastectomía', 'Evaluación histopatológica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(12, 12, 112, 2, 12, 1, SYSDATE, 'Gastroenteritis', 'Fluidoterapia', 'Dieta blanda por 5 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(13, 13, 113, 1, 13, 1, SYSDATE, 'Esterilización', 'Ovariohisterectomía', 'Revisión en 10 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(14, 14, 114, 2, 14, 1, SYSDATE, 'Fractura mandibular', 'Reducción quirúrgica', 'Dieta líquida 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(11, 11, 111, 1, 11, 1, SYSDATE, 'Neoplasia mamaria', 'Mastectomï¿½a', 'Evaluaciï¿½n histopatolï¿½gica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(12, 12, 112, 2, 12, 1, SYSDATE, 'Gastroenteritis', 'Fluidoterapia', 'Dieta blanda por 5 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(13, 13, 113, 1, 13, 1, SYSDATE, 'Esterilizaciï¿½n', 'Ovariohisterectomï¿½a', 'Revisiï¿½n en 10 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(14, 14, 114, 2, 14, 1, SYSDATE, 'Fractura mandibular', 'Reducciï¿½n quirï¿½rgica', 'Dieta lï¿½quida 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_HISTORIALES_MEDICOS_TB_SP(15, 15, 115, 1, 15, 1, SYSDATE, 'Artritis', 'Tratamiento antiinflamatorio', 'Ejercicios controlados', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-    INSERT_HISTORIALES_MEDICOS_TB_SP(16, 16, 116, 2, 16, 1, SYSDATE, 'Dermatitis alérgica', 'Baños medicados', 'Revisar en 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(16, 16, 116, 2, 16, 1, SYSDATE, 'Dermatitis alï¿½rgica', 'Baï¿½os medicados', 'Revisar en 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_HISTORIALES_MEDICOS_TB_SP(17, 17, 117, 1, 17, 1, SYSDATE, 'Epilepsia', 'Anticonvulsivantes', 'Monitoreo trimestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(18, 18, 118, 2, 18, 1, SYSDATE, 'Infección respiratoria', 'Antibióticos y nebulización', 'Revisión en 7 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(19, 19, 119, 1, 19, 1, SYSDATE, 'Hernia discal', 'Cirugía descompresiva', 'Rehabilitación postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(18, 18, 118, 2, 18, 1, SYSDATE, 'Infecciï¿½n respiratoria', 'Antibiï¿½ticos y nebulizaciï¿½n', 'Revisiï¿½n en 7 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(19, 19, 119, 1, 19, 1, SYSDATE, 'Hernia discal', 'Cirugï¿½a descompresiva', 'Rehabilitaciï¿½n postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
     INSERT_HISTORIALES_MEDICOS_TB_SP(20, 20, 120, 2, 20, 1, SYSDATE, 'Hipotiroidismo', 'Levotiroxina', 'Monitoreo hormonal semestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-INSERT_HISTORIALES_MEDICOS_TB_SP(21, 21, 121, 1, 21, 1, SYSDATE, 'Cálculos biliares', 'Colecistectomía', 'Control postquirúrgico en 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(22, 22, 122, 2, 22, 1, SYSDATE, 'Fractura de radio', 'Fijación externa', 'Revisión en 20 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(23, 23, 123, 1, 23, 1, SYSDATE, 'Infección postquirúrgica', 'Antibióticos intravenosos', 'Monitoreo 48h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(24, 24, 124, 2, 24, 1, SYSDATE, 'Rotura de ligamento cruzado', 'Reparación quirúrgica', 'Fisioterapia postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(25, 25, 125, 1, 25, 1, SYSDATE, 'Esterilización felina', 'Ovariohisterectomía', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+INSERT_HISTORIALES_MEDICOS_TB_SP(21, 21, 121, 1, 21, 1, SYSDATE, 'Cï¿½lculos biliares', 'Colecistectomï¿½a', 'Control postquirï¿½rgico en 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(22, 22, 122, 2, 22, 1, SYSDATE, 'Fractura de radio', 'Fijaciï¿½n externa', 'Revisiï¿½n en 20 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(23, 23, 123, 1, 23, 1, SYSDATE, 'Infecciï¿½n postquirï¿½rgica', 'Antibiï¿½ticos intravenosos', 'Monitoreo 48h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(24, 24, 124, 2, 24, 1, SYSDATE, 'Rotura de ligamento cruzado', 'Reparaciï¿½n quirï¿½rgica', 'Fisioterapia postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(25, 25, 125, 1, 25, 1, SYSDATE, 'Esterilizaciï¿½n felina', 'Ovariohisterectomï¿½a', 'Monitoreo postoperatorio', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-    INSERT_HISTORIALES_MEDICOS_TB_SP(26, 26, 126, 2, 26, 1, SYSDATE, 'Tumor mamario', 'Mastectomía parcial', 'Evaluación histopatológica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(27, 27, 127, 1, 27, 1, SYSDATE, 'Hernia inguinal', 'Corrección quirúrgica', 'Reposo absoluto 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(28, 28, 128, 2, 28, 1, SYSDATE, 'Cáncer de piel', 'Escisión quirúrgica', 'Revisión oncológica mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(29, 29, 129, 1, 29, 1, SYSDATE, 'Trauma craneoencefálico', 'Cirugía de descompresión', 'Monitoreo neurológico 72h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(30, 30, 130, 2, 30, 1, SYSDATE, 'Luxación de rótula', 'Reposicionamiento quirúrgico', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(26, 26, 126, 2, 26, 1, SYSDATE, 'Tumor mamario', 'Mastectomï¿½a parcial', 'Evaluaciï¿½n histopatolï¿½gica', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(27, 27, 127, 1, 27, 1, SYSDATE, 'Hernia inguinal', 'Correcciï¿½n quirï¿½rgica', 'Reposo absoluto 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(28, 28, 128, 2, 28, 1, SYSDATE, 'Cï¿½ncer de piel', 'Escisiï¿½n quirï¿½rgica', 'Revisiï¿½n oncolï¿½gica mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(29, 29, 129, 1, 29, 1, SYSDATE, 'Trauma craneoencefï¿½lico', 'Cirugï¿½a de descompresiï¿½n', 'Monitoreo neurolï¿½gico 72h', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(30, 30, 130, 2, 30, 1, SYSDATE, 'Luxaciï¿½n de rï¿½tula', 'Reposicionamiento quirï¿½rgico', 'Fisioterapia semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-    INSERT_HISTORIALES_MEDICOS_TB_SP(31, 31, 131, 1, 31, 1, SYSDATE, 'Colitis crónica', 'Tratamiento farmacológico', 'Revisión mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(32, 32, 132, 2, 32, 1, SYSDATE, 'Obstrucción intestinal', 'Enterotomía', 'Dieta blanda por 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(33, 33, 133, 1, 33, 1, SYSDATE, 'Quiste ovárico', 'Ovariectomía', 'Monitoreo hormonal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(34, 34, 134, 2, 34, 1, SYSDATE, 'Infección periodontal', 'Profilaxis dental', 'Control anual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(35, 35, 135, 1, 35, 1, SYSDATE, 'Fractura vertebral', 'Cirugía estabilizadora', 'Reposo absoluto 4 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(31, 31, 131, 1, 31, 1, SYSDATE, 'Colitis crï¿½nica', 'Tratamiento farmacolï¿½gico', 'Revisiï¿½n mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(32, 32, 132, 2, 32, 1, SYSDATE, 'Obstrucciï¿½n intestinal', 'Enterotomï¿½a', 'Dieta blanda por 2 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(33, 33, 133, 1, 33, 1, SYSDATE, 'Quiste ovï¿½rico', 'Ovariectomï¿½a', 'Monitoreo hormonal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(34, 34, 134, 2, 34, 1, SYSDATE, 'Infecciï¿½n periodontal', 'Profilaxis dental', 'Control anual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(35, 35, 135, 1, 35, 1, SYSDATE, 'Fractura vertebral', 'Cirugï¿½a estabilizadora', 'Reposo absoluto 4 semanas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-    INSERT_HISTORIALES_MEDICOS_TB_SP(36, 36, 136, 2, 36, 1, SYSDATE, 'Neoplasia hepática', 'Hepatectomía parcial', 'Evaluación trimestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(37, 37, 137, 1, 37, 1, SYSDATE, 'Fístula perianal', 'Cirugía de escisión', 'Revisión en 14 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(38, 38, 138, 2, 38, 1, SYSDATE, 'Hemangiosarcoma', 'Esplenectomía', 'Monitoreo semestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(39, 39, 139, 1, 39, 1, SYSDATE, 'Cataratas', 'Cirugía de lente intraocular', 'Monitoreo oftalmológico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(40, 40, 140, 2, 40, 1, SYSDATE, 'Entropión', 'Corrección quirúrgica', 'Revisión a los 15 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(36, 36, 136, 2, 36, 1, SYSDATE, 'Neoplasia hepï¿½tica', 'Hepatectomï¿½a parcial', 'Evaluaciï¿½n trimestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(37, 37, 137, 1, 37, 1, SYSDATE, 'Fï¿½stula perianal', 'Cirugï¿½a de escisiï¿½n', 'Revisiï¿½n en 14 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(38, 38, 138, 2, 38, 1, SYSDATE, 'Hemangiosarcoma', 'Esplenectomï¿½a', 'Monitoreo semestral', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(39, 39, 139, 1, 39, 1, SYSDATE, 'Cataratas', 'Cirugï¿½a de lente intraocular', 'Monitoreo oftalmolï¿½gico', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(40, 40, 140, 2, 40, 1, SYSDATE, 'Entropiï¿½n', 'Correcciï¿½n quirï¿½rgica', 'Revisiï¿½n a los 15 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
     INSERT_HISTORIALES_MEDICOS_TB_SP(41, 41, 141, 1, 41, 1, SYSDATE, 'Pancreatitis aguda', 'Soporte intravenoso', 'Dieta baja en grasas', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(42, 42, 142, 2, 42, 1, SYSDATE, 'Hernia perineal', 'Corrección quirúrgica', 'Monitoreo de incontinencia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(43, 43, 143, 1, 43, 1, SYSDATE, 'Glaucoma', 'Implante de válvula', 'Monitoreo de presión ocular', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(44, 44, 144, 2, 44, 1, SYSDATE, 'Piometra', 'Ovariohisterectomía de emergencia', 'Revisión en 10 días', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(45, 45, 145, 1, 45, 1, SYSDATE, 'Atresia anal', 'Cirugía reconstructiva', 'Seguimiento fecal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(42, 42, 142, 2, 42, 1, SYSDATE, 'Hernia perineal', 'Correcciï¿½n quirï¿½rgica', 'Monitoreo de incontinencia', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(43, 43, 143, 1, 43, 1, SYSDATE, 'Glaucoma', 'Implante de vï¿½lvula', 'Monitoreo de presiï¿½n ocular', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(44, 44, 144, 2, 44, 1, SYSDATE, 'Piometra', 'Ovariohisterectomï¿½a de emergencia', 'Revisiï¿½n en 10 dï¿½as', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(45, 45, 145, 1, 45, 1, SYSDATE, 'Atresia anal', 'Cirugï¿½a reconstructiva', 'Seguimiento fecal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 
-    INSERT_HISTORIALES_MEDICOS_TB_SP(46, 46, 146, 2, 46, 1, SYSDATE, 'Fallo renal agudo', 'Hemodiálisis', 'Monitoreo renal semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(47, 47, 147, 1, 47, 1, SYSDATE, 'Megaesófago', 'Cirugía correctiva', 'Dieta semilíquida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(48, 48, 148, 2, 48, 1, SYSDATE, 'Hernia discal', 'Cirugía descompresiva', 'Rehabilitación postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(49, 49, 149, 1, 49, 1, SYSDATE, 'Insuficiencia hepática', 'Soporte hepático', 'Monitoreo mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
-    INSERT_HISTORIALES_MEDICOS_TB_SP(50, 50, 150, 2, 50, 1, SYSDATE, 'Hipertensión pulmonar', 'Tratamiento vasodilatador', 'Control de presión arterial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(46, 46, 146, 2, 46, 1, SYSDATE, 'Fallo renal agudo', 'Hemodiï¿½lisis', 'Monitoreo renal semanal', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(47, 47, 147, 1, 47, 1, SYSDATE, 'Megaesï¿½fago', 'Cirugï¿½a correctiva', 'Dieta semilï¿½quida', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(48, 48, 148, 2, 48, 1, SYSDATE, 'Hernia discal', 'Cirugï¿½a descompresiva', 'Rehabilitaciï¿½n postoperatoria', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(49, 49, 149, 1, 49, 1, SYSDATE, 'Insuficiencia hepï¿½tica', 'Soporte hepï¿½tico', 'Monitoreo mensual', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
+    INSERT_HISTORIALES_MEDICOS_TB_SP(50, 50, 150, 2, 50, 1, SYSDATE, 'Hipertensiï¿½n pulmonar', 'Tratamiento vasodilatador', 'Control de presiï¿½n arterial', 'Emmanuel Cordero', SYSDATE, NULL, NULL);
 END;
 /
 
